@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4285c1a95032cf77b658bd840d8eb382, type: 3}
+  m_Name: "64"
+  m_EditorClassIdentifier: 
+  desc: "\u0438\u043C\u0431\u0430"
+  order: 66
+  weaponType: 0
+  UsingBullets: 10
+  clipSize: 320000003C00000046000000500000005A00000064000000
+  reloadTime: 
+  - 1
+  - 0.88
+  - 0.76
+  - 0.64
+  - 0.52
+  - 0.4
+  BulletsType: 3
+  DeltaShotArray: 
+  - 1.2
+  - 1.1
+  - 1
+  - 0.95
+  - 0.9
+  - 0.85
+  DeltaShot: 0.6666667
+  Damage: 
+  - 200
+  - 220
+  - 240
+  - 260
+  - 280
+  - 300
+  Accuracy: 
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  Distance: 1000
+  Type: 1
+  aimTex:
+  - {fileID: 2800000, guid: 075293b83a3e430680fb2c21ea14a423, type: 3}
+  - {fileID: 2800000, guid: d94206a8dc6d47288a16d226b177386b, type: 3}
+  fatalDistance: 1000
+  accuarcy: 0
+  weaponGroup: 5
+  hidden: 0
+  needHealthLevel: 2
+  needArmorLevel: 0
+  needJumpLevel: 2
+  needSpeedLevel: 2
+  needResistLevel: 0
+  needLevel: 45
+  sniper: 1
+  caseType: 2

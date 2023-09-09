@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 4020583902
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 4dadda8262f3bd11576df2db389f9a12
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 4ff1a3a60f2fd58705082213ff87e450
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: ec43d8df069840c47bed24f6af1d5658, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets2_MenuItems.prefab
+Dependencies:
+- D:/gamedev/kube/kbz_wgl_2018/build/a19.unity3d

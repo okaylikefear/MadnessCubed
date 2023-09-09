@@ -1,0 +1,168 @@
+ManifestFileVersion: 0
+CRC: 1491673604
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: bf83c9f6e70b1e3ac8e5c3b19a4a892a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c96ae2c3695d1abd1441c55e71f63e00
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 75
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 215e5c542e0546c4a8d4c2a11cf8b269, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6906803f4ceb126489cae9759b72d17f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83781d9176b31414ab16c1499c410b9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5276b2c10ddefef4898139612fa64b69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 09a79fd8fefe74746808afb6b6617b7e, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f043610837aaf4144bcadee9af537bbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: def3fdf27c9dfc04483812f3aec475a4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d608c928a5e1acf4d9abb6778757a364, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 563128bdce0279746a6c3680c510685a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5b21840ff1c5f242b37f4412fdb03b5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e3260061e676f5d4dbe59a6eb82e16ac, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c6aadaf0b26e92540b3874e2dfa29865, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0d92c01cd1f431044becb91532d32fdf, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 89e6fcf9029fbec46ac35b991376c7bd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1cbb8d95fd966244aa60fb7ad64260b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3412a5ac4d727f64cb591e1b124fcc1a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77d7fa77b06ffa24a83876b926ac6405, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7992cad5d07858d40ac5ec6686660843, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e5281dd70d74ec4683a52d7cefb2c94, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e6186e5ea5562c74da42ed3413fe197b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 144
+  Script: {instanceID: 0}
+- Class: 146
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets11/Shlem.prefab
+- Assets/bundles/Assets11/2.asset
+- Assets/bundles/Assets11/ClassicSpaceMaterial.mat
+- Assets/bundles/Assets11/ItemGO128.prefab
+- Assets/bundles/Assets11/wav/RobotDead.prefab
+- Assets/bundles/Assets11/icohelm.png
+- Assets/bundles/Assets11/8.asset
+- Assets/bundles/Assets11/Robot4Ragdoll.prefab
+- Assets/bundles/Assets11/Robot3.prefab
+- Assets/bundles/Assets11/Robot2.prefab
+- Assets/bundles/Assets11/NetBlackJeepGO.prefab
+- "Assets/bundles/Assets11/\u0422\u0435\u043A\u0441\u0442\u0443\u0440\u0430 \u043F\u0435\u0440\u0441\u0430.png"
+- Assets/bundles/Assets11/icobot1.png
+- Assets/bundles/Assets11/ItemGO131.prefab
+- Assets/bundles/Assets11/Robot4.prefab
+- Assets/bundles/Assets11/icobot2.png
+- Assets/bundles/Assets11/1.asset
+- Assets/bundles/Assets11/3.asset
+- Assets/bundles/Assets11/SpaceSkin.prefab
+- Assets/bundles/Assets11/wing_icon_2.png
+- Assets/bundles/Assets11/RabbitDress 1.prefab
+- Assets/bundles/Assets11/ItemGO129.prefab
+- Assets/bundles/Assets11/icobot4.png
+- Assets/bundles/Assets11/SpaceHelmet.prefab
+- Assets/bundles/Assets11/Robot1.prefab
+- Assets/bundles/Assets11/Robot1Ragdoll.prefab
+- Assets/bundles/Assets11/icobot3.png
+- Assets/bundles/Assets11/Robot5Ragdoll.prefab
+- Assets/bundles/Assets11/Materials/No Name.mat
+- Assets/bundles/Assets11/icospace.png
+- Assets/bundles/Assets11/Robot5.prefab
+- Assets/bundles/Assets11/Robot3Ragdoll.prefab
+- Assets/bundles/Assets11/7.asset
+- Assets/bundles/Assets11/WingsDress.prefab
+- Assets/bundles/Assets11/6.asset
+- Assets/bundles/Assets11/Robot2Ragdoll.prefab
+- Assets/bundles/Assets11/jeepicon.png
+- Assets/bundles/Assets11/wav/RobotRoar.prefab
+- "Assets/bundles/Assets11/\u043E\u0440\u0430\u043D\u0436\u0435\u0432\u044B\u0439\u0421\u043A\u0438\u043D
+  1.mat"
+- Assets/bundles/Assets11/5.asset
+- Assets/bundles/Assets11/4.asset
+- Assets/bundles/Assets11/wav/OLD ROBOT TURN OFF.WAV
+- Assets/bundles/Assets11/ItemGO130.prefab
+- Assets/bundles/Assets11/10.asset
+- "Assets/bundles/Assets11/\u0422\u0435\u043A\u0441\u0442\u0443\u0440\u0430 \u0448\u043B\u0435\u043C\u0430.png"
+- Assets/bundles/Assets11/9.asset
+- Assets/bundles/Assets11/ItemGO133.prefab
+- Assets/bundles/Assets11/icobot5.png
+- Assets/bundles/Assets11/Pers.fbx
+- Assets/bundles/Assets11/wav/Robotic stutter 01_SFXBible_ss06060.wav
+- Assets/bundles/Assets11/ItemGO132.prefab
+Dependencies: []

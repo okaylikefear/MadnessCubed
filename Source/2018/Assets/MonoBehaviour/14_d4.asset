@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4285c1a95032cf77b658bd840d8eb382, type: 3}
+  m_Name: "14"
+  m_EditorClassIdentifier: 
+  desc: "\u0411\u0435\u043D\u0437\u043E\u043F\u0438\u043B\u0430"
+  order: 32
+  weaponType: 0
+  UsingBullets: 0
+  clipSize: 00000000
+  reloadTime: 
+  - 0
+  BulletsType: 0
+  DeltaShotArray: 
+  - 0.1
+  - 0.092
+  - 0.084
+  - 0.076
+  - 0.068
+  - 0.06
+  DeltaShot: 0.1
+  Damage: 
+  - 60
+  - 64
+  - 67
+  - 71
+  - 74
+  - 78
+  Accuracy: 
+  - 0
+  Distance: 2
+  Type: 1
+  aimTex: []
+  fatalDistance: 2
+  accuarcy: 0
+  weaponGroup: 0
+  hidden: 0
+  needHealthLevel: 2
+  needArmorLevel: 0
+  needJumpLevel: 1
+  needSpeedLevel: 1
+  needResistLevel: 0
+  needLevel: 7
+  sniper: 0
+  caseType: 0

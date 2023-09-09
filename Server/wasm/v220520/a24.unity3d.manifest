@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 1926387465
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 7bde6f2b5cbf116d6a7d19f73e3c3b94
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 466aaba2240975fe0e54e0de6ad18f5c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5276b2c10ddefef4898139612fa64b69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: def3fdf27c9dfc04483812f3aec475a4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ffa59c0d536143bd80b9285a30ee0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77d7fa77b06ffa24a83876b926ac6405, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets24/w59.asset
+- Assets/bundles/Assets24/b58.asset
+- Assets/bundles/Assets24/s5.asset
+- Assets/bundles/Assets24/w58.asset
+- Assets/bundles/Assets24/b59.asset
+- Assets/bundles/Assets24/w60.asset
+- Assets/bundles/Assets24/s4.asset
+- Assets/bundles/Assets24/b60.asset
+Dependencies: []

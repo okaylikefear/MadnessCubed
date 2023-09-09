@@ -1,0 +1,74 @@
+ManifestFileVersion: 0
+CRC: 826176804
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3d478de4c3590f593ae84f4942294a78
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0705bc5095479c27056475f1c5c3134e
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa589ed98b0be724a8974ee0e3584387, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5276b2c10ddefef4898139612fa64b69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: def3fdf27c9dfc04483812f3aec475a4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1754453030bf63e4993a0b6a34c48c1f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77d7fa77b06ffa24a83876b926ac6405, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b70d420514ebe74a9d74189542ebea2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a2d97efa224163f44bdbf2e36559877f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets13/3.asset
+- Assets/bundles/Assets13/4.asset
+- Assets/bundles/Assets13/1.asset
+- Assets/bundles/Assets13/2.asset
+Dependencies: []

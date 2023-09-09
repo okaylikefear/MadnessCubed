@@ -1,0 +1,174 @@
+ManifestFileVersion: 0
+CRC: 1417598863
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 804c62ce496dfb10e741cc007b1f7aac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 3effe76330ed0f33ad29ff7a456a6e1d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d45ec75c2b5578a419c8420e7db8adb6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a05fe8314f8c9ea4790384aa896af0a7, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83781d9176b31414ab16c1499c410b9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5276b2c10ddefef4898139612fa64b69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2dc5de6b307ce77428b6f339998ccb30, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: def3fdf27c9dfc04483812f3aec475a4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: de21c6595288cdb40a7b16e3d44c8a11, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: df1ffa59c0d536143bd80b9285a30ee0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 24a3b0af985efd8468120f88c3bd7e9d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 66eb170947dd03c4ca14a87ba1aaedc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d608c928a5e1acf4d9abb6778757a364, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c5b21840ff1c5f242b37f4412fdb03b5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 65ed18241b5cb1f43af452dd56e03ae8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 122343c262834a940a72adc23f202c15, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c6aadaf0b26e92540b3874e2dfa29865, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ee597786a6e86064bb0f9a286db87d30, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1754453030bf63e4993a0b6a34c48c1f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d50f24d0f0fbb1043987436e1b2a4423, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1cbb8d95fd966244aa60fb7ad64260b8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3412a5ac4d727f64cb591e1b124fcc1a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf6a3e776e8bce445afc74017c923b65, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 77d7fa77b06ffa24a83876b926ac6405, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7992cad5d07858d40ac5ec6686660843, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28313c6947d054144b663768c7f293dd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5e5281dd70d74ec4683a52d7cefb2c94, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 335c1ea46ab099b45a033fb3b17b2d79, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c0bf950502be77a4c8e7a683b937945d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 17d044668e638f043a3b7cf115ba909f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 1b70d420514ebe74a9d74189542ebea2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a2d97efa224163f44bdbf2e36559877f, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 120
+  Script: {instanceID: 0}
+- Class: 134
+  Script: {instanceID: 0}
+- Class: 135
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 144
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets26/w65.asset
+- Assets/bundles/Assets26/b65.asset
+- Assets/bundles/Assets26/ItemGO195.prefab
+- Assets/bundles/Assets26/w66.asset
+- Assets/bundles/Assets26/b69.asset
+- Assets/bundles/Assets26/s12.asset
+- Assets/bundles/Assets26/w68.asset
+- Assets/bundles/Assets26/b61.asset
+- Assets/bundles/Assets26/b64.asset
+- Assets/bundles/Assets26/BombDrop.prefab
+- Assets/bundles/Assets26/w71.asset
+- Assets/bundles/Assets26/b72.asset
+- Assets/bundles/Assets26/w72.asset
+- Assets/bundles/Assets26/b63.asset
+- Assets/bundles/Assets26/w62.asset
+- Assets/bundles/Assets26/b66.asset
+- Assets/bundles/Assets26/s7.asset
+- Assets/bundles/Assets26/greencube.prefab
+- Assets/bundles/Assets26/ItemGO196.prefab
+- Assets/bundles/Assets26/ItemGO188.prefab
+- Assets/bundles/Assets26/b71.asset
+- Assets/bundles/Assets26/w63.asset
+- Assets/bundles/Assets26/b62.asset
+- Assets/bundles/Assets26/w64.asset
+- Assets/bundles/Assets26/b67.asset
+- Assets/bundles/Assets26/w67.asset
+- Assets/bundles/Assets26/b73.asset
+- Assets/bundles/Assets26/NetMolotov.prefab
+- Assets/bundles/Assets26/b70.asset
+- Assets/bundles/Assets26/bigZombie.prefab
+- Assets/bundles/Assets26/w69.asset
+- Assets/bundles/Assets26/w73.asset
+- Assets/bundles/Assets26/s11.asset
+- Assets/bundles/Assets26/w70.asset
+- Assets/bundles/Assets26/redcube.prefab
+- Assets/bundles/Assets26/b68.asset
+- Assets/bundles/Assets26/ItemGO203.prefab
+- Assets/bundles/Assets26/w61.asset
+- Assets/bundles/Assets26/ItemGO184.prefab
+- Assets/bundles/Assets26/bigdead.prefab
+- Assets/bundles/Assets26/bluecube.prefab
+- Assets/bundles/Assets26/ItemGO185.prefab
+- Assets/bundles/Assets26/ItemGO201.prefab
+- Assets/bundles/Assets26/ItemGO202.prefab
+Dependencies: []

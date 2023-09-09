@@ -1,0 +1,4996 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &9999991
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &9999992
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+--- !u!157 &9999993
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 8
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 3
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_ShadowMaskMode: 2
+--- !u!1 &1791220285863826680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158336}
+  - component: {fileID: 1791220287759652110}
+  - component: {fileID: 1791220287759652112}
+  m_Layer: 0
+  m_Name: "Server"
+  m_TagString: "Server"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5eaf5da8fa074ebd9e79685fab9b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingTex:
+  - {fileID: 2800000, guid: 5292106054d24f18933017c8df1da461, type: 3}
+  - {fileID: 2800000, guid: 365333814bb040d18581ce9af69a04e4, type: 3}
+  - {fileID: 2800000, guid: fd3b01406f5549ba8338f0c3d7b055be, type: 3}
+  - {fileID: 2800000, guid: 2dfdd24d88244e66891a922f3f6d94ad, type: 3}
+  - {fileID: 2800000, guid: 40e30853bdd8414ab8d200044f22eff7, type: 3}
+  - {fileID: 2800000, guid: 51fe37d89ac24511a362d4897d0491d1, type: 3}
+--- !u!114 &1791220287759652112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f1b91d0dc89edf4122fcc0b0edb1c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pb_bgTex: {fileID: 2800000, guid: f9b6fb0a6b3744089d9db42a87508147, type: 3}
+  pb_fillTex: {fileID: 2800000, guid: 8bcde0d680af4ba5851ed5a4579cbd9a, type: 3}
+  pb_borderTex: {fileID: 2800000, guid: 0f8e610b2aa54d10939b4cc8001f5b6d, type: 3}
+  pb_runTex: {fileID: 2800000, guid: 1998e738ac8348b0b6b8ec9eea2ac43e, type: 3}
+  debugDownloadWWW: 0
+  downloadInfo:
+  - name: "Assets2_MenuItems"
+    path: "a2.unity3d"
+    assetRevision: 171030
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets3_BattleResources"
+    path: "a3.unity3d"
+    assetRevision: 170509
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets4_Sounds"
+    path: "a4.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets5_skins"
+    path: "a5.unity3d"
+    assetRevision: 170526
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets6_Weapons"
+    path: "a6.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets7"
+    path: "a7.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets8"
+    path: "a8.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets9"
+    path: "a9.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets10"
+    path: "a10.unity3d"
+    assetRevision: 170209
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets11"
+    path: "a11.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets12"
+    path: "a12.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets13"
+    path: "a13.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets14"
+    path: "a14.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets15"
+    path: "a15.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets16"
+    path: "a16.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets17"
+    path: "a17.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets18"
+    path: "a18.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets19"
+    path: "a19.unity3d"
+    assetRevision: 171030
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets20"
+    path: "a20.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets21"
+    path: "a21.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets22"
+    path: "a22.unity3d"
+    assetRevision: 161017
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets23"
+    path: "a23.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets24"
+    path: "a24.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets25"
+    path: "a25.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets26"
+    path: "a26.unity3d"
+    assetRevision: 161221
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+--- !u!1 &1791220285863826681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158337}
+  - component: {fileID: 1791220287759652113}
+  m_Layer: 0
+  m_Name: "Assets1_FirstMenu"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e585418ab0c8e1c7d28deae9f6f2a5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSkin: {fileID: 11400000, guid: 2102313ac404454dbc7b103291cd25c2, type: 2}
+  mainSkinSmall: {fileID: 11400000, guid: f9636f3ca9c647aa97ff8bc8dd182fe8, type: 2}
+  emptySkin: {fileID: 11400000, guid: c493ea8d0f8e489b98de9cfb465c2e77, type: 2}
+  yellowButton: {fileID: 11400000, guid: f2151ce6a8a140c196202936169437ed, type: 2}
+  bigWhiteLabel: {fileID: 11400000, guid: 6c018f1b56de4447a16430c2d969006e, type: 2}
+  bigBlackLabel: {fileID: 11400000, guid: c4d9dfbff05b4db2a2c65de999df7945, type: 2}
+  smallWhiteSkin: {fileID: 11400000, guid: c68ae37d201749868f064ce7b93ff370, type: 2}
+  smallBlackCenterSkin: {fileID: 11400000, guid: 92068739bd924fc495f1fa379dd9962d, type: 2}
+  triggerSkin: {fileID: 11400000, guid: c95f0b096e1e4aa3af458cc134d9d425, type: 2}
+  triggerSkinArrowLeft: {fileID: 11400000, guid: c9c28ca14ab74b42b99c9ad47a52d77c, type: 2}
+  triggerSkinArrowRight: {fileID: 11400000, guid: 2b2978181f6d4ee89978ddae60f0edc6, type: 2}
+  menuBack: {fileID: 2800000, guid: 2da17625ff224ee386d8f850fbcd15f3, type: 3}
+  menuFrame: {fileID: 2800000, guid: 7f725cde88cc4d70a72aae778ebcf49e, type: 3}
+  tabTex: {fileID: 2800000, guid: 732c41da7f6144dfa87244ea1425caca, type: 3}
+  levelLine: {fileID: 2800000, guid: 649f4176eb524d02a3edd69b7e6b5be8, type: 3}
+  levelProgress: {fileID: 2800000, guid: 7ceaa0c095974407b7fe8e6307e52c3b, type: 3}
+--- !u!1 &1791220285863826682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158338}
+  - component: {fileID: 1791220287759652109}
+  m_Layer: 0
+  m_Name: "GameParams"
+  m_TagString: "GameParams"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f53f6b2559266a18b4ec145c664ec9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPlayersLimit: 16
+  maxPlayersInMission: 4
+  maxPlayersSurvival: 8
+  user: 
+  bonusDay: -1
+  dayNum: -1
+  parts: 
+  decodePlayerName: 
+  playerNumMaps: 0
+  cubesTimeOfEnd: []
+  weaponsSkinPrice1:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  weaponsSkinPrice2:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerMoney1:
+    fakeValue: 0
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+  playerMoney2:
+    fakeValue: 0
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+  weaponsSkin:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerHealth: 0
+  playerArmor: 0
+  playerSpeed: 0
+  playerJump: 0
+  playerDefend: 0
+  playerExpPoints: 0
+  playerExp: 0
+  playerFrags: 0
+  playerLevel: 0
+  playerSkins:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerVoices: 0
+  vipEnd: 0
+  playerSkin: 0
+  inventarSpecItems: 
+  moderType: 0
+  playerIsClothes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  playerClothes: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  inventarItemPrice1: 
+  inventarItemPrice2: 
+  specToMoney: 0
+  BonusTypeCode:
+  - "health"
+  - "armor"
+  - "speed"
+  - "jump"
+  - "defend"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qew"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  playerBaseHealth: 0
+  playerBaseArmor: 0
+  playerBaseSpeed: 0
+  playerBaseJump: 0
+  playerBaseDefend: 0
+  newMapPrice: 0
+  vipBonus: 0
+  codeI: 0
+  codeF: 0
+  radarZoom: 1
+  currentSpecBonusNum: -1
+  needTraining: 0
+  needTrainingBuild: 0
+  mouseSens: 15
+--- !u!1 &1791220285863826683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158339}
+  - component: {fileID: 1791220287759652114}
+  m_Layer: 0
+  m_Name: "PathFinderArray"
+  m_TagString: "PathFinder"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2447966, y: 1.374345, z: 0.0144043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64338ab5f50e309829f88238d0a8373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arraySize: 5000
+  openedArrayNum: 0
+  closedArrayNum: 0
+--- !u!1 &1791220285863826684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158340}
+  - component: {fileID: 1791220287759652107}
+  - component: {fileID: 1791220287759652108}
+  - component: {fileID: 1791220287759652115}
+  m_Layer: 0
+  m_Name: "OH"
+  m_TagString: "ObjectsHolder"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00390625, y: 1.013899, z: 0.1352777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f996e1c56e29eb6f8d520256b70d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  build: 20
+  loadTex: {fileID: 2800000, guid: 5c259e7c546e4104926585b5a5b8340a, type: 3}
+  lang: 0
+  gravity: 0
+  testObj: {fileID: 1791220285863826746, guid: b1ce8749c97bda545ba73caf9a4028ef, type: 2}
+  monsterPrefabName:
+  - "Zombie"
+  - "Agent"
+  - "Soldat"
+  - "ZombieAxes"
+  - "Demon"
+  - "ZombieSaw"
+  - "deadMoroz"
+  - "Assets11\x2fRobot1"
+  - "Assets11\x2fRobot2"
+  - "Assets11\x2fRobot3"
+  - "Assets11\x2fRobot4"
+  - "Assets11\x2fRobot5"
+  - "Assets8\x2fAgent2"
+  - "Assets8\x2fStalker"
+  - "ZKnight"
+  - "FlySoldat"
+  monstrePoints: 0A0000000F0000000F0000000C0000000C00000012000000320000000A0000000C0000000C0000000F000000280000000F0000000F0000000F0000000F0000000F0000001400000023000000
+  transportPrefabName:
+  - "Quadrocycle"
+  - "Turel"
+  - "Quadrocycle2"
+  - "BTR2"
+  - "Assets10\x2fNetJeepGO"
+  - "Assets11\x2fNetBlackJeepGO"
+  - "BTR"
+  - "Heli"
+  - "Assets12\x2fBoat"
+  - "Assets17\x2fturrel1"
+  - "Assets17\x2fturrel2"
+  - "Assets22\x2fTankBlack"
+  - "Assets22\x2fTankBlue"
+  - "Assets22\x2fTankRed"
+  - "Assets22\x2fNetTitan"
+  cubesSound: 00000000000000000000000001000000030000000300000001000000030000000300000003000000020000000200000000000000000000000100000003000000030000000300000003000000030000000300000001000000000000000100000001000000010000000100000001000000010000000100000001000000010000000100000000000000000000000300000000000000000000000000000003000000030000000300000003000000020000000300000003000000030000000400000004000000000000000300000002000000020000000200000002000000020000000000000000000000000000000000000000000000000000000000000000000000040000000400000002000000020000000000000000000000000000000400000004000000040000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500000000000000
+  miniCube: {fileID: 1791220285863826744, guid: 4d7dc3c4a5e196840af8cf1c2682ad88, type: 2}
+  cubesStrength: 
+  - 1
+  - 1
+  - 1
+  - 3
+  - 70
+  - 70
+  - 5
+  - 5
+  - 5
+  - 5
+  - 3
+  - 3
+  - 1
+  - 3
+  - 3
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 1
+  - 1
+  - 3
+  - 3
+  - 1
+  - 1
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 50
+  - 50
+  - 50
+  - 50
+  - 50
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 0.2
+  - 0.2
+  - 3
+  - 3
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  AAnumInShop: 6E0000006F00000070000000710000007200000073000000
+  AAsounds: []
+  AAsoundsNames: []
+  wireItemNum: 116
+  waterAnimDeltaTime: 0.1
+  boundsPlane: {fileID: 1791220285863826743, guid: 02d66d59a97009846b1a5d8de3c8e808, type: 2}
+  testLightCube: {fileID: 1791220285863826747, guid: 3066463c1e70c304c8294108553de38a, type: 2}
+  api_url: 
+  api_id: 0
+  access_token: 
+  phpSecret: 
+  pointsToMoney: 1
+  pointsText: {fileID: 1791220285863826745, guid: df532b1523199ed4ba93b0a426086350, type: 2}
+  gameItemInfo: []
+  tutorialGO: {fileID: 0}
+  gameTypeStrRoom:
+  - "f"
+  - "b"
+  - "m"
+  - "s"
+  - "t"
+  - "x"
+  gameMaxTime: 3F420F003F420F002C0100005802000058020000580200005802000058020000580200005802000058020000
+  teamColor:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 1, g: 1, b: 0.1568628, a: 1}
+  builtInMaps:
+  - Id: 0
+    name: "\u041F\u0435\u0440\u0435\u043A\u0440\u0451\u0441\u0442\u043D\u044B\u0439 \u043E\u0433\u043E\u043D\u044C"
+    playersMax: 12
+    gameTypes: 00000100000000000001
+    size: 0
+  - Id: 1
+    name: "\u041C\u044F\u0441\u043D\u043E\u0439 \u043A\u0443\u0431"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 2
+    name: "\u0413\u043E\u0440\u043E\u0434"
+    playersMax: 12
+    gameTypes: 00000101000000000001
+    size: 0
+  - Id: 3
+    name: "\u0411\u0430\u0441\u0441\u0435\u0439\u043D"
+    playersMax: 12
+    gameTypes: 0000010000000000
+    size: 0
+  - Id: 5
+    name: "\u0421\u043A\u043B\u0430\u0434"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 14
+    name: "\u041C\u044F\u0441\u043E\u0440\u0443\u0431\u043A\u0430"
+    playersMax: 8
+    gameTypes: 0000010001000000
+    size: 0
+  - Id: 7
+    name: "\u0417\u0438\u043E\u043D-\u0422\u0435\u0445"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 8
+    name: "\u0412 \u043F\u0435\u0441\u043A\u0430\u0445"
+    playersMax: 12
+    gameTypes: 000001010000000001
+    size: 0
+  - Id: 9
+    name: "\u0417\u043E\u043C\u0431\u0438-\u0441\u0438\u0442\u0438"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 10
+    name: "\u0410\u0440\u0435\u043D\u0430"
+    playersMax: 12
+    gameTypes: 0000010101000000
+    size: 0
+  - Id: 11
+    name: "\u0411\u0438\u0431\u0437"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 12
+    name: "\u0421\u0442\u0440\u0430\u0439\u043A"
+    playersMax: 12
+    gameTypes: 0000010001000100
+    size: 0
+  - Id: 13
+    name: "\u041C\u043E\u0442\u0435\u043B\u044C"
+    playersMax: 12
+    gameTypes: 0000010101000000
+    size: 0
+  - Id: 20
+    name: "\u0420\u0435\u043A\u0430"
+    playersMax: 12
+    gameTypes: 0000000000000000
+    size: 0
+  - Id: 22
+    name: "\u0414\u0432\u0435 \u0431\u0430\u0448\u043D\u0438"
+    playersMax: 12
+    gameTypes: 0000000001000100
+    size: 0
+  - Id: 24
+    name: "Assault Pro"
+    playersMax: 12
+    gameTypes: 0000000001000100
+    size: 0
+  - Id: 26
+    name: "\u0410\u043B\u044C\u0444\u0430"
+    playersMax: 12
+    gameTypes: 0000000001000001
+    size: 0
+  - Id: 27
+    name: "\u0410\u0440\u0433\u043E\u043B\u0438\u0441"
+    playersMax: 12
+    gameTypes: 0000000001000001
+    size: 0
+  - Id: 28
+    name: "\u0410\u0440\u0435\u043D\u0430 Sontar"
+    playersMax: 12
+    gameTypes: 0000000001000101
+    size: 0
+  - Id: 29
+    name: "\u041C\u044F\u0441\u043D\u043E\u0439 \u043A\u0443\u0431 2"
+    playersMax: 12
+    gameTypes: 0000010000000000
+    size: 0
+  - Id: 33
+    name: "\u0417\u0430\u043B\u0438\u0432"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 34
+    name: "\u041E\u0441\u0442\u0440\u043E\u0432"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 35
+    name: "\u041F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 36
+    name: "\u0420\u0435\u043A\u0430"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 37
+    name: "\u0420\u0430\u0437\u0432\u0438\u043B\u043A\u0430"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 38
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 1
+  - Id: 40
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 41
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 42
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 43
+    name: "\u043A\u043E\u0441\u043C\u043E\u0441"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 44
+    name: "\u0414\u0430\u0441\u0442 2"
+    playersMax: 12
+    gameTypes: 000000000000000001
+    size: 0
+  - Id: 45
+    name: "\u0425\u0437"
+    playersMax: 12
+    gameTypes: 000000000000000001
+    size: 0
+  - Id: 46
+    name: "\u0434\u0435\u043F\u043E"
+    playersMax: 12
+    gameTypes: 0000010001000000010001
+    size: 0
+  - Id: 47
+    name: "\u043B\u0435\u0441\u043E\u043F\u0438\u043B\u043A\u0430"
+    playersMax: 12
+    gameTypes: 0000000001000000010001
+    size: 0
+  - Id: 48
+    name: "\u0417\u043E\u043C\u0431\u0438 \u0442\u0430\u0443\u043D"
+    playersMax: 12
+    gameTypes: 00000001000000000000
+    size: 0
+  blockTypes:
+  - type: 0
+    itemId: 0
+    atlas: -256
+    group: 0
+  - type: 0
+    itemId: -1
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 3
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 4
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 5
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 6
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 7
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 8
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 9
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 10
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 11
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 12
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 13
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 14
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -2
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 17
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 18
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 19
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 20
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 21
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 22
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 23
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 24
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 25
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 26
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 27
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 28
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 29
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 30
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 31
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 32
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 33
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 34
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 35
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 36
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -3
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -4
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 39
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 40
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 41
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 42
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 43
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 44
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 45
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 46
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 47
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 48
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 49
+    atlas: 0
+    group: 4
+  - type: 0
+    itemId: 50
+    atlas: 0
+    group: 4
+  - type: 0
+    itemId: 51
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 52
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 53
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 54
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 55
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 56
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 57
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 58
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 59
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 60
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 61
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 62
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 63
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 0
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 1
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 1
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 2
+    atlas: 1
+    group: 3
+  - type: 0
+    itemId: 3
+    atlas: 1
+    group: 3
+  - type: 0
+    itemId: 4
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 5
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 6
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 7
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 8
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 9
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 10
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 11
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 12
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 13
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 14
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 15
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 16
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 17
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 18
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 19
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 20
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 21
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 22
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 23
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 24
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 25
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 26
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 27
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 28
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 29
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 30
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 31
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 32
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 33
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 34
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 35
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 36
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 37
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 38
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 39
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 40
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 41
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 42
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 43
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 44
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 45
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 46
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 47
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 48
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 49
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 50
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 51
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 52
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 53
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 54
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 55
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 56
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 57
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 58
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 59
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 60
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 61
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 62
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 63
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: -1
+    group: 5
+  - type: 0
+    itemId: 0
+    atlas: -2
+    group: 5
+  - type: 0
+    itemId: 0
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 1
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 2
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 3
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 4
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 5
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 6
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 7
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 8
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 9
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 10
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 11
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 12
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 13
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 14
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 15
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 16
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 17
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 18
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 19
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 20
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 21
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 22
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 23
+    atlas: 2
+    group: 0
+  - type: 1
+    itemId: 70
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 0
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 1
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 2
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 3
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 4
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 5
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 6
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 7
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 8
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 9
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 10
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 11
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 12
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 13
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 14
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 15
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 16
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 17
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 18
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 19
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 20
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 21
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 22
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 23
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 24
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 25
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 26
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 27
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 28
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 29
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 30
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 31
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 32
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 33
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 34
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 35
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 36
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 37
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 38
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 39
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 40
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 41
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 42
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 43
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 44
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 45
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 46
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 47
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 48
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 49
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 50
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 51
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 52
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 53
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 54
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 55
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 56
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 67
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 68
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 69
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 71
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 72
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 73
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 74
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 75
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 76
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 78
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 79
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 80
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 83
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 84
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 85
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 86
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 87
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 88
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 89
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 98
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 99
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 100
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 120
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 121
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 122
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 123
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 124
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 125
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 126
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 32
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 33
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 34
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 35
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 36
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 37
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 38
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 39
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 40
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 41
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 42
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 43
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 44
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 45
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 46
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: 4
+    group: 0
+  - type: 1
+    itemId: 139
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 140
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 141
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 142
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 143
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 144
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 145
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 146
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 147
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 148
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 149
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 150
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 151
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 152
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 153
+    atlas: 0
+    group: 0
+  - type: 2
+    itemId: 157
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 158
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 159
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 160
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 161
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 162
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 163
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 164
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 165
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 166
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 167
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 171
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 172
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 173
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 174
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 175
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 176
+    atlas: 0
+    group: 0
+  episodeDesc:
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 5
+    vip: 0
+  - minlevel: 35
+    vip: 1
+  mainCubesTex: {fileID: 0}
+  GameItemRotationVector:
+  - {x: 0, y: 0, z: 1}
+  - {x: 1, y: 0, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 1, z: 0}
+  - {x: 0, y: -1, z: 0}
+  usedCheat: 0
+  dieEffectMaterial: {fileID: 2100000, guid: df4163bdb5a8464992bee59e5fcb3d0a, type: 2}
+  updateFPSInterval: 0.5
+  emptyScreen: 0
+  showFPS: 0
+  autoaim: 1
+--- !u!114 &1791220287759652108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69944dab6a6d8f337ea58ae4d73f3b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popTex:
+  - {fileID: 2800000, guid: e7a8c1acb51e44f787cc9a0ea1771994, type: 3}
+  - {fileID: 2800000, guid: 0f0999f63f924ab9ba2e4f771f869fba, type: 3}
+  - {fileID: 2800000, guid: 713a703cd5764b94925ff3ed41969df4, type: 3}
+  - {fileID: 2800000, guid: 2732852854914482803c409cb86a42fa, type: 3}
+  skins:
+  - {fileID: 11400000, guid: 3448fd5e1abd4ec29deb0a96c8f4d632, type: 2}
+  - {fileID: 11400000, guid: fa0098e9e4484bfebaef4a7af8ef2267, type: 2}
+  - {fileID: 11400000, guid: 7a2a26b78ac3446cb2ced8b6cce425c3, type: 2}
+  - {fileID: 11400000, guid: f182da8e51cd466c88f52520cb57148b, type: 2}
+  - {fileID: 11400000, guid: 83a4f9d61bd346e188837825776acbb9, type: 2}
+  - {fileID: 11400000, guid: 25ffddff32534371b45d6775a6e8a31e, type: 2}
+  - {fileID: 11400000, guid: 4ba5d379027842d8ab6f84dffb687b4a, type: 2}
+  - {fileID: 11400000, guid: 36d0290f58284bbb9af500861a580cc3, type: 2}
+  - {fileID: 11400000, guid: 67a16a463d124872bab92b9d6a384dd5, type: 2}
+  - {fileID: 11400000, guid: e91e6b3f96a041098e1d5e6bb21e98e5, type: 2}
+  - {fileID: 11400000, guid: 590f120e7c14435e80a2110f74c64339, type: 2}
+  - {fileID: 11400000, guid: 41efdbf3c13944169eaa1471fefe940b, type: 2}
+  - {fileID: 11400000, guid: 0988628eb3b1454f8594463ebb9a66ca, type: 2}
+  - {fileID: 11400000, guid: 8d6411e867ff4e8e81330cc19778496d, type: 2}
+  - {fileID: 11400000, guid: 39c62b1cf92f4d129935a9d354a9499e, type: 2}
+  - {fileID: 11400000, guid: 942cdc803a5541caa7004955f0cf7a9b, type: 2}
+  - {fileID: 11400000, guid: 21688491b2a6455d9e58627e77b3874d, type: 2}
+  - {fileID: 11400000, guid: 1269059465334e6398848ba419c037f1, type: 2}
+  - {fileID: 11400000, guid: 1f93321a48e24a5c8e402f0b886bec2e, type: 2}
+  - {fileID: 11400000, guid: 9b62c2fd4f51476cacd3673c3b6916fd, type: 2}
+  - {fileID: 11400000, guid: 96290596619e4eb4a2c65928855b3bf8, type: 2}
+  - {fileID: 11400000, guid: f3920c59158d4f51ab7ee5cabe355c16, type: 2}
+  - {fileID: 11400000, guid: 92f2a0ab57f045059c5443681b576061, type: 2}
+  - {fileID: 11400000, guid: 05ade0703dc44bcbae30a7e32c326795, type: 2}
+  - {fileID: 11400000, guid: de3726fe74a84ca58f30e83337dc0ce7, type: 2}
+  - {fileID: 11400000, guid: 5d6cbab90af447fd839a2de2f58ab8c4, type: 2}
+  dressItems:
+  - {fileID: 11400000, guid: 06c229f8a4134102a29419d2c6cf53d3, type: 2}
+  - {fileID: 11400000, guid: 5381e46a3fd842918d4ba8bc70d5f6a7, type: 2}
+  - {fileID: 11400000, guid: 9b5a0fb38e0b4748b931b7e3e1e1d185, type: 2}
+  - {fileID: 11400000, guid: fec89005a42240e09a9f5e85d3f0f98f, type: 2}
+  - {fileID: 11400000, guid: 43ee6e291a074952a66800ab371a8bd2, type: 2}
+  - {fileID: 11400000, guid: 8d12e19eff884ce09aaade47275919e2, type: 2}
+  - {fileID: 11400000, guid: ae08926db6054d8f843eb4f50039d6b5, type: 2}
+  - {fileID: 11400000, guid: 1b7cd5f9cec642f99393c49c2d21e467, type: 2}
+  - {fileID: 11400000, guid: d1396daf94d741a8950e5f5d2d7f5e9e, type: 2}
+  - {fileID: 11400000, guid: 038933cb205a4a07b5d05c96a2ae5a76, type: 2}
+  - {fileID: 11400000, guid: 73a30547ff6f49c59d1cc02193d98fc2, type: 2}
+  - {fileID: 11400000, guid: afa9e240f22d4d71a9400549307043ef, type: 2}
+  - {fileID: 11400000, guid: e5bd76b0649d41e4bedd228de0e81b46, type: 2}
+  - {fileID: 11400000, guid: a1533e1c0dbe416eb3d2308d3f965f97, type: 2}
+  - {fileID: 11400000, guid: 91b0e867dbc04ffaaa72e17e8d45cab8, type: 2}
+  - {fileID: 11400000, guid: 594fa41be2fd451fa82c6fa6c2c34270, type: 2}
+  - {fileID: 11400000, guid: fd2a40b8c47a44398dbeb1de0833a94e, type: 2}
+  - {fileID: 11400000, guid: 5ac010f6769a49738f4c1fce47a1379c, type: 2}
+  - {fileID: 11400000, guid: 4da271d1925c492fbcf05a673e3e0a51, type: 2}
+  - {fileID: 11400000, guid: 3c11426deef442778d8a25a743dc5d7b, type: 2}
+  - {fileID: 11400000, guid: 0b9e11ef018a45958e7df859f35a62aa, type: 2}
+  - {fileID: 11400000, guid: 03464385c7a84feda82288f176f33b6d, type: 2}
+  - {fileID: 11400000, guid: 16795de75f35463299447079d3c06c56, type: 2}
+  - {fileID: 11400000, guid: 23c08e68944d461a8860bb9b640eaef0, type: 2}
+  - {fileID: 11400000, guid: cc422750231f40f1a47b0034bf6fd743, type: 2}
+  - {fileID: 11400000, guid: c89b92dc1bd94149b2c0e160e95ea9d2, type: 2}
+  - {fileID: 11400000, guid: e3074804c2d7466fac4e9c278b2e4f94, type: 2}
+  - {fileID: 11400000, guid: 5252585a87f348039f3a829aa501ddf9, type: 2}
+  - {fileID: 11400000, guid: 3827759e15c14244846f49a512634e33, type: 2}
+  - {fileID: 11400000, guid: 4163765e47ce4f80b4f22f788f2f2721, type: 2}
+  - {fileID: 11400000, guid: 5bce300ace2a4d6990212b185e329635, type: 2}
+  - {fileID: 11400000, guid: 4123c2c90bf14461ba66c7350a52e32c, type: 2}
+  - {fileID: 11400000, guid: 7d27407e2a9b411184802e4322599e64, type: 2}
+  - {fileID: 11400000, guid: 10bcf6b9da6046ed9572368263a6efdd, type: 2}
+  - {fileID: 11400000, guid: eb4a540d695947e4b1997be456a6781f, type: 2}
+  - {fileID: 11400000, guid: add61443b3a64c7ea938092e1d2adb0d, type: 2}
+  - {fileID: 11400000, guid: 51fb16091079487897c829224971547d, type: 2}
+  - {fileID: 11400000, guid: 30f9334424de4933af98e6ce2c1353f4, type: 2}
+  - {fileID: 11400000, guid: 87463484186c4438ba3538129c640ab0, type: 2}
+  - {fileID: 11400000, guid: 45875aacd4b44f07a449dcf81737542f, type: 2}
+  - {fileID: 11400000, guid: 85d9ed0626a64641925071f7b336c6d9, type: 2}
+  - {fileID: 11400000, guid: 03f5f78c0e4f4f249f51b48dae7e6523, type: 2}
+  - {fileID: 11400000, guid: 2fd3032db46541969c9efe732a9ddad9, type: 2}
+  - {fileID: 11400000, guid: aff114e1defa4a6eb368c761d59c999f, type: 2}
+  - {fileID: 11400000, guid: c8b3f4eb4b74417a8bd6d0d6ade8600d, type: 2}
+  - {fileID: 11400000, guid: 10e2e5ab0c684a9c980c7e65cde3e875, type: 2}
+  - {fileID: 11400000, guid: 3aa7566cdeb14730bb6aa949fa1ed0b8, type: 2}
+  - {fileID: 11400000, guid: f383250e29604b0c8bdc4519e2bbf80c, type: 2}
+  - {fileID: 11400000, guid: 99840b165f25435ebfbe9e306ff12002, type: 2}
+  - {fileID: 11400000, guid: c59c4ab0750d4561add6235991426ffc, type: 2}
+  - {fileID: 11400000, guid: 7b6ca1ea69144fdcbb1cb773d2ba982c, type: 2}
+  - {fileID: 11400000, guid: 0f9967ed0c9346adac11283be7053851, type: 2}
+  - {fileID: 11400000, guid: b3c254e71f1744979c53280a633ab00a, type: 2}
+  - {fileID: 11400000, guid: 4270c26f9ab9480886a7313b7c4423a7, type: 2}
+  - {fileID: 11400000, guid: ca3da32fe8494bc289c699cf3a288fb0, type: 2}
+  - {fileID: 11400000, guid: 5d8697a2248c45b28de9e43d47c09f94, type: 2}
+  - {fileID: 11400000, guid: 093eb9019b1c483391262a7bb418c79e, type: 2}
+  - {fileID: 11400000, guid: e0bc8fff50514f5d83607c4592fa980d, type: 2}
+  - {fileID: 11400000, guid: 326d5289551543d3aaa0cfa81451a10a, type: 2}
+  - {fileID: 11400000, guid: 50dad0ce74b54e14809249e6cff7507c, type: 2}
+  - {fileID: 11400000, guid: 4486eb65bde24009ac67c65e506972c3, type: 2}
+  - {fileID: 11400000, guid: 3f1995092ef44b4babdfdcf94132e1c2, type: 2}
+  - {fileID: 11400000, guid: ac025a2ae9d34db9930e69af2178645d, type: 2}
+  - {fileID: 11400000, guid: 689493e53c9b4f628d4ea0b55ad79ea1, type: 2}
+  - {fileID: 11400000, guid: e45ebcca05d54f2486bc4a4664b92a38, type: 2}
+  - {fileID: 11400000, guid: 09fd4a1156854b899fa77e8df77533db, type: 2}
+  - {fileID: 11400000, guid: eca89c5919174ec4acb6946ff6b4aa01, type: 2}
+  - {fileID: 11400000, guid: 01602ba5de9145fb80f3e89539cbcb97, type: 2}
+  - {fileID: 11400000, guid: e843f05e6351462f9d7e3e3c2f95197c, type: 2}
+  - {fileID: 11400000, guid: dab5577325be4d06bcfb5243d3762229, type: 2}
+  - {fileID: 11400000, guid: 62d308d7021c482db93542fabcd746d9, type: 2}
+  - {fileID: 11400000, guid: b137da7987784a78b248596d8a127111, type: 2}
+  - {fileID: 11400000, guid: 2dc2d2714e584077a166e059da922dd6, type: 2}
+  - {fileID: 11400000, guid: a22b81a74cfb46f9b287218253cae775, type: 2}
+  - {fileID: 11400000, guid: 4c42114ed26243109317c22cba4f6c0d, type: 2}
+  - {fileID: 11400000, guid: d655c6f96cbf4f1ebeaa97d9fd60d53a, type: 2}
+  - {fileID: 11400000, guid: cfdabe2ad9dd4af9a1549a6f5e123110, type: 2}
+  - {fileID: 11400000, guid: ffe1845b58d544f9b3d6aab150a332d1, type: 2}
+  - {fileID: 11400000, guid: fd808481734247b7a1383f997ed9bcc9, type: 2}
+  - {fileID: 11400000, guid: 896c72b9a02b4374b7b2a6027b8c4705, type: 2}
+  - {fileID: 11400000, guid: 6451498edee846d6adeb77ca181547a5, type: 2}
+  - {fileID: 11400000, guid: 50cb0a0938d843c198d60aa375e26b1f, type: 2}
+  - {fileID: 11400000, guid: 3d17c4f11fbc40238b52ba0b3eed2263, type: 2}
+  - {fileID: 11400000, guid: cfcbec15e96849c981f5e4746b9cf81b, type: 2}
+  - {fileID: 11400000, guid: 57ed303a78834cad9acab0ee768b537a, type: 2}
+  - {fileID: 11400000, guid: 212208bc99304d5d99bb90ddf63d8306, type: 2}
+  - {fileID: 11400000, guid: 387fac8e02e34da3a281c6a047a7ae94, type: 2}
+  - {fileID: 11400000, guid: 2afed3e900c247b58c5f0c5d92647f9a, type: 2}
+  - {fileID: 11400000, guid: 320677a4d98c4499b98719f684b9431e, type: 2}
+  - {fileID: 11400000, guid: 8900918183264c07a143b2fed55b1deb, type: 2}
+  - {fileID: 11400000, guid: 518e2066792442978cb1f3e80f192c15, type: 2}
+  - {fileID: 11400000, guid: 0aaaae05ad1c4a07856e47a98c21c005, type: 2}
+  weaponParams:
+  - {fileID: 11400000, guid: 9c647f331d1b435c97f224bb7d7dd985, type: 2}
+  - {fileID: 11400000, guid: caa0f5288a1342bf8f3594d31aeb8011, type: 2}
+  - {fileID: 11400000, guid: 600f48184bd94e6d89aaee752a6c27ac, type: 2}
+  - {fileID: 11400000, guid: 6e91dc39437e4264a8a735dd430ef69f, type: 2}
+  - {fileID: 11400000, guid: 0ac6b8b17f7f4f34852cd24d3d91d4c4, type: 2}
+  - {fileID: 11400000, guid: b2369abcbd9e496da93b3b524a467e0f, type: 2}
+  - {fileID: 11400000, guid: d668114755c44ef78144189966f36ac8, type: 2}
+  - {fileID: 11400000, guid: e5b520a7897f4a31b591bb485fc09bc6, type: 2}
+  - {fileID: 11400000, guid: 7f238e508e16414b98a23277fcd7e438, type: 2}
+  - {fileID: 11400000, guid: f0326556b6744c04b349ce3cdc98120f, type: 2}
+  - {fileID: 11400000, guid: 4908e54829624c60831167220ffd767f, type: 2}
+  - {fileID: 11400000, guid: fc416bcd47be4e778f6a99196ed92bd1, type: 2}
+  - {fileID: 11400000, guid: a8e8af1120344e4d918c81634f675304, type: 2}
+  - {fileID: 11400000, guid: 74555d9b5e8d4297852b28b9ccabfc79, type: 2}
+  - {fileID: 11400000, guid: 9028e6f62f8149d09a63b2b323af5828, type: 2}
+  - {fileID: 11400000, guid: 22378e6c658d47308a3bb2b3dafccb7f, type: 2}
+  - {fileID: 11400000, guid: 53bd17abf8c2423ca437345cdac242da, type: 2}
+  - {fileID: 11400000, guid: d467d171040640c4b634afd8e5cb7d69, type: 2}
+  - {fileID: 11400000, guid: e076f24f03f94505aee256d3e960eef6, type: 2}
+  - {fileID: 11400000, guid: e67312da2e43405b9927f5a26ccbb7ba, type: 2}
+  - {fileID: 11400000, guid: 08dcea51229843eb8550e15aa7a9247c, type: 2}
+  - {fileID: 11400000, guid: 5830f3192d8e4dbf8844226c244893fd, type: 2}
+  - {fileID: 11400000, guid: fc092e910bb143ffb9f294d3b9c3e415, type: 2}
+  - {fileID: 11400000, guid: bb9e56fce4bc4d6fa790b777b7a2e008, type: 2}
+  - {fileID: 11400000, guid: 1af35906eaa24c8aa36af51d43c7678d, type: 2}
+  - {fileID: 11400000, guid: 0b2763d0ed3a4ad89a9dba1be389a946, type: 2}
+  - {fileID: 11400000, guid: d57b16e3c97e4fb881477d8e4df1ce9a, type: 2}
+  - {fileID: 11400000, guid: c1f4e5cd666c493b8df2a70f56ef1d52, type: 2}
+  - {fileID: 11400000, guid: b224e1be8d1846b3bef287661ba37afe, type: 2}
+  - {fileID: 11400000, guid: 17b40a5ec20747438c758431c2f7e325, type: 2}
+  - {fileID: 11400000, guid: 0abf3b08680f47af8ca5ae763873e395, type: 2}
+  - {fileID: 11400000, guid: c26c10ed5e9a4f4a8c4d21ad28a0fa2b, type: 2}
+  - {fileID: 11400000, guid: 2c6472706f394f488ce412360a66bf69, type: 2}
+  - {fileID: 11400000, guid: d738c77c67134e8e894ff5e77b201e26, type: 2}
+  - {fileID: 11400000, guid: edf80c726e2c4948bbc51593ecbb8914, type: 2}
+  - {fileID: 11400000, guid: 6f40673eac6a426394465997ed102e83, type: 2}
+  - {fileID: 11400000, guid: f12144a1a78f4eb5a64b45055b01b884, type: 2}
+  - {fileID: 11400000, guid: 240066d5278f449c9a6f78b6731c5f21, type: 2}
+  - {fileID: 11400000, guid: d31fdbd7b7af4180880c44aecdc252bf, type: 2}
+  - {fileID: 11400000, guid: 89097b5616af4b288b4cb20fba7db8cf, type: 2}
+  - {fileID: 11400000, guid: 56b25f335906452390be95257de88e86, type: 2}
+  - {fileID: 11400000, guid: 5de7812692214a42bca3530a9ea6d808, type: 2}
+  - {fileID: 11400000, guid: 1defbdf00e274572949eeeda8901ace4, type: 2}
+  - {fileID: 11400000, guid: 21974ce2ca104d788037369878b152e5, type: 2}
+  - {fileID: 11400000, guid: b5c5b2cc00ba47ddba925f8f159a5f1e, type: 2}
+  - {fileID: 11400000, guid: 0b7fc3eb029b4335a20501cb06bf9c59, type: 2}
+  - {fileID: 11400000, guid: d7026ff5919f4d92a51aa77c172c7f6f, type: 2}
+  - {fileID: 11400000, guid: 1084455e3e6a471d942d7baac2332467, type: 2}
+  - {fileID: 11400000, guid: 01036b71bd85496db3eea180a60fbca9, type: 2}
+  - {fileID: 11400000, guid: ee457b703eea434d8373ee0937b02cb4, type: 2}
+  - {fileID: 11400000, guid: eb9f74bf06d44dc68458f22de45a7bbd, type: 2}
+  - {fileID: 11400000, guid: 050442daa5fa486690c2d2241b0fa289, type: 2}
+  - {fileID: 11400000, guid: 41bee50cf4264820b8e2ad9c8796d1b6, type: 2}
+  - {fileID: 11400000, guid: b41a3b71bc534f3fa994be89d8a9fff1, type: 2}
+  - {fileID: 11400000, guid: f4688a905dff44a5b2a6716cfccec3bc, type: 2}
+  - {fileID: 11400000, guid: b0dd7319749b4197beeb0bbf4da57d2c, type: 2}
+  - {fileID: 11400000, guid: c1ff94fff42f48f1835cf24ff44cc3a5, type: 2}
+  - {fileID: 11400000, guid: b1d1134760454873a11fad12720477c6, type: 2}
+  - {fileID: 11400000, guid: 212a7a09676c40f6b93077322e1f158d, type: 2}
+  - {fileID: 11400000, guid: 2fa24e493a06415da06a212985aaf909, type: 2}
+  - {fileID: 11400000, guid: f82d48d939be4172befca8e3f968af81, type: 2}
+  - {fileID: 11400000, guid: 36149861abaf4449b8eb96e7be5213d8, type: 2}
+  - {fileID: 11400000, guid: 3f05d44bf37942d3a2af9d6f464f655f, type: 2}
+  - {fileID: 11400000, guid: 93e32c5bf41a41fc86d304efa82b0360, type: 2}
+  - {fileID: 11400000, guid: ce29b20accf04d1fbdfb05f16ca57071, type: 2}
+  - {fileID: 11400000, guid: 210c5f6b18354bf1a155e2e8c69a9db1, type: 2}
+  - {fileID: 11400000, guid: b7083bc37794469480286234877d1ddf, type: 2}
+  - {fileID: 11400000, guid: 7d8f41ce1a6545c3a5e439547ee92b39, type: 2}
+  - {fileID: 11400000, guid: 95060c2a1996474ba837031ae10c0731, type: 2}
+  - {fileID: 11400000, guid: fcf512bb027e4318b5ca36246628b646, type: 2}
+  - {fileID: 11400000, guid: b21e598000d8455a8976f899b54a0470, type: 2}
+  - {fileID: 11400000, guid: 288e823548354b939e6e4dbc1a3a83b5, type: 2}
+  - {fileID: 11400000, guid: 4312620e1bab4708a67daa5362978986, type: 2}
+  - {fileID: 11400000, guid: 6ff335e4b92146b38e697070192ed076, type: 2}
+  weaponSkins:
+  - {fileID: 11400000, guid: e61a6fa83f3e4bb8bf59bf1107e23853, type: 2}
+  - {fileID: 11400000, guid: 1a059cfd7d864c92b3d9ebba4fa2c019, type: 2}
+  - {fileID: 11400000, guid: d71b074f88b646c6867150f577335c21, type: 2}
+  - {fileID: 11400000, guid: 369171ebcd1d49cda4cfd649f7b041d3, type: 2}
+  - {fileID: 11400000, guid: f798e551fc2542849639d1b7b3f27fa8, type: 2}
+  - {fileID: 11400000, guid: 328b9767e4674bb1806fc05443c2f49d, type: 2}
+  - {fileID: 11400000, guid: 768a3536f76f4489b8f7c9a7b7194ee7, type: 2}
+  - {fileID: 11400000, guid: 5de4ef43255742e0bfc34660c1e83b8f, type: 2}
+  - {fileID: 11400000, guid: dfa4f24b24c14532b21d4a5d9b184889, type: 2}
+  - {fileID: 11400000, guid: 7bdfae69304246c6ae2f499cfe3525de, type: 2}
+  - {fileID: 11400000, guid: 908ee14503454475a06f683c18a2286f, type: 2}
+  - {fileID: 11400000, guid: 6e128412fbdf4fd6acfd7b27f747bcbd, type: 2}
+  - {fileID: 11400000, guid: bde711a8cf3c4fce9385ba6d10f183d0, type: 2}
+  itemDesc:
+  - {fileID: 11400000, guid: 2da656275f5643c9865e3df822c9954c, type: 2}
+  - {fileID: 11400000, guid: 6094feda29814857aaa0a67d2fb2a512, type: 2}
+  - {fileID: 11400000, guid: 8d3d510c37f446f994b616234dfcd969, type: 2}
+  - {fileID: 11400000, guid: 172db9aa67f74a4286e9cd88665d6458, type: 2}
+  - {fileID: 11400000, guid: ccb505c15fc84e0abb3d1afa59db412b, type: 2}
+  - {fileID: 11400000, guid: 9629a323331f4ff0bbf4abbc35656193, type: 2}
+  - {fileID: 11400000, guid: 27f41166a09f43f286ef56d0007c6d8e, type: 2}
+  - {fileID: 11400000, guid: 2e17cea8eb344245a3ca2d79be888270, type: 2}
+  - {fileID: 11400000, guid: 7800471d461947128c52c5b18ec0dca7, type: 2}
+  - {fileID: 11400000, guid: da16f31c178242f5bd13a082ccd0277f, type: 2}
+  - {fileID: 11400000, guid: 923c93ea873641718f453bec234e9882, type: 2}
+  - {fileID: 11400000, guid: a564b1869ab3427b851583664f421485, type: 2}
+  - {fileID: 11400000, guid: b8e19bd4ac764c2bb656c7b5824441a7, type: 2}
+  - {fileID: 11400000, guid: ad51397fd25749d09d6da6ac1f4df71e, type: 2}
+  - {fileID: 11400000, guid: eb199ad145c54adea4862396d84aa8bc, type: 2}
+  - {fileID: 11400000, guid: 7fe073330bdb485788385634893a248b, type: 2}
+  - {fileID: 11400000, guid: e26befeb36f3440fb9caa4daabf99a2f, type: 2}
+  - {fileID: 11400000, guid: 00e7b685b5364038bc3209688b512114, type: 2}
+  - {fileID: 11400000, guid: a18898d6e88b472198ee2711806c7c89, type: 2}
+  - {fileID: 11400000, guid: 8044ca4b0e924ab797f0b2b8b71fca34, type: 2}
+  - {fileID: 11400000, guid: e066efcdd73247a09436d9f68be4c716, type: 2}
+  - {fileID: 11400000, guid: dcad863d9875425aa7a2efdc1eabd1a8, type: 2}
+  - {fileID: 11400000, guid: a72e49c042e54b60b46601b1cf2b4b7b, type: 2}
+  - {fileID: 11400000, guid: 393c6b5fb9244e009fbdd6234b6b75b4, type: 2}
+  - {fileID: 11400000, guid: e5681aa5a77c483dbad2b2f61d3b694a, type: 2}
+  - {fileID: 11400000, guid: c5cd5142c0da49bfac8488c468964f2f, type: 2}
+  - {fileID: 11400000, guid: cffc5d3b4caf414190817dffed856d8e, type: 2}
+  - {fileID: 11400000, guid: a17c82b7570b4bc2b12c5239f3ced264, type: 2}
+  - {fileID: 11400000, guid: 919e03ae826e49dfbd0cf29fd9a4f042, type: 2}
+  - {fileID: 11400000, guid: b539cf346a134af5a80933410b20719b, type: 2}
+  - {fileID: 11400000, guid: fca01d127f4340cb89e897c416abc0e3, type: 2}
+  - {fileID: 11400000, guid: 873c42d321624d9a975f7d0173e074b2, type: 2}
+  - {fileID: 11400000, guid: 364f997c02014858a24ef64c5af359ac, type: 2}
+  - {fileID: 11400000, guid: 156440a941ea4acf9d8a36d9f6078cef, type: 2}
+  - {fileID: 11400000, guid: 10fb1e13d3bc40b19b4dc2d3df59f22b, type: 2}
+  - {fileID: 11400000, guid: bd29312ae5084c32aac82ff3af1ad017, type: 2}
+  - {fileID: 11400000, guid: 82f85f75ea4d43cbb7b40822bcba7acf, type: 2}
+  - {fileID: 11400000, guid: 026110f13683425c94c8d133eb175579, type: 2}
+  - {fileID: 11400000, guid: fd8116aef43d49428e3a17d1a3134868, type: 2}
+  - {fileID: 11400000, guid: eeccd3b3f531462ab5657b17cd9b0039, type: 2}
+  - {fileID: 11400000, guid: 5ab95afa047e47f9baffb582cd7a670b, type: 2}
+  - {fileID: 11400000, guid: ff84c48f10f2415c8796abb1a04d8f41, type: 2}
+  - {fileID: 11400000, guid: c1f4f40d263d48e9bd7593cc78322a3a, type: 2}
+  - {fileID: 11400000, guid: 5abc2a1d6de84319ab09779fb613c8b9, type: 2}
+  - {fileID: 11400000, guid: d2b69fcb1a084dcaba2b9e986d336dff, type: 2}
+  - {fileID: 11400000, guid: 7ff685f36fc0494daa61be6d9001c61e, type: 2}
+  - {fileID: 11400000, guid: c608b97f9c414fa5a032f8542b3c4c59, type: 2}
+  - {fileID: 11400000, guid: 8b10e49d04884b5e889a9e3b2c414607, type: 2}
+  - {fileID: 11400000, guid: e0e81e64adac4d2f8b0bedb897af550d, type: 2}
+  - {fileID: 11400000, guid: 107e6c27e50a4134b327a886f3c92ce4, type: 2}
+  - {fileID: 11400000, guid: 14f8fe365e7447ab95bd7ae8d17b2781, type: 2}
+  - {fileID: 11400000, guid: 21fd952ca20046478fa0a5b624d06f9d, type: 2}
+  - {fileID: 11400000, guid: b8be5173c2704518bd4f1393ef8e405f, type: 2}
+  - {fileID: 11400000, guid: d86f2e1fc3aa4bdeba3cb9b8ff8c4c3b, type: 2}
+  - {fileID: 11400000, guid: b0f26786a6804947a08474ec090dae60, type: 2}
+  - {fileID: 11400000, guid: 770e6d8914dc4b63bd867c9e1a540218, type: 2}
+  - {fileID: 11400000, guid: 8a625b938ed54769b5f9867429f81d35, type: 2}
+  - {fileID: 11400000, guid: ed1719da8eae466696a6ae8d30efeb08, type: 2}
+  - {fileID: 11400000, guid: 944f8cf17a41426eb482fa109184faf4, type: 2}
+  - {fileID: 11400000, guid: 50e63e1819454d35917396ae78956850, type: 2}
+  - {fileID: 11400000, guid: 9b02e03221d64919963242ba42e30e79, type: 2}
+  - {fileID: 11400000, guid: ec274908cd314e5cb740b74a9df020ec, type: 2}
+  - {fileID: 11400000, guid: 602c2a339c9f4d2fb135d61d3f25803f, type: 2}
+  - {fileID: 11400000, guid: 2cb222e478d044f3ade6ccb6d6e3e772, type: 2}
+  - {fileID: 11400000, guid: 398a55ac8adb4e5f832cc3c4bbb8d109, type: 2}
+  - {fileID: 11400000, guid: 62002165fda247b5b14676bbb864d1a2, type: 2}
+  - {fileID: 11400000, guid: ca5b327220dc425b8ab819a1d9bc1e6f, type: 2}
+  - {fileID: 11400000, guid: 4ac4d36e888a4f3ab983d0147cbb1750, type: 2}
+  - {fileID: 11400000, guid: 8d9c955875ff44069c6b651769650d39, type: 2}
+  - {fileID: 11400000, guid: 502a6a88ddd4439797b6deba1455b2a9, type: 2}
+  - {fileID: 11400000, guid: 158dd2472d284473aaf48d5c8e28ea5f, type: 2}
+  - {fileID: 11400000, guid: 273d6fda96e240d8b094bce16162b950, type: 2}
+  - {fileID: 11400000, guid: 3c3fdbf832234b1fa6ecdc608de1646b, type: 2}
+  - {fileID: 11400000, guid: 7c9442f8ddb340618bb1ffa62f73b20d, type: 2}
+  - {fileID: 11400000, guid: 3792084e307a44829ce662b4629e7dd2, type: 2}
+  - {fileID: 11400000, guid: ba33cfc4297942c9a5df98cd19bd0570, type: 2}
+  - {fileID: 11400000, guid: 2d597c2184de4281bcf41e14ec394e34, type: 2}
+  - {fileID: 11400000, guid: 10bb45d4969141e0bb4debf96266e646, type: 2}
+  - {fileID: 11400000, guid: 58670dd976af4bbeba1b99aab1e0a5aa, type: 2}
+  - {fileID: 11400000, guid: 16fb2558e89641eaaed6765299c6c47e, type: 2}
+  - {fileID: 11400000, guid: db23d1fc951c4fec9d3cf6c4da992931, type: 2}
+  - {fileID: 11400000, guid: de38889602c0468a89358a7160121ff1, type: 2}
+  - {fileID: 11400000, guid: addbb416133246c3b12b3ee7d78156db, type: 2}
+  - {fileID: 11400000, guid: 756241401e094587bc43e48d89e40d51, type: 2}
+  - {fileID: 11400000, guid: d7896187eea2460ba6caddeb419966cb, type: 2}
+  - {fileID: 11400000, guid: 7f3203df3cad466aa4adfa77f88b2cca, type: 2}
+  - {fileID: 11400000, guid: fda2e27fada9423c898dc798171a94ab, type: 2}
+  - {fileID: 11400000, guid: 9737b1b3ea5448a2b818f9330cc6ab9c, type: 2}
+  - {fileID: 11400000, guid: 98727ae90b604350abcdb708c21ce4d4, type: 2}
+  - {fileID: 11400000, guid: fb29b9865fd04057a19de05d15f2b941, type: 2}
+  - {fileID: 11400000, guid: 58ad12b2d59a416b9387373b996d88b1, type: 2}
+  - {fileID: 11400000, guid: 708b35ff46ee40d4b932a3ad95199863, type: 2}
+  - {fileID: 11400000, guid: f07f5b4182544e28a91547901e7729fa, type: 2}
+  - {fileID: 11400000, guid: 38daa3a43513456aa0f343c37b28dec8, type: 2}
+  - {fileID: 11400000, guid: 26990ac725cb4c069ea3c346a0c7e24f, type: 2}
+  - {fileID: 11400000, guid: ef4e2f0d1b0d4b199e9140261197935d, type: 2}
+  - {fileID: 11400000, guid: 7af33c9936b5463e994c7134d63647a3, type: 2}
+  - {fileID: 11400000, guid: 7cc487ea050547189d6fdf2919f72624, type: 2}
+  - {fileID: 11400000, guid: df77931b5a50402480aec9137c14531d, type: 2}
+  - {fileID: 11400000, guid: 66665948c34c494fa65f6a33a13f1c83, type: 2}
+  - {fileID: 11400000, guid: 2a59468151aa4c7d872830555f771fe6, type: 2}
+  - {fileID: 11400000, guid: 487fb7743e9e43078492c8f69aa82531, type: 2}
+  - {fileID: 11400000, guid: 7fdeb204cdd94d7ab46a9f5ab07e006e, type: 2}
+  - {fileID: 11400000, guid: 9bbd83d0e93843c3a40d96af93b6e441, type: 2}
+  - {fileID: 11400000, guid: 801a7765ec7f4ce4823baef8e0cc0e25, type: 2}
+  - {fileID: 11400000, guid: b57bb1e60ff34e7fa78c8fbb5fce0bfa, type: 2}
+  - {fileID: 11400000, guid: 63916fa9cbde477796eb797e0114a4bd, type: 2}
+  - {fileID: 11400000, guid: 0648487a765d401fb7820437d323ad66, type: 2}
+  - {fileID: 11400000, guid: 966f205b344147b3bbd4b660a37df7d6, type: 2}
+  - {fileID: 11400000, guid: 9f605a68bcf94614b8a7793189b2b05d, type: 2}
+  - {fileID: 11400000, guid: 356072f0d77346b2bdd7fd1b854f5cf3, type: 2}
+  - {fileID: 11400000, guid: c90d13e49c134eceaf94d89db4c1299f, type: 2}
+  - {fileID: 11400000, guid: 7001ce3e27b94251aaa6fc357bfa3641, type: 2}
+  - {fileID: 11400000, guid: 811a7fd4d21443bb9253bcc18bca0fef, type: 2}
+  - {fileID: 11400000, guid: 716671d7902f4a62a3fe5d86e21838fb, type: 2}
+  - {fileID: 11400000, guid: 60223f2be9f24ec3932f19d3c7f42fc3, type: 2}
+  - {fileID: 11400000, guid: b90759d65c8145d889d8fc2aea722998, type: 2}
+  - {fileID: 11400000, guid: 2a6ddcc833e544fb8bdd0ff34daa44a5, type: 2}
+  - {fileID: 11400000, guid: cdfd8257bda243fab500ba14657d6619, type: 2}
+  - {fileID: 11400000, guid: a5f8d51416cf40a69cc84973bbe96ebe, type: 2}
+  - {fileID: 11400000, guid: 95a8968103374a9ab4847723d849b625, type: 2}
+  - {fileID: 11400000, guid: 679ff9c4786347bd83203d2e1eaeefc3, type: 2}
+  - {fileID: 11400000, guid: 05ef7f9e5bec4ba3be96bee9b49e70a5, type: 2}
+  - {fileID: 11400000, guid: b9109931882a4f9e8b8b347440b37ea7, type: 2}
+  - {fileID: 11400000, guid: fb2468ab81494267ad9b636453e16137, type: 2}
+  - {fileID: 11400000, guid: 594f1855f8db407ab9800c82c2014e13, type: 2}
+  - {fileID: 11400000, guid: 1dbeeed9d6a04c8cb3d338d56d3865fd, type: 2}
+  - {fileID: 11400000, guid: 0e3c6e72a8d844d7a508779c0a7415c2, type: 2}
+  - {fileID: 11400000, guid: a9dfa0444ca3425290b6a0ae6d3c8d43, type: 2}
+  - {fileID: 11400000, guid: 8bf57d11e9194c87b5970265d697bf79, type: 2}
+  - {fileID: 11400000, guid: 0a182722dfa641498a4609c474bc14dc, type: 2}
+  - {fileID: 11400000, guid: dc6a9faf88e54c6a9d5da14b95690427, type: 2}
+  - {fileID: 11400000, guid: 27e375c3768a4ef7bd2a8cac714fe257, type: 2}
+  - {fileID: 11400000, guid: 42e221e1516e49b4a962319976334c00, type: 2}
+  - {fileID: 11400000, guid: 3d7f3c05840b4172b08d66aecfc01a35, type: 2}
+  - {fileID: 11400000, guid: 5f20de9050c746e2b6e0edb87b474e17, type: 2}
+  - {fileID: 11400000, guid: 1ae4c81589bf44b2ad0be9ce46f34d42, type: 2}
+  - {fileID: 11400000, guid: 1ae3ea2be8204b17aa8954a5442fdd5a, type: 2}
+  - {fileID: 11400000, guid: ced51d523ea74f0e9c67786d53b07a3f, type: 2}
+  - {fileID: 11400000, guid: 956cce2f09614f15aef05c559a0533e3, type: 2}
+  - {fileID: 11400000, guid: fb8fc52cd1a4483bb0de7e8702a256ca, type: 2}
+  - {fileID: 11400000, guid: 0a951079ec3d4d2ea373375ba3d9ddd3, type: 2}
+  - {fileID: 11400000, guid: 89d88e5c98b84bbe8bceb65609678a09, type: 2}
+  - {fileID: 11400000, guid: 36295a32df04463d9da73fc529191b16, type: 2}
+  - {fileID: 11400000, guid: ed919bef788d451a9ec516f5a77652fe, type: 2}
+  - {fileID: 11400000, guid: 37c4e9064d8f456396cb5be8d914b372, type: 2}
+  - {fileID: 11400000, guid: 552ff3bb6a86469e8d95366bd253459f, type: 2}
+  - {fileID: 11400000, guid: 9190d4a138e44eada8eda4cd9f238565, type: 2}
+  - {fileID: 11400000, guid: c5efe102c7be473baa548fb909db55ec, type: 2}
+  - {fileID: 11400000, guid: fe110f05352347dea3ded67600c0bdb2, type: 2}
+  - {fileID: 11400000, guid: d4227180fb464f8cbe4d78116a5ea995, type: 2}
+  - {fileID: 11400000, guid: 683f2f679f8b4c6281e681f039c09f31, type: 2}
+  - {fileID: 11400000, guid: 894b37dc00c243bfa203593bdcf351d2, type: 2}
+  - {fileID: 11400000, guid: 3e22ef9cd91241f1b60da5afd028ef70, type: 2}
+  - {fileID: 11400000, guid: 574e3d0ff5dc47b9b25597e4e2c3f55b, type: 2}
+  - {fileID: 11400000, guid: bc14fe62c5514beb95b92a702aaa638f, type: 2}
+  - {fileID: 11400000, guid: a0e138a6823e4359b0acf176f0dc26ea, type: 2}
+  - {fileID: 11400000, guid: f67f42cd452d498e84ef0525fbfaafaf, type: 2}
+  - {fileID: 11400000, guid: 6a96728082304148b61cea62f98e7a22, type: 2}
+  - {fileID: 11400000, guid: b11f4c0380a6445da48df0b52853f8e7, type: 2}
+  - {fileID: 11400000, guid: efcca583a7674ff794aa2601d2cf1726, type: 2}
+  - {fileID: 11400000, guid: 02a841bc19c143c69a7c4dcae3568d33, type: 2}
+  - {fileID: 11400000, guid: b2592d879ecc461da70f8b555810e7d3, type: 2}
+  - {fileID: 11400000, guid: fb969b6e81ae43d5979894e5e1fd6693, type: 2}
+  - {fileID: 11400000, guid: 14041f313ba048558bae1f6dc9a3d8a9, type: 2}
+  - {fileID: 11400000, guid: 9a937d17435e456cbc1eeb21c6967c3a, type: 2}
+  - {fileID: 11400000, guid: 70e2399bc26f443592b55ba4bf1aff35, type: 2}
+  - {fileID: 11400000, guid: 6f4c948b12114de7ae071919f0dec4bf, type: 2}
+  - {fileID: 11400000, guid: 911f7b8428cb4e73a453f03657068248, type: 2}
+  - {fileID: 11400000, guid: 424ae563fad54568b8893e8ea5ea32c1, type: 2}
+  - {fileID: 11400000, guid: de98efad723246b7b9cdb41d0ec3ce78, type: 2}
+  - {fileID: 11400000, guid: 5241b76c0e08411ba6e6fe26b56d2ffa, type: 2}
+  - {fileID: 11400000, guid: ab0c0694e683400faa55056dd07ef2a5, type: 2}
+  - {fileID: 11400000, guid: 6ff3dbf546b841f2b953229da7abdc2b, type: 2}
+  - {fileID: 11400000, guid: 47327bd7e01744d798540106004b0d35, type: 2}
+  - {fileID: 11400000, guid: 9384ca3aed73426a81c62049dc1b3fec, type: 2}
+  - {fileID: 11400000, guid: eb08bd08c61149cb970594aec924ab10, type: 2}
+  - {fileID: 11400000, guid: f0fcb1ae80434276aabec7f68b860265, type: 2}
+  - {fileID: 11400000, guid: 405660cb336e4d64873e0b0ff0b01f73, type: 2}
+  - {fileID: 11400000, guid: 45ec592e6e3d45a1a9dfa41056fcbb92, type: 2}
+  - {fileID: 11400000, guid: 9772e2167e8a4be3a16e16d8561d185b, type: 2}
+  - {fileID: 11400000, guid: 173213d8451848fa9a645aadd97d554a, type: 2}
+  - {fileID: 11400000, guid: 3c6cd519ea3a4730a7fda1e83271bcd8, type: 2}
+  - {fileID: 11400000, guid: cf1beb9011da4f07967b2fcb4da2e546, type: 2}
+  - {fileID: 11400000, guid: cf79ff99fd7e41bfa71abca5fd668555, type: 2}
+  - {fileID: 11400000, guid: cb4855d3bf56425a8cc85a058554607e, type: 2}
+  - {fileID: 11400000, guid: be9e78e8cc0c472e809b0f786c5886e8, type: 2}
+  - {fileID: 11400000, guid: ed499823df4c4074a50447bd7075606c, type: 2}
+  - {fileID: 11400000, guid: 06713a608fc045648ca6c14c900a8d65, type: 2}
+  - {fileID: 11400000, guid: 35e44abfe89e471ba134cc28ab9f7746, type: 2}
+  - {fileID: 11400000, guid: d5e84f7856694818b5ce6942a03e66f5, type: 2}
+  - {fileID: 11400000, guid: c84ef82bf40348b484683b28b7e51fa1, type: 2}
+  - {fileID: 11400000, guid: 1b65d52be8c148feb003614106503b8a, type: 2}
+  - {fileID: 11400000, guid: aa4e8026746448cabb92869e3a4520b9, type: 2}
+  - {fileID: 11400000, guid: a54a73ee5a8a459db3edd8f2d2019791, type: 2}
+  - {fileID: 11400000, guid: d8b35f637569407ba12156089e66a4b3, type: 2}
+  - {fileID: 11400000, guid: 42bbd622b2574dbfa5aa805c112299f6, type: 2}
+  - {fileID: 11400000, guid: 0bdbd0764e71403b99187fe8cbbc2e53, type: 2}
+  - {fileID: 11400000, guid: 4b419a8d376646c3af05ca24be411b38, type: 2}
+  - {fileID: 11400000, guid: fda6b49fa8584ab9a3c82ff85343600a, type: 2}
+  - {fileID: 11400000, guid: ff24152a15f74eca9ba717acc155362e, type: 2}
+  - {fileID: 11400000, guid: 9003ba93ec7249daaaa52360f6726fd5, type: 2}
+  - {fileID: 11400000, guid: 3c6d465f591f4b03a871212dbbbeeef2, type: 2}
+  - {fileID: 11400000, guid: d53a367b597347db8015551572217997, type: 2}
+  - {fileID: 11400000, guid: b91fb93ee279453ab239fc201a1876dc, type: 2}
+  - {fileID: 11400000, guid: 67f4430422864f3b90547983d849b6ee, type: 2}
+  - {fileID: 11400000, guid: 0a246a7a18344b9999c60ebbe4e90968, type: 2}
+  specItemDesc:
+  - {fileID: 11400000, guid: e61135a9bdaa463093b0c808aca615c8, type: 2}
+  - {fileID: 11400000, guid: d2c0ff4f859e4836bba9c5b45f8c0b7a, type: 2}
+  - {fileID: 11400000, guid: 37c324b87b4b432c8b81b88ca0b7c5de, type: 2}
+  - {fileID: 11400000, guid: fa876771a2c941faa9fb2148effadb00, type: 2}
+  - {fileID: 11400000, guid: 05fa69ab226e44d49a4d7fdaafb7361e, type: 2}
+  - {fileID: 11400000, guid: 32b38a289abd4bcea0796b186e66af4d, type: 2}
+  - {fileID: 11400000, guid: 01eb412bfacc47c4b1ef9fa4f01bcca6, type: 2}
+  - {fileID: 11400000, guid: 937e8669c9ea4999bceabfb618bfcbb3, type: 2}
+  - {fileID: 11400000, guid: 134deb974cec448a8ecb3cd17900d15f, type: 2}
+  - {fileID: 11400000, guid: a9fe599148ff466e9e44ff684cedbdfb, type: 2}
+  - {fileID: 11400000, guid: 0932185624c94ab6b25e37621cc459b1, type: 2}
+  - {fileID: 11400000, guid: 8e9ff9729b0b4685814f71f7140c1b4c, type: 2}
+  - {fileID: 11400000, guid: 0efe37f8d77e49079ea29a631de6701a, type: 2}
+  - {fileID: 11400000, guid: 19ae1e4505ee495faa7e9465af7c9a42, type: 2}
+  - {fileID: 11400000, guid: 56d3ea76a1574f3281ab7735df0a4ed0, type: 2}
+  - {fileID: 11400000, guid: 8eb9ceaf4f5b428fa8e8a970ea19c062, type: 2}
+  - {fileID: 11400000, guid: 9eadc78a06c844e4b74df7f45a8d3450, type: 2}
+  - {fileID: 11400000, guid: cca05aac6afd402c96acd8f333eec5f2, type: 2}
+  - {fileID: 11400000, guid: 6854e32a26c143578e4a582355ea4fec, type: 2}
+  - {fileID: 11400000, guid: 75b1804f12164039a80cc5710464e13f, type: 2}
+  - {fileID: 11400000, guid: a95aaf2ee2f24fe0b3eff83e6dafb859, type: 2}
+  - {fileID: 11400000, guid: c29ebef9314f401d9feba513a2d4d94e, type: 2}
+  - {fileID: 11400000, guid: 7281fe8fa2654cee8a95410e752ee591, type: 2}
+  - {fileID: 11400000, guid: bef8373db31041769cb252c4d50740cf, type: 2}
+  - {fileID: 11400000, guid: 801e36e9bc0f405a9782041c0dec5822, type: 2}
+  bonusParams:
+  - name: "\u041F\u043E\u0434\u0440\u044B\u0432"
+    experience: 115
+    bonusesCount: 0
+    bonusVariable: 6
+    needForGetBonus: 1
+  - name: "\u041F\u043E\u0434\u0440\u044B\u0432 2"
+    experience: 300
+    bonusesCount: 0
+    bonusVariable: 6
+    needForGetBonus: 2
+  - name: "\u0412\u0437\u0440\u044B\u0432"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 5
+    needForGetBonus: 1
+  - name: "\u0412\u0437\u0440\u044B\u0432 2"
+    experience: 300
+    bonusesCount: 0
+    bonusVariable: 5
+    needForGetBonus: 2
+  - name: "2 \u0444\u0440\u0430\u0433\u0430"
+    experience: 30
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 2
+  - name: "5 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 70
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 5
+  - name: "7 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 7
+  - name: "10 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 500
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 10
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442"
+    experience: 15
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 1
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442 3"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 3
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442 5"
+    experience: 150
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 5
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 1
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C 5"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 5
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C 10"
+    experience: 350
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 10
+  - name: "\u0440\u0443\u043A\u043E\u043F\u0430\u0448\u043A\u0430"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 3
+    needForGetBonus: 1
+  - name: "\u0440\u0443\u043A\u043E\u043F\u0430\u0448\u043A\u0430 3"
+    experience: 150
+    bonusesCount: 0
+    bonusVariable: 3
+    needForGetBonus: 3
+  - name: "\u0441\u0430\u043C\u043E\u0443\u0431\u0438\u0439\u0446\u0430"
+    experience: -10
+    bonusesCount: 0
+    bonusVariable: 4
+    needForGetBonus: 1
+  - name: "\u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0432\u044B\u0438\u0433\u0440\u0430\u043B\u0430"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 7
+    needForGetBonus: 1
+  - name: "\u041F\u0435\u0440\u0432\u043E\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 8
+    needForGetBonus: 1
+  - name: "\u0412\u0442\u043E\u0440\u043E\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 9
+    needForGetBonus: 1
+  - name: "\u0422\u0440\u0435\u0442\u044C\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 10
+    needForGetBonus: 1
+  - name: "\u0417\u0430\u0445\u0432\u0430\u0442\u0438\u043B \u0444\u043B\u0430\u0433"
+    experience: 25
+    bonusesCount: 0
+    bonusVariable: 11
+    needForGetBonus: 1
+  - name: "\u041F\u0440\u043E\u0439\u0434\u0435\u043D\u0430 \u043C\u0438\u0441\u0441\u0438\u044F"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 12
+    needForGetBonus: 1
+  - name: "5 \u0437\u043E\u043C\u0431\u0438"
+    experience: 5
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 5
+  - name: "20 \u0437\u043E\u043C\u0431\u0438"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 20
+  - name: "50 \u0437\u043E\u043C\u0431\u0438"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 300
+  - name: "3 \u0414\u0435\u043C\u043E\u043D\u0430"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 18
+    needForGetBonus: 3
+  - name: "10 \u0414\u0435\u043C\u043E\u043D\u043E\u0432"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 18
+    needForGetBonus: 10
+  - name: "3 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 3
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 3
+  - name: "20 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 20
+  - name: "50 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 50
+  - name: "1 \u0443\u0431\u0438\u0442\u0430\u044F \u0442\u0435\u0445\u043D\u0438\u043A\u0430"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 14
+    needForGetBonus: 1
+  - name: "3 \u0443\u0431\u0438\u0442\u044B\u0445 \u0442\u0435\u0445\u043D\u0438\u043A\u0438"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 14
+    needForGetBonus: 3
+  - name: "1 \u0432\u043E\u043B\u043D\u0430"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 1
+  - name: "3 \u0432\u043E\u043B\u043D\u044B"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 3
+  - name: "5 \u0432\u043E\u043B\u043D"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 5
+  - name: "10 \u0432\u043E\u043B\u043D"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 10
+  - name: "50 \u043A\u0443\u0431\u043E\u0432"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 19
+    needForGetBonus: 50
+  - name: "150 \u043A\u0443\u0431\u043E\u0432"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 19
+    needForGetBonus: 150
+  - name: "5 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 13
+    needForGetBonus: 5
+  - name: "20 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 13
+    needForGetBonus: 20
+  - name: "\u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 20
+    needForGetBonus: 1
+  bulletParams:
+  - name: "5mm"
+    initialAmount: 50
+    bulletGroup: 0
+    puckupAmount: 50
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "shels"
+    initialAmount: 10
+    bulletGroup: 1
+    puckupAmount: 10
+    initialAmountArray: 0A000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "rocket"
+    initialAmount: 1
+    bulletGroup: 2
+    puckupAmount: 1
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "energy"
+    initialAmount: 50
+    bulletGroup: 3
+    puckupAmount: 20
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "plazm"
+    initialAmount: 50
+    bulletGroup: 3
+    puckupAmount: 20
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "7.62"
+    initialAmount: 60
+    bulletGroup: 0
+    puckupAmount: 30
+    initialAmountArray: 3C000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Uran"
+    initialAmount: 1
+    bulletGroup: 5
+    puckupAmount: 0
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "PTURS"
+    initialAmount: 1
+    bulletGroup: 5
+    puckupAmount: 0
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Grenade"
+    initialAmount: 2
+    bulletGroup: 2
+    puckupAmount: 5
+    initialAmountArray: 02000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Snaip"
+    initialAmount: 5
+    bulletGroup: 0
+    puckupAmount: 2
+    initialAmountArray: 05000000000000000000000000000000
+    initialAmountIndex: 0
+  inventarBullets: 
+  clothesTransforms:
+  - "Bip01 Head"
+  - "Bip01 R Hand"
+  - "Bip01 L Hand"
+  - "Bip01 R UpperArm"
+  - "Bip01 L UpperArm"
+  - "Bip01 R Calf"
+  - "Bip01 L Calf"
+  - "Bip01 Spine"
+  - "Bip01 Spine"
+  - "Bip01 R Forearm"
+  - "Bip01 L Forearm"
+  - "Bip01 Head"
+  ammunitionName:
+  - "\u041D\u0435\u0442"
+  minGPSbullets: 00000000000000000000000000000000
+--- !u!114 &1791220287759652115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4760e3ee54ec95fb2cf7b606bbbb5721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleKey: 107
+  show: 0
+--- !u!1 &1791220285863826685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158341}
+  - component: {fileID: 1791220287759652116}
+  - component: {fileID: 1791220287222781192}
+  m_Layer: 0
+  m_Name: "MusicManager"
+  m_TagString: "Music"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.02952, y: 20.05834, z: -30.09518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d9ace105fd437539599df9063af2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClips:
+  - "Sleepwalking(Kubezumie2)_loop.ogg"
+  - "Spes_Omnium(Kubezumie2).ogg"
+  - "Survivors(Kubezumie2).ogg"
+  - "Time_of_Madness(Kubezumie2)loop.ogg"
+  - "Track_1_Kubezumie2_3.ogg"
+  maxVolume: 0.2
+  isMute: 0
+--- !u!82 &1791220287222781192
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826685}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1791220285863826686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158342}
+  - component: {fileID: 1791220287759652117}
+  m_Layer: 0
+  m_Name: "SocialNetObject"
+  m_TagString: "SocialNet"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972d309c3103cf8870e014473581c1f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platform: 2
+  api_url: 
+  api_id: 0
+  _playerUID: 
+  initialized: 0
+  moneyIcon:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 9fa46743c15846b988930ec139e1ae7c, type: 3}
+  - {fileID: 2800000, guid: e50f3ec8d4ad469f84f5d761ec247997, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  _refSite: 
+--- !u!1 &1791220285863826687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158343}
+  - component: {fileID: 1791220287759652111}
+  m_Layer: 0
+  m_Name: "LoadParams"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0592968b1d1b2b9fcc827a08f0befee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

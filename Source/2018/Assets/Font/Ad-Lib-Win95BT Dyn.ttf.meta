@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 1d2bd99b1d83436fba434461f4b81b30
+timeCreated: 1694281393
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "Ad-Lib-Win95BT Dyn"
+  fontNames:
+  - AdLib Win95BT
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

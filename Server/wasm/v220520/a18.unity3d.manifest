@@ -1,0 +1,50 @@
+ManifestFileVersion: 0
+CRC: 357264956
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: ea64be87f512a82a27c4710aeb97811b
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 7ec58305e7b356b2e3a9630d500f9664
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5276b2c10ddefef4898139612fa64b69, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: def3fdf27c9dfc04483812f3aec475a4, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets18/1.asset
+- Assets/bundles/Assets18/2.asset
+- Assets/bundles/Assets18/4.asset
+- Assets/bundles/Assets18/3.asset
+Dependencies: []

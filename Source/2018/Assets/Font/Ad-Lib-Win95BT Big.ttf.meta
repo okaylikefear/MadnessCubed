@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: d6b9dccce7604b5eb8404bedbf4867d9
+timeCreated: 1694281393
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 20
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "Ad-Lib-Win95BT Big"
+  fontNames:
+  - AdLib Win95BT
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

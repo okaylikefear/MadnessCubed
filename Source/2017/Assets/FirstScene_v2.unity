@@ -1,0 +1,4996 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &9999991
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &9999992
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+--- !u!157 &9999993
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 8
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 3
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_ShadowMaskMode: 2
+--- !u!1 &1791220285863826680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158336}
+  - component: {fileID: 1791220287759652110}
+  - component: {fileID: 1791220287759652112}
+  m_Layer: 0
+  m_Name: "Server"
+  m_TagString: "Server"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5eaf5da8fa074ebd9e79685fab9b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingTex:
+  - {fileID: 2800000, guid: 63dbe5e741c24e34af1fea17962645f9, type: 3}
+  - {fileID: 2800000, guid: c13dcbe9bd4b4fed90603e291260873a, type: 3}
+  - {fileID: 2800000, guid: f4b8efe4fa744df0b216ab420b94470c, type: 3}
+  - {fileID: 2800000, guid: e9dd049b9016470db9d8c7c6d4fa45b5, type: 3}
+  - {fileID: 2800000, guid: 1ef537c471c246018c161bb7fcca5e9f, type: 3}
+  - {fileID: 2800000, guid: e195b635ddac48a29db37e6378fab86f, type: 3}
+--- !u!114 &1791220287759652112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f1b91d0dc89edf4122fcc0b0edb1c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pb_bgTex: {fileID: 2800000, guid: 9d00e9d8bb934417b0530dd340a166c0, type: 3}
+  pb_fillTex: {fileID: 2800000, guid: d5791379c8c840509172d3b5160d4d91, type: 3}
+  pb_borderTex: {fileID: 2800000, guid: b5b93127c13c4078a8acfdcd2f1119ff, type: 3}
+  pb_runTex: {fileID: 2800000, guid: fe86ecb8df5640c4bdff75850b671d8a, type: 3}
+  debugDownloadWWW: 0
+  downloadInfo:
+  - name: "Assets2_MenuItems"
+    path: "a2.unity3d"
+    assetRevision: 171030
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets3_BattleResources"
+    path: "a3.unity3d"
+    assetRevision: 170509
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets4_Sounds"
+    path: "a4.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets5_skins"
+    path: "a5.unity3d"
+    assetRevision: 170526
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets6_Weapons"
+    path: "a6.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets7"
+    path: "a7.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets8"
+    path: "a8.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets9"
+    path: "a9.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets10"
+    path: "a10.unity3d"
+    assetRevision: 170209
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets11"
+    path: "a11.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets12"
+    path: "a12.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets13"
+    path: "a13.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets14"
+    path: "a14.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets15"
+    path: "a15.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets16"
+    path: "a16.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets17"
+    path: "a17.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets18"
+    path: "a18.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets19"
+    path: "a19.unity3d"
+    assetRevision: 171030
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets20"
+    path: "a20.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets21"
+    path: "a21.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets22"
+    path: "a22.unity3d"
+    assetRevision: 161017
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets23"
+    path: "a23.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets24"
+    path: "a24.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets25"
+    path: "a25.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets26"
+    path: "a26.unity3d"
+    assetRevision: 161221
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+--- !u!1 &1791220285863826681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158337}
+  - component: {fileID: 1791220287759652113}
+  - component: {fileID: 1791220287222781192}
+  m_Layer: 0
+  m_Name: "MusicManager"
+  m_TagString: "Music"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.02952, y: 20.05834, z: -30.09518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d9ace105fd437539599df9063af2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClips:
+  - "Sleepwalking(Kubezumie2)_loop.ogg"
+  - "Spes_Omnium(Kubezumie2).ogg"
+  - "Survivors(Kubezumie2).ogg"
+  - "Time_of_Madness(Kubezumie2)loop.ogg"
+  - "Track_1_Kubezumie2_3.ogg"
+  maxVolume: 0.2
+  isMute: 0
+--- !u!82 &1791220287222781192
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826681}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1791220285863826682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158338}
+  - component: {fileID: 1791220287759652111}
+  m_Layer: 0
+  m_Name: "LoadParams"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0592968b1d1b2b9fcc827a08f0befee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1791220285863826683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158339}
+  - component: {fileID: 1791220287759652114}
+  m_Layer: 0
+  m_Name: "PathFinderArray"
+  m_TagString: "PathFinder"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2447966, y: 1.374345, z: 0.0144043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64338ab5f50e309829f88238d0a8373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arraySize: 5000
+  openedArrayNum: 0
+  closedArrayNum: 0
+--- !u!1 &1791220285863826684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158340}
+  - component: {fileID: 1791220287759652107}
+  - component: {fileID: 1791220287759652108}
+  - component: {fileID: 1791220287759652115}
+  m_Layer: 0
+  m_Name: "OH"
+  m_TagString: "ObjectsHolder"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00390625, y: 1.013899, z: 0.1352777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f996e1c56e29eb6f8d520256b70d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  build: 20
+  loadTex: {fileID: 2800000, guid: a2b0e40e683d4fb0b428e5d8a9f15974, type: 3}
+  lang: 0
+  gravity: 0
+  testObj: {fileID: 1791220285863826746, guid: b1ce8749c97bda545ba73caf9a4028ef, type: 2}
+  monsterPrefabName:
+  - "Zombie"
+  - "Agent"
+  - "Soldat"
+  - "ZombieAxes"
+  - "Demon"
+  - "ZombieSaw"
+  - "deadMoroz"
+  - "Assets11\x2fRobot1"
+  - "Assets11\x2fRobot2"
+  - "Assets11\x2fRobot3"
+  - "Assets11\x2fRobot4"
+  - "Assets11\x2fRobot5"
+  - "Assets8\x2fAgent2"
+  - "Assets8\x2fStalker"
+  - "ZKnight"
+  - "FlySoldat"
+  monstrePoints: 0A0000000F0000000F0000000C0000000C00000012000000320000000A0000000C0000000C0000000F000000280000000F0000000F0000000F0000000F0000000F0000001400000023000000
+  transportPrefabName:
+  - "Quadrocycle"
+  - "Turel"
+  - "Quadrocycle2"
+  - "BTR2"
+  - "Assets10\x2fNetJeepGO"
+  - "Assets11\x2fNetBlackJeepGO"
+  - "BTR"
+  - "Heli"
+  - "Assets12\x2fBoat"
+  - "Assets17\x2fturrel1"
+  - "Assets17\x2fturrel2"
+  - "Assets22\x2fTankBlack"
+  - "Assets22\x2fTankBlue"
+  - "Assets22\x2fTankRed"
+  - "Assets22\x2fNetTitan"
+  cubesSound: 00000000000000000000000001000000030000000300000001000000030000000300000003000000020000000200000000000000000000000100000003000000030000000300000003000000030000000300000001000000000000000100000001000000010000000100000001000000010000000100000001000000010000000100000000000000000000000300000000000000000000000000000003000000030000000300000003000000020000000300000003000000030000000400000004000000000000000300000002000000020000000200000002000000020000000000000000000000000000000000000000000000000000000000000000000000040000000400000002000000020000000000000000000000000000000400000004000000040000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500000000000000
+  miniCube: {fileID: 1791220285863826744, guid: 4d7dc3c4a5e196840af8cf1c2682ad88, type: 2}
+  cubesStrength: 
+  - 1
+  - 1
+  - 1
+  - 3
+  - 70
+  - 70
+  - 5
+  - 5
+  - 5
+  - 5
+  - 3
+  - 3
+  - 1
+  - 3
+  - 3
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 1
+  - 1
+  - 3
+  - 3
+  - 1
+  - 1
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 50
+  - 50
+  - 50
+  - 50
+  - 50
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 0.2
+  - 0.2
+  - 3
+  - 3
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  AAnumInShop: 6E0000006F00000070000000710000007200000073000000
+  AAsounds: []
+  AAsoundsNames: []
+  wireItemNum: 116
+  waterAnimDeltaTime: 0.1
+  boundsPlane: {fileID: 1791220285863826743, guid: 02d66d59a97009846b1a5d8de3c8e808, type: 2}
+  testLightCube: {fileID: 1791220285863826747, guid: 3066463c1e70c304c8294108553de38a, type: 2}
+  api_url: 
+  api_id: 0
+  access_token: 
+  phpSecret: 
+  pointsToMoney: 1
+  pointsText: {fileID: 1791220285863826745, guid: df532b1523199ed4ba93b0a426086350, type: 2}
+  gameItemInfo: []
+  tutorialGO: {fileID: 0}
+  gameTypeStrRoom:
+  - "f"
+  - "b"
+  - "m"
+  - "s"
+  - "t"
+  - "x"
+  gameMaxTime: 3F420F003F420F002C0100005802000058020000580200005802000058020000580200005802000058020000
+  teamColor:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 1, g: 1, b: 0.1568628, a: 1}
+  builtInMaps:
+  - Id: 0
+    name: "\u041F\u0435\u0440\u0435\u043A\u0440\u0451\u0441\u0442\u043D\u044B\u0439 \u043E\u0433\u043E\u043D\u044C"
+    playersMax: 12
+    gameTypes: 00000100000000000001
+    size: 0
+  - Id: 1
+    name: "\u041C\u044F\u0441\u043D\u043E\u0439 \u043A\u0443\u0431"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 2
+    name: "\u0413\u043E\u0440\u043E\u0434"
+    playersMax: 12
+    gameTypes: 00000101000000000001
+    size: 0
+  - Id: 3
+    name: "\u0411\u0430\u0441\u0441\u0435\u0439\u043D"
+    playersMax: 12
+    gameTypes: 0000010000000000
+    size: 0
+  - Id: 5
+    name: "\u0421\u043A\u043B\u0430\u0434"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 14
+    name: "\u041C\u044F\u0441\u043E\u0440\u0443\u0431\u043A\u0430"
+    playersMax: 8
+    gameTypes: 0000010001000000
+    size: 0
+  - Id: 7
+    name: "\u0417\u0438\u043E\u043D-\u0422\u0435\u0445"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 8
+    name: "\u0412 \u043F\u0435\u0441\u043A\u0430\u0445"
+    playersMax: 12
+    gameTypes: 000001010000000001
+    size: 0
+  - Id: 9
+    name: "\u0417\u043E\u043C\u0431\u0438-\u0441\u0438\u0442\u0438"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 10
+    name: "\u0410\u0440\u0435\u043D\u0430"
+    playersMax: 12
+    gameTypes: 0000010101000000
+    size: 0
+  - Id: 11
+    name: "\u0411\u0438\u0431\u0437"
+    playersMax: 12
+    gameTypes: 0000010100000000
+    size: 0
+  - Id: 12
+    name: "\u0421\u0442\u0440\u0430\u0439\u043A"
+    playersMax: 12
+    gameTypes: 0000010001000100
+    size: 0
+  - Id: 13
+    name: "\u041C\u043E\u0442\u0435\u043B\u044C"
+    playersMax: 12
+    gameTypes: 0000010101000000
+    size: 0
+  - Id: 20
+    name: "\u0420\u0435\u043A\u0430"
+    playersMax: 12
+    gameTypes: 0000000000000000
+    size: 0
+  - Id: 22
+    name: "\u0414\u0432\u0435 \u0431\u0430\u0448\u043D\u0438"
+    playersMax: 12
+    gameTypes: 0000000001000100
+    size: 0
+  - Id: 24
+    name: "Assault Pro"
+    playersMax: 12
+    gameTypes: 0000000001000100
+    size: 0
+  - Id: 26
+    name: "\u0410\u043B\u044C\u0444\u0430"
+    playersMax: 12
+    gameTypes: 0000000001000001
+    size: 0
+  - Id: 27
+    name: "\u0410\u0440\u0433\u043E\u043B\u0438\u0441"
+    playersMax: 12
+    gameTypes: 0000000001000001
+    size: 0
+  - Id: 28
+    name: "\u0410\u0440\u0435\u043D\u0430 Sontar"
+    playersMax: 12
+    gameTypes: 0000000001000101
+    size: 0
+  - Id: 29
+    name: "\u041C\u044F\u0441\u043D\u043E\u0439 \u043A\u0443\u0431 2"
+    playersMax: 12
+    gameTypes: 0000010000000000
+    size: 0
+  - Id: 33
+    name: "\u0417\u0430\u043B\u0438\u0432"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 34
+    name: "\u041E\u0441\u0442\u0440\u043E\u0432"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 35
+    name: "\u041F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 36
+    name: "\u0420\u0435\u043A\u0430"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 37
+    name: "\u0420\u0430\u0437\u0432\u0438\u043B\u043A\u0430"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 38
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 1
+  - Id: 40
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 41
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 42
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 43
+    name: "\u043A\u043E\u0441\u043C\u043E\u0441"
+    playersMax: 12
+    gameTypes: 00010000000000
+    size: 0
+  - Id: 44
+    name: "\u0414\u0430\u0441\u0442 2"
+    playersMax: 12
+    gameTypes: 000000000000000001
+    size: 0
+  - Id: 45
+    name: "\u0425\u0437"
+    playersMax: 12
+    gameTypes: 000000000000000001
+    size: 0
+  - Id: 46
+    name: "\u0434\u0435\u043F\u043E"
+    playersMax: 12
+    gameTypes: 0000010001000000010001
+    size: 0
+  - Id: 47
+    name: "\u043B\u0435\u0441\u043E\u043F\u0438\u043B\u043A\u0430"
+    playersMax: 12
+    gameTypes: 0000000001000000010001
+    size: 0
+  - Id: 48
+    name: "\u0417\u043E\u043C\u0431\u0438 \u0442\u0430\u0443\u043D"
+    playersMax: 12
+    gameTypes: 00000001000000000000
+    size: 0
+  blockTypes:
+  - type: 0
+    itemId: 0
+    atlas: -256
+    group: 0
+  - type: 0
+    itemId: -1
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 3
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 4
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 5
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 6
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 7
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 8
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 9
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 10
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 11
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 12
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 13
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 14
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -2
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 17
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 18
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 19
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 20
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 21
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 22
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 23
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 24
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 25
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 26
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 27
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 28
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 29
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 30
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 31
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 32
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 33
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 34
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 35
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 36
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -3
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -4
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 39
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 40
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 41
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 42
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 43
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 44
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 45
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 46
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 47
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 48
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 49
+    atlas: 0
+    group: 4
+  - type: 0
+    itemId: 50
+    atlas: 0
+    group: 4
+  - type: 0
+    itemId: 51
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 52
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 53
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 54
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 55
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 56
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 57
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 58
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 59
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 60
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 61
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 62
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 63
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 0
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 1
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 1
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 2
+    atlas: 1
+    group: 3
+  - type: 0
+    itemId: 3
+    atlas: 1
+    group: 3
+  - type: 0
+    itemId: 4
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 5
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 6
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 7
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 8
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 9
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 10
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 11
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 12
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 13
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 14
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 15
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 16
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 17
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 18
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 19
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 20
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 21
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 22
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 23
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 24
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 25
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 26
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 27
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 28
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 29
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 30
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 31
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 32
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 33
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 34
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 35
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 36
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 37
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 38
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 39
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 40
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 41
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 42
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 43
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 44
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 45
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 46
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 47
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 48
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 49
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 50
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 51
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 52
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 53
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 54
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 55
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 56
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 57
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 58
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 59
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 60
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 61
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 62
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 63
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: -1
+    group: 5
+  - type: 0
+    itemId: 0
+    atlas: -2
+    group: 5
+  - type: 0
+    itemId: 0
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 1
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 2
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 3
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 4
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 5
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 6
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 7
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 8
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 9
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 10
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 11
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 12
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 13
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 14
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 15
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 16
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 17
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 18
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 19
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 20
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 21
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 22
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 23
+    atlas: 2
+    group: 0
+  - type: 1
+    itemId: 70
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 0
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 1
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 2
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 3
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 4
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 5
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 6
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 7
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 8
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 9
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 10
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 11
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 12
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 13
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 14
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 15
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 16
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 17
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 18
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 19
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 20
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 21
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 22
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 23
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 24
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 25
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 26
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 27
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 28
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 29
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 30
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 31
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 32
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 33
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 34
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 35
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 36
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 37
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 38
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 39
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 40
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 41
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 42
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 43
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 44
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 45
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 46
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 47
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 48
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 49
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 50
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 51
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 52
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 53
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 54
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 55
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 56
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 67
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 68
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 69
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 71
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 72
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 73
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 74
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 75
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 76
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 78
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 79
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 80
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 83
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 84
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 85
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 86
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 87
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 88
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 89
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 98
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 99
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 100
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 120
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 121
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 122
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 123
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 124
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 125
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 126
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 32
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 33
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 34
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 35
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 36
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 37
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 38
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 39
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 40
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 41
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 42
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 43
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 44
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 45
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 46
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: 4
+    group: 0
+  - type: 1
+    itemId: 139
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 140
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 141
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 142
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 143
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 144
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 145
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 146
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 147
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 148
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 149
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 150
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 151
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 152
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 153
+    atlas: 0
+    group: 0
+  - type: 2
+    itemId: 157
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 158
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 159
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 160
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 161
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 162
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 163
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 164
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 165
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 166
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 167
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 171
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 172
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 173
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 174
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 175
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 176
+    atlas: 0
+    group: 0
+  episodeDesc:
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 5
+    vip: 0
+  - minlevel: 35
+    vip: 1
+  mainCubesTex: {fileID: 0}
+  GameItemRotationVector:
+  - {x: 0, y: 0, z: 1}
+  - {x: 1, y: 0, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 1, z: 0}
+  - {x: 0, y: -1, z: 0}
+  usedCheat: 0
+  dieEffectMaterial: {fileID: 2100000, guid: a555a946f7384c8cae7d1faa45583f7e, type: 2}
+  updateFPSInterval: 0.5
+  emptyScreen: 0
+  showFPS: 0
+  autoaim: 1
+--- !u!114 &1791220287759652108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69944dab6a6d8f337ea58ae4d73f3b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popTex:
+  - {fileID: 2800000, guid: 08d3fb3b9645440bbf20ccd64116f4f7, type: 3}
+  - {fileID: 2800000, guid: e8e7e6663deb47b4b6833a07a0046a2f, type: 3}
+  - {fileID: 2800000, guid: f6fb1e97623641c9b3e00a32ced05999, type: 3}
+  - {fileID: 2800000, guid: 0a55b02e6f9c4ec7aa8837460aa1e66e, type: 3}
+  skins:
+  - {fileID: 11400000, guid: 01e37aa78fb6451796b250c781a92597, type: 2}
+  - {fileID: 11400000, guid: c9ce476b74a84e4baf8ce1f9d1a65d86, type: 2}
+  - {fileID: 11400000, guid: 704d11896921463bbce5fb8b2a9d3b10, type: 2}
+  - {fileID: 11400000, guid: f89102375c2043898d49c76e37fc9731, type: 2}
+  - {fileID: 11400000, guid: 8f728cfb251f47638abfe800f61c4897, type: 2}
+  - {fileID: 11400000, guid: 4352d18dada94965827d7a412233e60a, type: 2}
+  - {fileID: 11400000, guid: d381807e4c204c8cbef357f44cee7032, type: 2}
+  - {fileID: 11400000, guid: 81c5352673284a288b1a9826689a11ab, type: 2}
+  - {fileID: 11400000, guid: 09306ffd56714cd6b3a72fff9c2a1732, type: 2}
+  - {fileID: 11400000, guid: bf5dc5c677de4f0bb32cec54afdc96aa, type: 2}
+  - {fileID: 11400000, guid: 4f340a68b9d8443295363bcee8f537ca, type: 2}
+  - {fileID: 11400000, guid: be769e5ac9d047f4943aa02ac0071f02, type: 2}
+  - {fileID: 11400000, guid: c6a8b96f199b42c49afe6eabaa195c51, type: 2}
+  - {fileID: 11400000, guid: cf7e27e3b9374da7b48415e6bf28cc89, type: 2}
+  - {fileID: 11400000, guid: eb92d7620eb340efacef6a08af40a355, type: 2}
+  - {fileID: 11400000, guid: 3ddfa5e66c7f49e78426761ad11db019, type: 2}
+  - {fileID: 11400000, guid: 3cbcdbb69726441c90a86c97aec3a176, type: 2}
+  - {fileID: 11400000, guid: f6c3711d843d473cad8e4aa6334d4e4c, type: 2}
+  - {fileID: 11400000, guid: fac2875b2ad0469ead64835ad8b40d62, type: 2}
+  - {fileID: 11400000, guid: 1e9320a81a674738864531f7d623d9b4, type: 2}
+  - {fileID: 11400000, guid: 6df8676023d34cb195803e6e210966b7, type: 2}
+  - {fileID: 11400000, guid: 9b69a999b88642219e6de185844fd121, type: 2}
+  - {fileID: 11400000, guid: aba94239cc874ea48dc26bacfd06e116, type: 2}
+  - {fileID: 11400000, guid: 2d19291ab1074d55a56eac2ce11f2354, type: 2}
+  - {fileID: 11400000, guid: 014bb7a11f40481b83f594cd97ed9e45, type: 2}
+  - {fileID: 11400000, guid: 31c27af03dcc4a20b028bdbe6ad31e0e, type: 2}
+  dressItems:
+  - {fileID: 11400000, guid: 4daf0032b1ab4df3b3fd5eb5e784e647, type: 2}
+  - {fileID: 11400000, guid: 6cff88ca5f2b46ea86e9281af2f9c3d2, type: 2}
+  - {fileID: 11400000, guid: 7767d542abcf434699bc560c9832c8b7, type: 2}
+  - {fileID: 11400000, guid: e9c35c1c15cd4e19b22a1f9ebf3a7ece, type: 2}
+  - {fileID: 11400000, guid: 03bcf29873b14d38babbf836b08380d7, type: 2}
+  - {fileID: 11400000, guid: d637cca281bf4c13a3aa9a6652d50256, type: 2}
+  - {fileID: 11400000, guid: 040e65667fca45fc9874029c1684487c, type: 2}
+  - {fileID: 11400000, guid: a650a35e8c3e4a2d998d07714552f2c7, type: 2}
+  - {fileID: 11400000, guid: ae9d3a29cde949b0808b8e9102ea9bb4, type: 2}
+  - {fileID: 11400000, guid: e3df6e8a1f874eda813bc73469dc35a2, type: 2}
+  - {fileID: 11400000, guid: ee66b820b84d4dcd9b95e78b0b275bdd, type: 2}
+  - {fileID: 11400000, guid: f69db64b2f2f4554aa2cabb9bf275c84, type: 2}
+  - {fileID: 11400000, guid: 1bcbcea8e5094d50b97c610f9db8e5f2, type: 2}
+  - {fileID: 11400000, guid: c512259e3fb847baa63a200a2800a005, type: 2}
+  - {fileID: 11400000, guid: e7d86a77a0404357bd5f72cf00cb0bfd, type: 2}
+  - {fileID: 11400000, guid: 08c07d5e1c254497bebde0e7920c59a5, type: 2}
+  - {fileID: 11400000, guid: ae32671d910844c8a2438b4ec73b82b9, type: 2}
+  - {fileID: 11400000, guid: 21b93e9f759d4264ad6467de75e6fa97, type: 2}
+  - {fileID: 11400000, guid: 2df7aca4cd2544b1b7653f376b6129e9, type: 2}
+  - {fileID: 11400000, guid: 19609d47a2374ae09a1dd4ee5aab1e5e, type: 2}
+  - {fileID: 11400000, guid: 79dce702a29447cc83fdd810e8ec108d, type: 2}
+  - {fileID: 11400000, guid: e0f2cd062aec48a082474d47ac955323, type: 2}
+  - {fileID: 11400000, guid: 4a19d0188ebd4cf29c73a122411f0065, type: 2}
+  - {fileID: 11400000, guid: b646e661485c4393b2290ff3f8a6758f, type: 2}
+  - {fileID: 11400000, guid: 548160c0a2ba4a17b66ce78014df4e9d, type: 2}
+  - {fileID: 11400000, guid: 335793889a6c4dc3af411d68bb4f5a6f, type: 2}
+  - {fileID: 11400000, guid: 71a419b3706b464abb121f37ae583bd1, type: 2}
+  - {fileID: 11400000, guid: 17b8f2c8dad94c7cbd594924b0939b30, type: 2}
+  - {fileID: 11400000, guid: 283e9cf5552f4e9690fa4270101964d2, type: 2}
+  - {fileID: 11400000, guid: 4a58039ab9fa40c9bf9ea4fdf7e46497, type: 2}
+  - {fileID: 11400000, guid: 9d9be31a055e4263b864d22d7aead029, type: 2}
+  - {fileID: 11400000, guid: 0873cfbfb0944d5996bd87d26203f9fc, type: 2}
+  - {fileID: 11400000, guid: 8481b364861c42f79d6f12780e44aa7a, type: 2}
+  - {fileID: 11400000, guid: e4e5fd90725d423dbaa37309a358b92e, type: 2}
+  - {fileID: 11400000, guid: 07878d1ead5542deb65a8b2e7fb49b8a, type: 2}
+  - {fileID: 11400000, guid: aa7fc2def26b4a559e29f9abbbeb97e8, type: 2}
+  - {fileID: 11400000, guid: b6cac94bcbb844ee8d08b6dcd89a2f52, type: 2}
+  - {fileID: 11400000, guid: cedc8cd7da10428fbd265a114fe1994d, type: 2}
+  - {fileID: 11400000, guid: 7c53fecece8342eebf11af8988e0a3f5, type: 2}
+  - {fileID: 11400000, guid: 6590733e958c4bf7b7ed43b3fc9c8e72, type: 2}
+  - {fileID: 11400000, guid: 52d38b5556314030a5f2afab75ab2832, type: 2}
+  - {fileID: 11400000, guid: 3681fb4b4e8c4e34999c97f0b912ea2a, type: 2}
+  - {fileID: 11400000, guid: 55b10bb0e31644d48f367a6c2828b87a, type: 2}
+  - {fileID: 11400000, guid: 1879fb69007245c992e038be4dfd7b7c, type: 2}
+  - {fileID: 11400000, guid: 5cc40375a84f421a9c0d6502105212c8, type: 2}
+  - {fileID: 11400000, guid: 1acdfd2867ed4f9f962946f6cab578bd, type: 2}
+  - {fileID: 11400000, guid: 9f071523fbe34f09b5a12c5d400eb25b, type: 2}
+  - {fileID: 11400000, guid: dcf236987456428db078d4729717497a, type: 2}
+  - {fileID: 11400000, guid: 041ee6e9d6944b98a97a86bb6324704c, type: 2}
+  - {fileID: 11400000, guid: a26ace145a944b978e186e5f632c9754, type: 2}
+  - {fileID: 11400000, guid: 29fa4f8dc1cf4e4fb4cf849d5e9e53d1, type: 2}
+  - {fileID: 11400000, guid: 999c426f2c914439b2e57970c58068a9, type: 2}
+  - {fileID: 11400000, guid: 97da34a5901243888d09dec5cc27115d, type: 2}
+  - {fileID: 11400000, guid: 9aed9b772b2a4328aaa680e055444d08, type: 2}
+  - {fileID: 11400000, guid: 27579bbabd1b4a17b0c415a09a841a7e, type: 2}
+  - {fileID: 11400000, guid: c9740174a6eb47f991a7f73bf39b7309, type: 2}
+  - {fileID: 11400000, guid: 782d5fdd30ef429d8377af37f13fd8f7, type: 2}
+  - {fileID: 11400000, guid: 22046bd439e04eb587b95f2b9063a055, type: 2}
+  - {fileID: 11400000, guid: f29494b5a8f64a92b8bbde3c7a471259, type: 2}
+  - {fileID: 11400000, guid: 52ee63660a1f4907a17d82e8ece01481, type: 2}
+  - {fileID: 11400000, guid: 6a29d05ef38a4a6bb1a3842d42f6e499, type: 2}
+  - {fileID: 11400000, guid: 96809f95c064469e9cac56d5e16aa6cc, type: 2}
+  - {fileID: 11400000, guid: 28a04301b3964b2795dd90e6d0458762, type: 2}
+  - {fileID: 11400000, guid: 0a3c840318f34ded99de01149d941661, type: 2}
+  - {fileID: 11400000, guid: 0e15288a1bdc4f1190bed01211f9800f, type: 2}
+  - {fileID: 11400000, guid: bf6b36deb8bb4b95bf84558ff3e4c4c1, type: 2}
+  - {fileID: 11400000, guid: 925cdf355c94467e9ed17404824a0a11, type: 2}
+  - {fileID: 11400000, guid: 9c14c82b53be4e549b7ed19d530f6ce3, type: 2}
+  - {fileID: 11400000, guid: 236f99931e2c4111823f5063eecd0741, type: 2}
+  - {fileID: 11400000, guid: f30541a3f002449aaa83f864a40623b2, type: 2}
+  - {fileID: 11400000, guid: 4b3ef50a6f194d428a11a8f78ce7cd8e, type: 2}
+  - {fileID: 11400000, guid: c1ebabde28564598b8fd45ed7951789c, type: 2}
+  - {fileID: 11400000, guid: 1e992c6f097e4ea08249039e11da6e3e, type: 2}
+  - {fileID: 11400000, guid: 6483da872d25498f8c3f5a366c18b292, type: 2}
+  - {fileID: 11400000, guid: e5d35c64c2304108a2d4eed0f4ed8abf, type: 2}
+  - {fileID: 11400000, guid: 3283d45d5dd6471a8ce658862fe5cdb0, type: 2}
+  - {fileID: 11400000, guid: 40c7e3176b3d428cbd407ae399a16d02, type: 2}
+  - {fileID: 11400000, guid: 836a2de00962485483f0f4c329944129, type: 2}
+  - {fileID: 11400000, guid: 78ac077fbdf5469a96ec2457abcfca11, type: 2}
+  - {fileID: 11400000, guid: a777425b16134db9a466205eabcbc643, type: 2}
+  - {fileID: 11400000, guid: 56296648dceb44ce8d8cc69b5fbf329b, type: 2}
+  - {fileID: 11400000, guid: 3b88c5aa76dd4f779a72ae3ebc7f1f23, type: 2}
+  - {fileID: 11400000, guid: 5c28716fa41b46ad8931efdc965c6e92, type: 2}
+  - {fileID: 11400000, guid: 943ba39bf4f64e1691f068edaafe9012, type: 2}
+  - {fileID: 11400000, guid: 25153ad1d1314dbdaf34700e25ea3489, type: 2}
+  - {fileID: 11400000, guid: 3339fdafacca4606913d2a5b87e486f2, type: 2}
+  - {fileID: 11400000, guid: 3bb1f062dd6f4ad9a9fb432e95ce8ceb, type: 2}
+  - {fileID: 11400000, guid: 2123bc07946540f2a4030b68a0368436, type: 2}
+  - {fileID: 11400000, guid: 52063fe0bbe349778c8c85245386278b, type: 2}
+  - {fileID: 11400000, guid: 4c99759df6d14479a7d222954f4b9e85, type: 2}
+  - {fileID: 11400000, guid: 4f58578b142b408fab6e2f029f52e8e3, type: 2}
+  - {fileID: 11400000, guid: 86d5bd70a87642d6a8d4de64ebb5e86b, type: 2}
+  weaponParams:
+  - {fileID: 11400000, guid: b6094689828b47eba79df0ad886c8cae, type: 2}
+  - {fileID: 11400000, guid: b3bdfcac3220406ba3c3b5f43a72c83f, type: 2}
+  - {fileID: 11400000, guid: 636cf6c1e116456484eddd32691878d2, type: 2}
+  - {fileID: 11400000, guid: 9c7d9e1c17c54fa9b2eee7aaac61307f, type: 2}
+  - {fileID: 11400000, guid: 550d46a8e40c404d9a7d5357d01e6a73, type: 2}
+  - {fileID: 11400000, guid: 57bad92504f946f2955a2768fa2b3671, type: 2}
+  - {fileID: 11400000, guid: 74fffea92e2c4c3db9858c0fb14d26e4, type: 2}
+  - {fileID: 11400000, guid: e4b17df63c9f47508b7063ec1728ab94, type: 2}
+  - {fileID: 11400000, guid: 1f0932f0b702447bbd474c01b0e3f75f, type: 2}
+  - {fileID: 11400000, guid: 75c79878f5024de39ade3e9038e1176e, type: 2}
+  - {fileID: 11400000, guid: 3a70ffaef0b84cb2a8a58c7922f32249, type: 2}
+  - {fileID: 11400000, guid: f3332ba11e50411a9c8656e9e6adb221, type: 2}
+  - {fileID: 11400000, guid: a4acdda975f54ec6942490d692eaab7c, type: 2}
+  - {fileID: 11400000, guid: 409ab93c29c244f28be7edcc540e2fd7, type: 2}
+  - {fileID: 11400000, guid: 05020100b6974b07971f33b341c3e1d7, type: 2}
+  - {fileID: 11400000, guid: 31e4c099474242049327e9e1ab38ceaf, type: 2}
+  - {fileID: 11400000, guid: a9a320f9751142b6a14134416f107c80, type: 2}
+  - {fileID: 11400000, guid: 685cf226f27c42e189bca6953e3f0b56, type: 2}
+  - {fileID: 11400000, guid: 9eca4abf824c46f5a309ec0f54953429, type: 2}
+  - {fileID: 11400000, guid: 575415502f4b47a6b2ede8460d1823c3, type: 2}
+  - {fileID: 11400000, guid: 169578ab2ba8402e8ec627239642a8dd, type: 2}
+  - {fileID: 11400000, guid: b9585353261c4012bfded2b21514fbfa, type: 2}
+  - {fileID: 11400000, guid: 3287e829bd654b88b94cfb60210ddb93, type: 2}
+  - {fileID: 11400000, guid: eb2ff0d146834bfe971487c63861c0b4, type: 2}
+  - {fileID: 11400000, guid: f6ad8d2411924279b22181debfd93d42, type: 2}
+  - {fileID: 11400000, guid: 17c5c8684ec2443baa5143ea32610a31, type: 2}
+  - {fileID: 11400000, guid: 4e5ac7c8d23d42f4a1d57554d8d74fce, type: 2}
+  - {fileID: 11400000, guid: 5af310788fb945838f4800b881aa8f45, type: 2}
+  - {fileID: 11400000, guid: 543c3899567d4ff2b47b318471620e87, type: 2}
+  - {fileID: 11400000, guid: bf5edc35da0f46ec878f23f687a37ea7, type: 2}
+  - {fileID: 11400000, guid: e418cd52c03e4e2093aba043d1bb0595, type: 2}
+  - {fileID: 11400000, guid: 40bc67067aa74baea696a88b2b352ba3, type: 2}
+  - {fileID: 11400000, guid: 0f31278dfae546bebbdda7071b45220c, type: 2}
+  - {fileID: 11400000, guid: 81a998bfc747478597d531015b8029c3, type: 2}
+  - {fileID: 11400000, guid: adf7262daca44a7988312f99733d3f1b, type: 2}
+  - {fileID: 11400000, guid: 0e4ef84eec1c4ec5bf536cd986432d11, type: 2}
+  - {fileID: 11400000, guid: fa115c856a09497a99ec7a4063623d83, type: 2}
+  - {fileID: 11400000, guid: 00a20552ea9a46a5abf32754766d9632, type: 2}
+  - {fileID: 11400000, guid: c8ee160de80348558943e80f68dafe7e, type: 2}
+  - {fileID: 11400000, guid: def522d00d8a4673bb2b87d9557c3cf3, type: 2}
+  - {fileID: 11400000, guid: 7bd00974200241fca2d74f76dd995e74, type: 2}
+  - {fileID: 11400000, guid: c2f4699d35f8431b8e7778f0a5551944, type: 2}
+  - {fileID: 11400000, guid: 5871681c018b4cc1aec8c1b177a30a31, type: 2}
+  - {fileID: 11400000, guid: 7ad56a12aedb4d0aa7f5d89e45a32d0f, type: 2}
+  - {fileID: 11400000, guid: 188fadc81fcc45c1a2803c78aeec12fd, type: 2}
+  - {fileID: 11400000, guid: 87f6643904304cf5a1841a7d8845e96a, type: 2}
+  - {fileID: 11400000, guid: ed713a27e99a4b7480e941a521afab63, type: 2}
+  - {fileID: 11400000, guid: 377f23d53943491185260ac0e3062318, type: 2}
+  - {fileID: 11400000, guid: e62760629afa4738a5d09941ef457a7a, type: 2}
+  - {fileID: 11400000, guid: 78f7a931955f440db32177b7b158f04b, type: 2}
+  - {fileID: 11400000, guid: 360d70f3b0c44de8bd680668da5fb03a, type: 2}
+  - {fileID: 11400000, guid: 10ea06bcd93741d08fa1e617f981c647, type: 2}
+  - {fileID: 11400000, guid: f3ea4a4d2aad448d855362b2b31f6b2f, type: 2}
+  - {fileID: 11400000, guid: b5d892233d8d4748b59c0b9448bdc9d6, type: 2}
+  - {fileID: 11400000, guid: 26ea1ac9b97d49438d5552608a9148b4, type: 2}
+  - {fileID: 11400000, guid: e6353528cf554e4c9e50b382a0526835, type: 2}
+  - {fileID: 11400000, guid: 0d1b24bb02044882aa149ac132d56833, type: 2}
+  - {fileID: 11400000, guid: 5f3811998c3c4481ad3218b448fc8b3c, type: 2}
+  - {fileID: 11400000, guid: 508566d83a784c77ab83ba1e6dbc9932, type: 2}
+  - {fileID: 11400000, guid: 1db7172fba9b4a1fbe71e8d227583125, type: 2}
+  - {fileID: 11400000, guid: ecffc59e5b12433db80d8ee2093b8f7a, type: 2}
+  - {fileID: 11400000, guid: e6a8a3d04c6e46be81e65914384c8288, type: 2}
+  - {fileID: 11400000, guid: 221d149d167e4539bd4afd4cb262b632, type: 2}
+  - {fileID: 11400000, guid: 58ca4c36158b4c9386f7f5cc8064556f, type: 2}
+  - {fileID: 11400000, guid: 051bb69b42964ef2b260b6f2d1756193, type: 2}
+  - {fileID: 11400000, guid: cdb6198f263b49ffbb8f35f5f9abcd2f, type: 2}
+  - {fileID: 11400000, guid: b666599726ac49e189cd12691b0f5608, type: 2}
+  - {fileID: 11400000, guid: b77a24c1ea78460e848e9b72d6691383, type: 2}
+  - {fileID: 11400000, guid: 09f1286dfceb4483bc0972db34880d9c, type: 2}
+  - {fileID: 11400000, guid: 01fe6df2a613442091f3fb0101041574, type: 2}
+  - {fileID: 11400000, guid: 78b4d87a83b242efb8c6761dfd456651, type: 2}
+  - {fileID: 11400000, guid: c50f8f7dd87a4f838af992e94fe18119, type: 2}
+  - {fileID: 11400000, guid: afe2023f7cff4fb3b6993f2864fd2832, type: 2}
+  - {fileID: 11400000, guid: 4e99e9fd1328494b8df631afcb9563e7, type: 2}
+  weaponSkins:
+  - {fileID: 11400000, guid: 6a8edaf9c5fe4a2089a58c88f27f2860, type: 2}
+  - {fileID: 11400000, guid: d22937d3e88840018f13306d863fa6d2, type: 2}
+  - {fileID: 11400000, guid: 86a9e0d988f849cb81e97601308ff8f7, type: 2}
+  - {fileID: 11400000, guid: b672634675744b66b5475c7d4552b7e4, type: 2}
+  - {fileID: 11400000, guid: bc05f830a77a4e6dadcf89c65ff24634, type: 2}
+  - {fileID: 11400000, guid: fc3980eb555745e1aa1e51d792065fcb, type: 2}
+  - {fileID: 11400000, guid: 079a3d89e9a849c3a52005e1b2f78ab9, type: 2}
+  - {fileID: 11400000, guid: ec6f723d267d4737ba1794843832dc97, type: 2}
+  - {fileID: 11400000, guid: 04a3d9becbc74754b2ecb14105ec1c8e, type: 2}
+  - {fileID: 11400000, guid: cf396f58af114d84ace33a339be78ef9, type: 2}
+  - {fileID: 11400000, guid: bcfc2756ba254c1ebf872fa4f71bc412, type: 2}
+  - {fileID: 11400000, guid: 5226263f344e4825b56dbdd929a2d157, type: 2}
+  - {fileID: 11400000, guid: c5966c86d83c48f598f9e871f7b97589, type: 2}
+  itemDesc:
+  - {fileID: 11400000, guid: 907e5840a83b476a8cc2faded4cd3c42, type: 2}
+  - {fileID: 11400000, guid: 5bef939f2cf947b183bb89d6adff99e7, type: 2}
+  - {fileID: 11400000, guid: 0835efb328244303ad59e98144bf7586, type: 2}
+  - {fileID: 11400000, guid: b0c1b0f5272640f78cee6a79b0166364, type: 2}
+  - {fileID: 11400000, guid: 94ed7902353948e4b764631bbef17de7, type: 2}
+  - {fileID: 11400000, guid: 51c51eda15dd45448dab96d609f13ab9, type: 2}
+  - {fileID: 11400000, guid: 994ffc250cfe4bae9295ad380526be00, type: 2}
+  - {fileID: 11400000, guid: 12013327b07c48c7886a3cd7c5930a68, type: 2}
+  - {fileID: 11400000, guid: 2646ad421f57400db4b53f27abc6df4f, type: 2}
+  - {fileID: 11400000, guid: da55a7770b5d4e0f8bc1fd86f34feddf, type: 2}
+  - {fileID: 11400000, guid: 399dd3fd775a4d24b964d71c261925c4, type: 2}
+  - {fileID: 11400000, guid: 69bca4b26a8b4e3cbfb8a3aea6a387d3, type: 2}
+  - {fileID: 11400000, guid: ce5c7fa002454d5395951743de9ba689, type: 2}
+  - {fileID: 11400000, guid: 724c21dbadb84d55bbef7673d7f9ea6a, type: 2}
+  - {fileID: 11400000, guid: c4a9862f8f58485baaf178c94ee26ae5, type: 2}
+  - {fileID: 11400000, guid: 94cee8d5b4eb4f75854a826453e99d60, type: 2}
+  - {fileID: 11400000, guid: 5d99cc4866e74442a8081d00653a2e7a, type: 2}
+  - {fileID: 11400000, guid: 415343d82d2b45da8acf0af05e3b74a5, type: 2}
+  - {fileID: 11400000, guid: c73662d5243f47cda8c04e5af4395b2e, type: 2}
+  - {fileID: 11400000, guid: bc325b97b82849fb8edd09a75eecf264, type: 2}
+  - {fileID: 11400000, guid: c2541ec137b04d9a82f8ca5da36ad6ab, type: 2}
+  - {fileID: 11400000, guid: f7304f19afcd4c15b6c3e80be54ae8a0, type: 2}
+  - {fileID: 11400000, guid: fcc71cf044e24572aa2db2ea083d090d, type: 2}
+  - {fileID: 11400000, guid: 223d3bf398514ada926cd27b96658ec9, type: 2}
+  - {fileID: 11400000, guid: 8676efcec12c4c7ebff280e6e40a502f, type: 2}
+  - {fileID: 11400000, guid: a58f123e35e7438f84aabb14157bfe71, type: 2}
+  - {fileID: 11400000, guid: 3ec1e0da9e0149c7b2bdea2fb29f29a9, type: 2}
+  - {fileID: 11400000, guid: 3cfead2c9a784177a7397e425789df2c, type: 2}
+  - {fileID: 11400000, guid: 26ccae7a984d4d00ba27dd801fa7a506, type: 2}
+  - {fileID: 11400000, guid: 81624500ecb341da9a848709c3469d2d, type: 2}
+  - {fileID: 11400000, guid: 95ef547622694c0780697c9e2e880fe1, type: 2}
+  - {fileID: 11400000, guid: 55ceadbcfdbf466fa44ce8656051ad54, type: 2}
+  - {fileID: 11400000, guid: b1f582af483141e4a3a25421d3f94abf, type: 2}
+  - {fileID: 11400000, guid: 95c3321c719142aeb0221197a04f4774, type: 2}
+  - {fileID: 11400000, guid: c2687324941e4ae2be071b8fc9382e7b, type: 2}
+  - {fileID: 11400000, guid: 0e577e6c40ae4fce8c5511c20f58456a, type: 2}
+  - {fileID: 11400000, guid: 2381d23894514c079e36420c2471e772, type: 2}
+  - {fileID: 11400000, guid: 19b5bfe0651f41909beaea974a284034, type: 2}
+  - {fileID: 11400000, guid: cf667aad950c4368a72caf7c57ad4304, type: 2}
+  - {fileID: 11400000, guid: 103c4e3630a045a7a2c049b964b8e4c8, type: 2}
+  - {fileID: 11400000, guid: 588fbf2d516c4ffbb6f76fa7c01ea6b2, type: 2}
+  - {fileID: 11400000, guid: cc236bfb87fa4b438c4d23968561d357, type: 2}
+  - {fileID: 11400000, guid: 9bc33102ba1a4a7e8a6681da53efeef5, type: 2}
+  - {fileID: 11400000, guid: f30aa320495f489fad2ef0c790b53bf7, type: 2}
+  - {fileID: 11400000, guid: 3ed61dbc2ac14a588fffec29830c0cea, type: 2}
+  - {fileID: 11400000, guid: 7849f16241f446c88651d1ccaf21025c, type: 2}
+  - {fileID: 11400000, guid: f0920eb2893448be9370cb41b317825d, type: 2}
+  - {fileID: 11400000, guid: e2117ea7865b48fba1962853fc95594c, type: 2}
+  - {fileID: 11400000, guid: d74ed93eb9f0430db5ad125211eb6cd9, type: 2}
+  - {fileID: 11400000, guid: 3f095153d49145019f566952f97f6a6a, type: 2}
+  - {fileID: 11400000, guid: f4a4d8deb34e4680b920145cc9f4f1ab, type: 2}
+  - {fileID: 11400000, guid: 0b6c40b0f64140be890b2983a2201127, type: 2}
+  - {fileID: 11400000, guid: a44fef622c9e417a969f6db65e6c4125, type: 2}
+  - {fileID: 11400000, guid: 571e02e8f2c549be80720178ff6fcdc8, type: 2}
+  - {fileID: 11400000, guid: fe0e977d5f1c46f4b3d08a674fbccf45, type: 2}
+  - {fileID: 11400000, guid: db82307766794f4499c8727c4342c620, type: 2}
+  - {fileID: 11400000, guid: 0b8de8b43dd04afc88110a505d17a232, type: 2}
+  - {fileID: 11400000, guid: 0f65bf98c96747979adb3e50d30fda3d, type: 2}
+  - {fileID: 11400000, guid: 0747722f3a964614a745c2605a785858, type: 2}
+  - {fileID: 11400000, guid: 7a33f41373d3415da4079b3450ca3c59, type: 2}
+  - {fileID: 11400000, guid: c5cf1e3838f843ac8d65b0a9d2bbb457, type: 2}
+  - {fileID: 11400000, guid: d1a8909f5fd548ea84d05a398670aa48, type: 2}
+  - {fileID: 11400000, guid: 3a6d29aa5914493e8f0a88f56cdb261e, type: 2}
+  - {fileID: 11400000, guid: b6befd0853ef43a2bf68bd14d8629f9a, type: 2}
+  - {fileID: 11400000, guid: 6dc87ea522174ac79cc79aff3dfea5f9, type: 2}
+  - {fileID: 11400000, guid: 627145990d1a48ef903eb470161df310, type: 2}
+  - {fileID: 11400000, guid: 602da4adec6442349137604379543a2e, type: 2}
+  - {fileID: 11400000, guid: e09683752a1f4ba3b3e3d19612d4e3e8, type: 2}
+  - {fileID: 11400000, guid: dc2634d4f86f41b3a1ad87cff26eb838, type: 2}
+  - {fileID: 11400000, guid: 3023d0e610f94b79b30f470002c201b6, type: 2}
+  - {fileID: 11400000, guid: df3bacc82b004da881d02e8f826b6e77, type: 2}
+  - {fileID: 11400000, guid: a4f1be03676641c08aa9d66854064d38, type: 2}
+  - {fileID: 11400000, guid: 57a867bc38aa4eb28bf91e501a5da399, type: 2}
+  - {fileID: 11400000, guid: 66364930b1474b6cbbe77b8b1aed6a1d, type: 2}
+  - {fileID: 11400000, guid: 36bf103e6d1646b2a51e6b392dd49cbc, type: 2}
+  - {fileID: 11400000, guid: a701a3037d39402e99a29bf44e028f02, type: 2}
+  - {fileID: 11400000, guid: 0d1808a2580044e498686c42d35d6f3b, type: 2}
+  - {fileID: 11400000, guid: cbfbb08c1b604b06ba3aa1517dddd6c0, type: 2}
+  - {fileID: 11400000, guid: a5cb059f78174712b233c3e4f0a0ec55, type: 2}
+  - {fileID: 11400000, guid: f4f326ffe7514f02a2600166043f0ddd, type: 2}
+  - {fileID: 11400000, guid: 66010de1ff2341a78715a76db600aab8, type: 2}
+  - {fileID: 11400000, guid: 6f1ed62a77eb4909be91c7909534f602, type: 2}
+  - {fileID: 11400000, guid: 1ac0da0a8a814f41948c79dbff50a6db, type: 2}
+  - {fileID: 11400000, guid: 628a44e0eedb4aee9cd0b48050f725e8, type: 2}
+  - {fileID: 11400000, guid: 40c2998baf3b47fabd0d1d89599afd7b, type: 2}
+  - {fileID: 11400000, guid: 29c6edf002d2430e9e37f077232c8792, type: 2}
+  - {fileID: 11400000, guid: 8381df469d1c40f09a71e98c65f28e68, type: 2}
+  - {fileID: 11400000, guid: 9083e97c054e4a0caf7284ba6068c906, type: 2}
+  - {fileID: 11400000, guid: ad6f19c1629a4d6eb4b42eebbfecff3a, type: 2}
+  - {fileID: 11400000, guid: 8fe3bb4be2ff4fa08ed020e65f5199d8, type: 2}
+  - {fileID: 11400000, guid: a82841d1400246d4bec18bcf2e07aa8a, type: 2}
+  - {fileID: 11400000, guid: f648aa24bf134071befc26cc2b0e04a3, type: 2}
+  - {fileID: 11400000, guid: 8b1e466aa9fd493e85fe7c0c96dae0ed, type: 2}
+  - {fileID: 11400000, guid: 967a60161eaa4af5b81f8d8507842dd2, type: 2}
+  - {fileID: 11400000, guid: 60784a11c3c947eeafa66972996bf7af, type: 2}
+  - {fileID: 11400000, guid: f09bd4b4856e44acbfe1b17812f237d8, type: 2}
+  - {fileID: 11400000, guid: 7f00f99ec15c46db93f3c45ddc172a76, type: 2}
+  - {fileID: 11400000, guid: 55770e5ebfd24911a1b920013b98e058, type: 2}
+  - {fileID: 11400000, guid: 0b7a7ec01a494f23a3bbbbbb8fba3343, type: 2}
+  - {fileID: 11400000, guid: 6552a698b9f6498aafabc5b0176e7fbc, type: 2}
+  - {fileID: 11400000, guid: 4bc12c8379a94c148b54496b04d05d6b, type: 2}
+  - {fileID: 11400000, guid: 3dcd70b5539a4130bf4be9b4705f2a6d, type: 2}
+  - {fileID: 11400000, guid: b016bfeb8fd64cee95475ec8e9f462d0, type: 2}
+  - {fileID: 11400000, guid: 9fba65dcb734463787bb598d7dd9df08, type: 2}
+  - {fileID: 11400000, guid: c5f45e1c3cbc44cb8da1dee074d20e1f, type: 2}
+  - {fileID: 11400000, guid: fcac4b52d1d84da98cc5429c5e67c698, type: 2}
+  - {fileID: 11400000, guid: 50552fa6f35a4dd88883be05f2e70060, type: 2}
+  - {fileID: 11400000, guid: 02c592ca25c6462fb085f41950434e03, type: 2}
+  - {fileID: 11400000, guid: 4476da84d373423884facda20052dfd8, type: 2}
+  - {fileID: 11400000, guid: b73c9766a9bf4762ba37b7c5559b047c, type: 2}
+  - {fileID: 11400000, guid: bfd62de96d024b9a87561efc76aaf58c, type: 2}
+  - {fileID: 11400000, guid: 933d7178e5994c25a5a8fda55c7b8e37, type: 2}
+  - {fileID: 11400000, guid: fbed4efd559e42d98e869bcb820e42d4, type: 2}
+  - {fileID: 11400000, guid: a69226c96a2542dbaa0b57ceef251184, type: 2}
+  - {fileID: 11400000, guid: 86026d50652841f3920c7ed8fa4bdc68, type: 2}
+  - {fileID: 11400000, guid: 4a9ce556bfdc40509175aaac47e6a3ed, type: 2}
+  - {fileID: 11400000, guid: f1d17faf05a547709f3008be3f2dd640, type: 2}
+  - {fileID: 11400000, guid: 0ad5c8f74c434fbf803385649e8a31fa, type: 2}
+  - {fileID: 11400000, guid: 7bccec1e1d37408493809750186a3d6c, type: 2}
+  - {fileID: 11400000, guid: 1f27001a5dca4b7f857e20700d5deff6, type: 2}
+  - {fileID: 11400000, guid: 7f73b1a910534dcc985f67560e4273f0, type: 2}
+  - {fileID: 11400000, guid: 27b8648dcb624e22a3e57a30b4d87ab7, type: 2}
+  - {fileID: 11400000, guid: e370abd4d9dc47a0a6804f5a3232e999, type: 2}
+  - {fileID: 11400000, guid: 2922125d646b4f02a7e529c59dbcbad1, type: 2}
+  - {fileID: 11400000, guid: f18b4463514b41ada1b49ac00cddef5f, type: 2}
+  - {fileID: 11400000, guid: 3cff4c0c6e5e47539f7b83164164b8d6, type: 2}
+  - {fileID: 11400000, guid: 6cd4ce0064294321833ff95288b96b18, type: 2}
+  - {fileID: 11400000, guid: 55a9fdfe18c144b798c8f428545b83e9, type: 2}
+  - {fileID: 11400000, guid: 9b52c8f04be64c33bbc3560d51e2c968, type: 2}
+  - {fileID: 11400000, guid: 65bf7817db044fd19c0ce191f9abcaae, type: 2}
+  - {fileID: 11400000, guid: 6e047fb662274e6c993baad5c1bebbf9, type: 2}
+  - {fileID: 11400000, guid: a39958e9813946948caa511edfc69549, type: 2}
+  - {fileID: 11400000, guid: a13bede086eb440686e5610435ab15c6, type: 2}
+  - {fileID: 11400000, guid: e8cb0d689717473382a3b59bf540ebb1, type: 2}
+  - {fileID: 11400000, guid: 021c4f1c259640ec92f9439ae9a836e7, type: 2}
+  - {fileID: 11400000, guid: 4b3c9bb25f2d41c6a3310ee68541c852, type: 2}
+  - {fileID: 11400000, guid: 4a05fdd5a448463384ce52176ab09702, type: 2}
+  - {fileID: 11400000, guid: 8500bbd12ff24816bebff69ecf87efe2, type: 2}
+  - {fileID: 11400000, guid: afa27f52c99740e4ba134f57689eccc0, type: 2}
+  - {fileID: 11400000, guid: f14eb72bc3d641e381651b0b9bf534ec, type: 2}
+  - {fileID: 11400000, guid: ad179eeca662480fae432d167ff89524, type: 2}
+  - {fileID: 11400000, guid: a05f0e568c9a48b2b1306d4e3c207773, type: 2}
+  - {fileID: 11400000, guid: 79125c7406174db2b73a853d768df10f, type: 2}
+  - {fileID: 11400000, guid: 0a497da8d362411787e8b1e9901626b1, type: 2}
+  - {fileID: 11400000, guid: 80973ed8f8cb4ddc88fabdd1e0eb44bc, type: 2}
+  - {fileID: 11400000, guid: 5e38c676bc6847c7b57f3cc807cbc6a6, type: 2}
+  - {fileID: 11400000, guid: e5352459229d4a8ab04979b34a2b8c37, type: 2}
+  - {fileID: 11400000, guid: 38296f42f5ab4e368e8812c4c9596d95, type: 2}
+  - {fileID: 11400000, guid: a5309d8964ee4972a18b69ea5bb1605e, type: 2}
+  - {fileID: 11400000, guid: 49d25272c9b24014bd3cd2a9010c1d30, type: 2}
+  - {fileID: 11400000, guid: aeeb04e1d1b34d6d849a94b02921bf3c, type: 2}
+  - {fileID: 11400000, guid: 4a94bbe1550c4bacb18c326277c74945, type: 2}
+  - {fileID: 11400000, guid: f66d39a962f1409a987b1b3227fa4b1d, type: 2}
+  - {fileID: 11400000, guid: 5dae8d8899e7484ea7ab693472afd1d9, type: 2}
+  - {fileID: 11400000, guid: b24a6a3a68724c4ca189dd169eff3a6f, type: 2}
+  - {fileID: 11400000, guid: ee8e202d12ad4c2aaf6e6bd95eb1ef64, type: 2}
+  - {fileID: 11400000, guid: 2fbf7f3c1bae4bfd8a6d23259cb33e76, type: 2}
+  - {fileID: 11400000, guid: 0a7c116fdd234029a5cdb06461213915, type: 2}
+  - {fileID: 11400000, guid: 0b73d6672ed3425d8119348f4f7a765d, type: 2}
+  - {fileID: 11400000, guid: a1c92185b5214b0298e237915780cd29, type: 2}
+  - {fileID: 11400000, guid: b89089413a5f4251b2f7976dd2171d83, type: 2}
+  - {fileID: 11400000, guid: e66131cfd77143f38f056f4e2990a818, type: 2}
+  - {fileID: 11400000, guid: 48ea0e90384443dea11a71ae03d67af6, type: 2}
+  - {fileID: 11400000, guid: 90d2cdb3fc51495da150ea858e8bd266, type: 2}
+  - {fileID: 11400000, guid: cd5c3186bd4a483ebbe30f0a60e1a864, type: 2}
+  - {fileID: 11400000, guid: 9816c572a1b94584ba80831c3a96d491, type: 2}
+  - {fileID: 11400000, guid: f66d7b8cea9049b1ad7d439036c45750, type: 2}
+  - {fileID: 11400000, guid: 2bd07749d7874c4692b51e7c898c928a, type: 2}
+  - {fileID: 11400000, guid: 799256974187497498ac0fb9ecba6f75, type: 2}
+  - {fileID: 11400000, guid: 9e022afcccb74ffc98ee09ffa0cb8948, type: 2}
+  - {fileID: 11400000, guid: 4dd0ccd3ff3a4d19bf2be43dd87bb8ed, type: 2}
+  - {fileID: 11400000, guid: 90b54746b9e24047a72275ecc55ab0f9, type: 2}
+  - {fileID: 11400000, guid: 2362853f522149c4bda502d6025fa508, type: 2}
+  - {fileID: 11400000, guid: acc67c381a744fe6ab6cd8a11115f06b, type: 2}
+  - {fileID: 11400000, guid: a3763e43a3224c5c89009a946db209f8, type: 2}
+  - {fileID: 11400000, guid: 6c7875e6ba8d4d1b9c7834563f93139a, type: 2}
+  - {fileID: 11400000, guid: f6d8cae875f845e6946227d7bdf5c1cf, type: 2}
+  - {fileID: 11400000, guid: 1221a9a23d6e41ee8dc236f36a1862b7, type: 2}
+  - {fileID: 11400000, guid: c6d0e40abadd476a95cad859551aef01, type: 2}
+  - {fileID: 11400000, guid: 8065b126bba24b9080679a2bf761aed4, type: 2}
+  - {fileID: 11400000, guid: a70ccebeff5d4c6f98bab8fa53856177, type: 2}
+  - {fileID: 11400000, guid: b88b00763adb445db3fe84e952544dc6, type: 2}
+  - {fileID: 11400000, guid: 49e584dcc7a149d18b8af81ba41058b7, type: 2}
+  - {fileID: 11400000, guid: 0df5ad00874b4823b80fd0ccdc7c404f, type: 2}
+  - {fileID: 11400000, guid: e901b82a3d3f42a2a6750f4bd440e4e3, type: 2}
+  - {fileID: 11400000, guid: 37ddcbcca24c4819aa30dc01b96af6f3, type: 2}
+  - {fileID: 11400000, guid: aa066d93499140b68da28733e1438db7, type: 2}
+  - {fileID: 11400000, guid: 1ae58c89333c4846b0dd8d81d6d95c6e, type: 2}
+  - {fileID: 11400000, guid: 57ce442d3cd2432b8f625019446e3bb5, type: 2}
+  - {fileID: 11400000, guid: dfc3654d5c104b00abd63798131ab1e3, type: 2}
+  - {fileID: 11400000, guid: bd9d82fb2c9a4f4db825391ed5cc6595, type: 2}
+  - {fileID: 11400000, guid: 4a43530c4ce1438cadc2593b8e410546, type: 2}
+  - {fileID: 11400000, guid: 46394604a8dd4e05939c44b87e915710, type: 2}
+  - {fileID: 11400000, guid: 695f6605f65d460ab83355f164819e48, type: 2}
+  - {fileID: 11400000, guid: 181f604e8b2b427dbabdb83643efd478, type: 2}
+  - {fileID: 11400000, guid: 91564ae02471434db0fe65569c621a2c, type: 2}
+  - {fileID: 11400000, guid: 56440bd5dbb345f1bb479d866012f9d0, type: 2}
+  - {fileID: 11400000, guid: 939352dc6c544340ab20235507731648, type: 2}
+  - {fileID: 11400000, guid: 376b9237ac334bc89b0e36d22f666c46, type: 2}
+  - {fileID: 11400000, guid: 0a67b18c4aa54cc1b3fd32749e3bbff1, type: 2}
+  - {fileID: 11400000, guid: db5541d3c4aa48d09330fb8a6471e0d2, type: 2}
+  - {fileID: 11400000, guid: 139bb1bec6fa485684d169299b8b86c7, type: 2}
+  - {fileID: 11400000, guid: b17ea2d6b23e4fb3803bd34d274db698, type: 2}
+  - {fileID: 11400000, guid: 9a76c3f699264e0d919fef6acd754bd9, type: 2}
+  - {fileID: 11400000, guid: f3fd188884364a46827c16ce316bad99, type: 2}
+  - {fileID: 11400000, guid: 2217d3cf46d64ac7ad218a219a7ffca6, type: 2}
+  - {fileID: 11400000, guid: 6e51df84ee1f479f919071552207157d, type: 2}
+  specItemDesc:
+  - {fileID: 11400000, guid: b6da38e443694170a1fd63b84ea93f10, type: 2}
+  - {fileID: 11400000, guid: 9069328f0cfa46cfac8e1b59c3e17fbd, type: 2}
+  - {fileID: 11400000, guid: 42000523dded4338ae2896f3c1a7403e, type: 2}
+  - {fileID: 11400000, guid: 938f26ed658544eeac42e2625c8e2d7c, type: 2}
+  - {fileID: 11400000, guid: d6830c9eaa4a4bbaa26ce085fca3ffb3, type: 2}
+  - {fileID: 11400000, guid: c4e77f0353ca4f2eba15e11241b97d33, type: 2}
+  - {fileID: 11400000, guid: 3037dcc86aaa41a1a617c84ac15f632a, type: 2}
+  - {fileID: 11400000, guid: 4041758d8403471da6c8c267baaf32c9, type: 2}
+  - {fileID: 11400000, guid: 362b968826d64f96a4301e71d625834d, type: 2}
+  - {fileID: 11400000, guid: d2a1567aef1648f89c47718f0d327057, type: 2}
+  - {fileID: 11400000, guid: 71177d460b3f4f20bce3211e2c1dd3b2, type: 2}
+  - {fileID: 11400000, guid: 8b4dc72783d14c74a5acb3b12f01ff6d, type: 2}
+  - {fileID: 11400000, guid: d46da82130de49bb82dc42efe946d26d, type: 2}
+  - {fileID: 11400000, guid: f0689aa51e574134b5393fadf5ee7c20, type: 2}
+  - {fileID: 11400000, guid: f7761305283140e892ab38188e302bef, type: 2}
+  - {fileID: 11400000, guid: a21b186740494a479d6f9bf6ed6fb520, type: 2}
+  - {fileID: 11400000, guid: 78def775bb524007a0a76d5398bbe57f, type: 2}
+  - {fileID: 11400000, guid: 2ec872c56aff4ef4a8b1dc0936f7e3e8, type: 2}
+  - {fileID: 11400000, guid: a0fb013854244c879e51ab4e315f9dfb, type: 2}
+  - {fileID: 11400000, guid: a707af55438a4c1f8dc3dae73ec993f2, type: 2}
+  - {fileID: 11400000, guid: 8d623057c563482ead54a8072c0b9989, type: 2}
+  - {fileID: 11400000, guid: 8c3b4cfa0cef4b5782c525f13d0bc0ef, type: 2}
+  - {fileID: 11400000, guid: a043c3585819410782a19c964d42eefa, type: 2}
+  - {fileID: 11400000, guid: 30d191f064444199bd0c73b99163cb4d, type: 2}
+  - {fileID: 11400000, guid: f8b814c42acd40c084699817c70c1597, type: 2}
+  bonusParams:
+  - name: "\u041F\u043E\u0434\u0440\u044B\u0432"
+    experience: 115
+    bonusesCount: 0
+    bonusVariable: 6
+    needForGetBonus: 1
+  - name: "\u041F\u043E\u0434\u0440\u044B\u0432 2"
+    experience: 300
+    bonusesCount: 0
+    bonusVariable: 6
+    needForGetBonus: 2
+  - name: "\u0412\u0437\u0440\u044B\u0432"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 5
+    needForGetBonus: 1
+  - name: "\u0412\u0437\u0440\u044B\u0432 2"
+    experience: 300
+    bonusesCount: 0
+    bonusVariable: 5
+    needForGetBonus: 2
+  - name: "2 \u0444\u0440\u0430\u0433\u0430"
+    experience: 30
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 2
+  - name: "5 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 70
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 5
+  - name: "7 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 7
+  - name: "10 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 500
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 10
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442"
+    experience: 15
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 1
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442 3"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 3
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442 5"
+    experience: 150
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 5
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 1
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C 5"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 5
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C 10"
+    experience: 350
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 10
+  - name: "\u0440\u0443\u043A\u043E\u043F\u0430\u0448\u043A\u0430"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 3
+    needForGetBonus: 1
+  - name: "\u0440\u0443\u043A\u043E\u043F\u0430\u0448\u043A\u0430 3"
+    experience: 150
+    bonusesCount: 0
+    bonusVariable: 3
+    needForGetBonus: 3
+  - name: "\u0441\u0430\u043C\u043E\u0443\u0431\u0438\u0439\u0446\u0430"
+    experience: -10
+    bonusesCount: 0
+    bonusVariable: 4
+    needForGetBonus: 1
+  - name: "\u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0432\u044B\u0438\u0433\u0440\u0430\u043B\u0430"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 7
+    needForGetBonus: 1
+  - name: "\u041F\u0435\u0440\u0432\u043E\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 8
+    needForGetBonus: 1
+  - name: "\u0412\u0442\u043E\u0440\u043E\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 9
+    needForGetBonus: 1
+  - name: "\u0422\u0440\u0435\u0442\u044C\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 10
+    needForGetBonus: 1
+  - name: "\u0417\u0430\u0445\u0432\u0430\u0442\u0438\u043B \u0444\u043B\u0430\u0433"
+    experience: 25
+    bonusesCount: 0
+    bonusVariable: 11
+    needForGetBonus: 1
+  - name: "\u041F\u0440\u043E\u0439\u0434\u0435\u043D\u0430 \u043C\u0438\u0441\u0441\u0438\u044F"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 12
+    needForGetBonus: 1
+  - name: "5 \u0437\u043E\u043C\u0431\u0438"
+    experience: 5
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 5
+  - name: "20 \u0437\u043E\u043C\u0431\u0438"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 20
+  - name: "50 \u0437\u043E\u043C\u0431\u0438"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 300
+  - name: "3 \u0414\u0435\u043C\u043E\u043D\u0430"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 18
+    needForGetBonus: 3
+  - name: "10 \u0414\u0435\u043C\u043E\u043D\u043E\u0432"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 18
+    needForGetBonus: 10
+  - name: "3 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 3
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 3
+  - name: "20 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 20
+  - name: "50 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 50
+  - name: "1 \u0443\u0431\u0438\u0442\u0430\u044F \u0442\u0435\u0445\u043D\u0438\u043A\u0430"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 14
+    needForGetBonus: 1
+  - name: "3 \u0443\u0431\u0438\u0442\u044B\u0445 \u0442\u0435\u0445\u043D\u0438\u043A\u0438"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 14
+    needForGetBonus: 3
+  - name: "1 \u0432\u043E\u043B\u043D\u0430"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 1
+  - name: "3 \u0432\u043E\u043B\u043D\u044B"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 3
+  - name: "5 \u0432\u043E\u043B\u043D"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 5
+  - name: "10 \u0432\u043E\u043B\u043D"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 10
+  - name: "50 \u043A\u0443\u0431\u043E\u0432"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 19
+    needForGetBonus: 50
+  - name: "150 \u043A\u0443\u0431\u043E\u0432"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 19
+    needForGetBonus: 150
+  - name: "5 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 13
+    needForGetBonus: 5
+  - name: "20 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 13
+    needForGetBonus: 20
+  - name: "\u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 20
+    needForGetBonus: 1
+  bulletParams:
+  - name: "5mm"
+    initialAmount: 50
+    bulletGroup: 0
+    puckupAmount: 50
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "shels"
+    initialAmount: 10
+    bulletGroup: 1
+    puckupAmount: 10
+    initialAmountArray: 0A000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "rocket"
+    initialAmount: 1
+    bulletGroup: 2
+    puckupAmount: 1
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "energy"
+    initialAmount: 50
+    bulletGroup: 3
+    puckupAmount: 20
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "plazm"
+    initialAmount: 50
+    bulletGroup: 3
+    puckupAmount: 20
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "7.62"
+    initialAmount: 60
+    bulletGroup: 0
+    puckupAmount: 30
+    initialAmountArray: 3C000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Uran"
+    initialAmount: 1
+    bulletGroup: 5
+    puckupAmount: 0
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "PTURS"
+    initialAmount: 1
+    bulletGroup: 5
+    puckupAmount: 0
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Grenade"
+    initialAmount: 2
+    bulletGroup: 2
+    puckupAmount: 5
+    initialAmountArray: 02000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Snaip"
+    initialAmount: 5
+    bulletGroup: 0
+    puckupAmount: 2
+    initialAmountArray: 05000000000000000000000000000000
+    initialAmountIndex: 0
+  inventarBullets: 
+  clothesTransforms:
+  - "Bip01 Head"
+  - "Bip01 R Hand"
+  - "Bip01 L Hand"
+  - "Bip01 R UpperArm"
+  - "Bip01 L UpperArm"
+  - "Bip01 R Calf"
+  - "Bip01 L Calf"
+  - "Bip01 Spine"
+  - "Bip01 Spine"
+  - "Bip01 R Forearm"
+  - "Bip01 L Forearm"
+  - "Bip01 Head"
+  ammunitionName:
+  - "\u041D\u0435\u0442"
+  minGPSbullets: 00000000000000000000000000000000
+--- !u!114 &1791220287759652115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4760e3ee54ec95fb2cf7b606bbbb5721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleKey: 107
+  show: 0
+--- !u!1 &1791220285863826685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158341}
+  - component: {fileID: 1791220287759652116}
+  m_Layer: 0
+  m_Name: "SocialNetObject"
+  m_TagString: "SocialNet"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972d309c3103cf8870e014473581c1f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platform: 2
+  api_url: 
+  api_id: 0
+  _playerUID: 
+  initialized: 0
+  moneyIcon:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: 1cb6acca00854cb9a1a640675d03246d, type: 3}
+  - {fileID: 2800000, guid: b9cb1264ad1b4a9aacf90a4437507e8e, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  _refSite: 
+--- !u!1 &1791220285863826686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158342}
+  - component: {fileID: 1791220287759652109}
+  m_Layer: 0
+  m_Name: "GameParams"
+  m_TagString: "GameParams"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f53f6b2559266a18b4ec145c664ec9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPlayersLimit: 16
+  maxPlayersInMission: 4
+  maxPlayersSurvival: 8
+  user: 
+  bonusDay: -1
+  dayNum: -1
+  parts: 
+  decodePlayerName: 
+  playerNumMaps: 0
+  cubesTimeOfEnd: []
+  weaponsSkinPrice1:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  weaponsSkinPrice2:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerMoney1:
+    fakeValue: 0
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+  playerMoney2:
+    fakeValue: 0
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+  weaponsSkin:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerHealth: 0
+  playerArmor: 0
+  playerSpeed: 0
+  playerJump: 0
+  playerDefend: 0
+  playerExpPoints: 0
+  playerExp: 0
+  playerFrags: 0
+  playerLevel: 0
+  playerSkins:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerVoices: 0
+  vipEnd: 0
+  playerSkin: 0
+  inventarSpecItems: 
+  moderType: 0
+  playerIsClothes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  playerClothes: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  inventarItemPrice1: 
+  inventarItemPrice2: 
+  specToMoney: 0
+  BonusTypeCode:
+  - "health"
+  - "armor"
+  - "speed"
+  - "jump"
+  - "defend"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qew"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  playerBaseHealth: 0
+  playerBaseArmor: 0
+  playerBaseSpeed: 0
+  playerBaseJump: 0
+  playerBaseDefend: 0
+  newMapPrice: 0
+  vipBonus: 0
+  codeI: 0
+  codeF: 0
+  radarZoom: 1
+  currentSpecBonusNum: -1
+  needTraining: 0
+  needTrainingBuild: 0
+  mouseSens: 15
+--- !u!1 &1791220285863826687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158343}
+  - component: {fileID: 1791220287759652117}
+  m_Layer: 0
+  m_Name: "Assets1_FirstMenu"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e585418ab0c8e1c7d28deae9f6f2a5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSkin: {fileID: 11400000, guid: cebb59104b52478d868ff6872b55c242, type: 2}
+  mainSkinSmall: {fileID: 11400000, guid: 9685e7c26b96422da2d1c7d004c0f250, type: 2}
+  emptySkin: {fileID: 11400000, guid: 1df54f742df04067ab53a5487a8d6318, type: 2}
+  yellowButton: {fileID: 11400000, guid: 76a88931a7ae4f2db5f3c0b491153e21, type: 2}
+  bigWhiteLabel: {fileID: 11400000, guid: a8952126643640b2b0449b0b71547d11, type: 2}
+  bigBlackLabel: {fileID: 11400000, guid: 6edd4f98c6df4bcda1cc27ed8122f501, type: 2}
+  smallWhiteSkin: {fileID: 11400000, guid: bafd0f0afc204f4a9ec407832f50f529, type: 2}
+  smallBlackCenterSkin: {fileID: 11400000, guid: 288d209b3993453c9821781493d47177, type: 2}
+  triggerSkin: {fileID: 11400000, guid: 3d6f7e3d53874c0ca2414b24e4bbef29, type: 2}
+  triggerSkinArrowLeft: {fileID: 11400000, guid: 2960a31b647840e897945dbde77d354c, type: 2}
+  triggerSkinArrowRight: {fileID: 11400000, guid: aee177b6f07c46b780208aeb842d8ffe, type: 2}
+  menuBack: {fileID: 2800000, guid: 3437c792c2804b39af0ec7f5ed441b97, type: 3}
+  menuFrame: {fileID: 2800000, guid: 32f52ca43ba3409d8ce14d7572cd526c, type: 3}
+  tabTex: {fileID: 2800000, guid: fad015d800fa41b49e59ca70c7701a09, type: 3}
+  levelLine: {fileID: 2800000, guid: a16591aea2ff4c2582163cd85f159115, type: 3}
+  levelProgress: {fileID: 2800000, guid: c21e7d6565324488bcb6910522cd84cf, type: 3}

@@ -1,0 +1,81 @@
+ManifestFileVersion: 0
+CRC: 3055935293
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: adfb1cbed679d37af79bde8d5bae0483
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9c7aaa1137a7be428fdda7833afce27d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: f043610837aaf4144bcadee9af537bbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 563128bdce0279746a6c3680c510685a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e6186e5ea5562c74da42ed3413fe197b, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets19/skin19.asset
+- Assets/bundles/Assets19/swatHead.prefab
+- Assets/bundles/Assets19/swatmat.mat
+- Assets/bundles/Assets19/terrorskin.prefab
+- Assets/bundles/Assets19/c80.asset
+- Assets/bundles/Assets19/swatBelt.prefab
+- Assets/bundles/Assets19/trmat.mat
+- Assets/bundles/Assets19/dedshotHead.prefab
+- Assets/bundles/Assets19/swat81.prefab
+- Assets/bundles/Assets19/dpSword.prefab
+- Assets/bundles/Assets19/c78.asset
+- Assets/bundles/Assets19/ds78.prefab
+- Assets/bundles/Assets19/trBelt.prefab
+- Assets/bundles/Assets19/trHead.prefab
+- Assets/bundles/Assets19/swatmat 1.mat
+- Assets/bundles/Assets19/trmat 1.mat
+- Assets/bundles/Assets19/dpskin.prefab
+- Assets/bundles/Assets19/deadpoolSword.prefab
+- Assets/bundles/Assets19/c84.asset
+- Assets/bundles/Assets19/tr83.prefab
+- Assets/bundles/Assets19/c81.asset
+- Assets/bundles/Assets19/ikonka_rukzak_deadpool.png
+- Assets/bundles/Assets19/tr84.prefab
+- Assets/bundles/Assets19/swatBL 1.prefab
+- Assets/bundles/Assets19/skin20.asset
+- Assets/bundles/Assets19/skin15.asset
+- Assets/bundles/Assets19/skin21.asset
+- Assets/bundles/Assets19/swat82.prefab
+- Assets/bundles/Assets19/swatskin.prefab
+- Assets/bundles/Assets19/swatBR 1.prefab
+- Assets/bundles/Assets19/c71.asset
+- Assets/bundles/Assets19/c79.asset
+- Assets/bundles/Assets19/ikonka_deadpool_skin.png
+- Assets/bundles/Assets19/c82.asset
+- Assets/bundles/Assets19/deadshotBelt.prefab
+- Assets/bundles/Assets19/swat80.prefab
+- Assets/bundles/Assets19/ds79.prefab
+- Assets/bundles/Assets19/dsSkin.prefab
+- Assets/bundles/Assets19/dpskinMat.mat
+- Assets/bundles/Assets19/c83.asset
+- Assets/bundles/Assets19/dedshot.mat
+Dependencies: []

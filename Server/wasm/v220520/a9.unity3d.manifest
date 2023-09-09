@@ -1,0 +1,66 @@
+ManifestFileVersion: 0
+CRC: 2731626117
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 22b88ed197d6b4f132e5ff2594f06022
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 6a7098d85bc8056e8455198891211616
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d62d21ea1d3e4a247bc640f0e4a9c332, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83781d9176b31414ab16c1499c410b9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets9/ItemGO126.prefab
+- Assets/bundles/Assets9/ItemGO121.prefab
+- Assets/bundles/Assets9/6.asset
+- Assets/bundles/Assets9/ItemGO124.prefab
+- Assets/bundles/Assets9/1.asset
+- Assets/bundles/Assets9/3.asset
+- Assets/bundles/Assets9/4.asset
+- Assets/bundles/Assets9/2.asset
+- Assets/bundles/Assets9/ItemGO123.prefab
+- Assets/bundles/Assets9/ItemGO125.prefab
+- Assets/bundles/Assets9/7.asset
+- Assets/bundles/Assets9/ItemGO120.prefab
+- Assets/bundles/Assets9/ItemGO122.prefab
+- Assets/bundles/Assets9/5.asset
+Dependencies: []

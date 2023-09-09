@@ -1,0 +1,44 @@
+ManifestFileVersion: 0
+CRC: 652057896
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 936b932ac4e415591a6604153b73cce5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 301ea60772a90979fc9baabffa5b96c7
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: df6dc22e70de15840b96e1a50829bd01, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f043610837aaf4144bcadee9af537bbb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets5_skins.prefab
+Dependencies:
+- D:/gamedev/kube/kbz_wgl_2018/build/a19.unity3d

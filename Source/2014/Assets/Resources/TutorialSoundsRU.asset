@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0848a59b6924a19893172b1ee39b8a1a, type: 3}
+  m_Name: "TutorialSoundsRU"
+  m_EditorClassIdentifier: 
+  locale: "ru_RU"
+  soundTutor:
+  - {fileID: 1791220285863826742, guid: e76559bdc680e4a44a165732f6b269b9, type: 2}
+  - {fileID: 1791220285863826744, guid: ccaaab885ecaa0340be13502feaa78ac, type: 2}
+  - {fileID: 1791220285863826745, guid: 9f7b95267e9505f4ca7cff5a70d658b6, type: 2}
+  - {fileID: 1791220285863826746, guid: c739500d28505ed4397e5c6e96653142, type: 2}
+  - {fileID: 1791220285863826747, guid: f4442cc74c7a72e4e9f337397385d7e8, type: 2}
+  - {fileID: 1791220285863826748, guid: 2fb1fd89f4da01448accd1b568f2bd23, type: 2}
+  - {fileID: 1791220285863826749, guid: 492476f4887e54040821e3e18a1fddfd, type: 2}
+  - {fileID: 1791220285863826750, guid: cf8956d4460d37f4a868ac49e34c818e, type: 2}
+  - {fileID: 1791220285863826751, guid: 28913c5da7d82d846ba122fadc38042f, type: 2}
+  - {fileID: 1791220285863826743, guid: 7a1912bfdc7604c47ade925ff2fd1e30, type: 2}
+  - {fileID: 1791220285863826743, guid: 7a1912bfdc7604c47ade925ff2fd1e30, type: 2}

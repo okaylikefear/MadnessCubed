@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 3b4c300d17a242f8a06e52729c338b7c
+timeCreated: 1694281535
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "Ad-Lib-Win95BT Small"
+  fontNames:
+  - AdLib Win95BT
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

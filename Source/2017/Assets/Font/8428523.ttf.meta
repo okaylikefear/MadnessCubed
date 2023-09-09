@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 8fd56cf8a7f345e89dd3f866a7f2e4d8
+timeCreated: 1694281541
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 1
+  characterPadding: 0
+  includeFontData: 1
+  fontName: "8428523"
+  fontNames:
+  - Archangelsk
+  fallbackFontReferences: []
+  customCharacters:
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData:
+  assetBundleName: 
+  assetBundleVariant: 

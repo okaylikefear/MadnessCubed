@@ -1,0 +1,52 @@
+ManifestFileVersion: 0
+CRC: 3278483482
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a4806bd30076485c6e65618b24da7b6a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c18e8b28fe9aeb8df68cd35e07a305a0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 83781d9176b31414ab16c1499c410b9f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d846d582ccdf7247bc61ae60f75ff81, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 87ee05f6f1819ba4c8c443e644946886, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 136
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets15/1.asset
+- Assets/bundles/Assets15/ItemGO152.prefab
+- Assets/bundles/Assets15/4.asset
+- Assets/bundles/Assets15/ItemGO149.prefab
+- Assets/bundles/Assets15/ItemGO153.prefab
+- Assets/bundles/Assets15/5.asset
+- Assets/bundles/Assets15/ItemGO151.prefab
+- Assets/bundles/Assets15/2.asset
+- Assets/bundles/Assets15/ItemGO150.prefab
+- Assets/bundles/Assets15/3.asset
+Dependencies: []

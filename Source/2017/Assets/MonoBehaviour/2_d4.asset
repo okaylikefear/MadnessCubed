@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e85ab154d33ecf39ff2813c2fc4d58e6, type: 3}
+  m_Name: "2"
+  m_EditorClassIdentifier: 
+  title: "\u043A\u0440\u043E\u0432 m16"
+  weaponId: 5
+  weapon: {fileID: 11400000, guid: 57bad92504f946f2955a2768fa2b3671, type: 2}
+  price: 0
+  hidden: 0
+  caseType: 2

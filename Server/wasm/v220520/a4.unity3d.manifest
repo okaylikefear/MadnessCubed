@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1616637998
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 95bf22206b932c75ba1cb72090e29f85
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e234ac6ac7d49e3095d490a1888614e6
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: d46db43346489a94aa2786b3abafa155, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4517a6c6a9b735b4eae16deb1480cd46, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets4_Sounds.prefab
+Dependencies: []

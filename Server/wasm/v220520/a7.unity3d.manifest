@@ -1,0 +1,43 @@
+ManifestFileVersion: 0
+CRC: 62566567
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 30b97e87fca8a7e9f1c8522feee39a42
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 1672583adfe14aae070bd5143f04f7fe
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: aa584fbee541324448dd18d8409c7a41, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a95b7c1c5afad8247a3ed8df45184167, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets7/comp_1.prefab
+- Assets/bundles/Assets7/StuffBox.prefab
+- Assets/bundles/Assets7/comp_2.prefab
+Dependencies: []

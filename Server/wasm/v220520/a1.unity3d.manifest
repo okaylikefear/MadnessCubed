@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 3026016877
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 268f82824b814d6a807c1915e8f53e9c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 56dccd335d0094a338f68f7e13dfeb6d
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 12001, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3de087bc876f41143b078b097ac1ade3, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/bundles/Assets1_FirstMenu.prefab
+Dependencies: []

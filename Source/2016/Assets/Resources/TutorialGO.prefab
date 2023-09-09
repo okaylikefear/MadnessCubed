@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!4 &1791220285914158450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826770}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4492991, y: 0.8531166, z: -0.2895107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1791220285863826770
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158450}
+  - component: {fileID: 1791220287759652278}
+  m_Layer: 0
+  m_Name: "TutorialGO"
+  m_TagString: "SystemGO"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1791220287759652278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3dc30de34c699855601d5a749222ae4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentNumOfTutor: 0
+  currentStepOfTutor: 0
+  tutorialSounds:
+  - {fileID: 11400000, guid: 4e3bf626ef7945888c0950afe1330e0e, type: 2}
+  - {fileID: 11400000, guid: 03d2e9515e2043949e15c9e3a6356dd9, type: 2}
+  soundTutor:
+  - {fileID: 1791220285863826772, guid: e76559bdc680e4a44a165732f6b269b9, type: 2}
+  - {fileID: 1791220285863826774, guid: ccaaab885ecaa0340be13502feaa78ac, type: 2}
+  - {fileID: 1791220285863826775, guid: 9f7b95267e9505f4ca7cff5a70d658b6, type: 2}
+  - {fileID: 1791220285863826776, guid: c739500d28505ed4397e5c6e96653142, type: 2}
+  - {fileID: 1791220285863826777, guid: f4442cc74c7a72e4e9f337397385d7e8, type: 2}
+  - {fileID: 1791220285863826778, guid: 2fb1fd89f4da01448accd1b568f2bd23, type: 2}
+  - {fileID: 1791220285863826779, guid: 492476f4887e54040821e3e18a1fddfd, type: 2}
+  - {fileID: 1791220285863826780, guid: cf8956d4460d37f4a868ac49e34c818e, type: 2}
+  - {fileID: 1791220285863826781, guid: 28913c5da7d82d846ba122fadc38042f, type: 2}
+  - {fileID: 1791220285863826773, guid: 7a1912bfdc7604c47ade925ff2fd1e30, type: 2}
+  tutorBackground: {fileID: 2800000, guid: 2113ba15cb4244269bc535377a97d109, type: 3}
+  tutorMiniBackground: {fileID: 2800000, guid: d642ca5ec5ae445d8c74959682a920b7, type: 3}
+  arrowTex: {fileID: 2800000, guid: ae21e0520de54d998ddcecad5a75b1dd, type: 3}
+  skin: {fileID: 11400000, guid: c3646ecc73b54504a0d0875999413b3e, type: 2}

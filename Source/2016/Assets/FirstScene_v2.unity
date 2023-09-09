@@ -1,0 +1,9307 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &9999991
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &9999992
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+--- !u!157 &9999993
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_GIWorkflowMode: 0
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 1
+  m_LightmapEditorSettings:
+    serializedVersion: 8
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 3
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_ShadowMaskMode: 2
+--- !u!1 &1791220285863826680
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158336}
+  - component: {fileID: 1791220287759652112}
+  - component: {fileID: 1791220287222781192}
+  m_Layer: 0
+  m_Name: "MusicManager"
+  m_TagString: "Music"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158336
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 93.02952, y: 20.05834, z: -30.09518}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea7d9ace105fd437539599df9063af2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicClips:
+  - "Sleepwalking(Kubezumie2)_loop.ogg"
+  - "Spes_Omnium(Kubezumie2).ogg"
+  - "Survivors(Kubezumie2).ogg"
+  - "Time_of_Madness(Kubezumie2)loop.ogg"
+  - "Track_1_Kubezumie2_3.ogg"
+  maxVolume: 0.2
+  isMute: 0
+--- !u!82 &1791220287222781192
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826680}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+    - time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!1 &1791220285863826681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158337}
+  - component: {fileID: 1791220287759652113}
+  m_Layer: 0
+  m_Name: "PathFinderArray"
+  m_TagString: "PathFinder"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2447966, y: 1.374345, z: 0.0144043}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f64338ab5f50e309829f88238d0a8373, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arraySize: 5000
+  openedArrayNum: 0
+  closedArrayNum: 0
+--- !u!1 &1791220285863826682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158338}
+  - component: {fileID: 1791220287759652109}
+  m_Layer: 0
+  m_Name: "GameParams"
+  m_TagString: "GameParams"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f53f6b2559266a18b4ec145c664ec9b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxPlayersLimit: 16
+  maxPlayersInMission: 4
+  maxPlayersSurvival: 8
+  user: 
+  bonusDay: -1
+  dayNum: -1
+  parts: 
+  decodePlayerName: 
+  playerNumMaps: 0
+  cubesTimeOfEnd: 
+  weaponsSkinPrice1:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  weaponsSkinPrice2:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerMoney1:
+    fakeValue: 0
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+  playerMoney2:
+    fakeValue: 0
+    currentCryptoKey: 444444
+    hiddenValue: 444444
+    inited: 1
+  weaponsSkin:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerHealth: 0
+  playerArmor: 0
+  playerSpeed: 0
+  playerJump: 0
+  playerDefend: 0
+  playerExpPoints: 0
+  playerExp: 0
+  playerFrags: 0
+  playerLevel: 0
+  playerSkins:
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  - fakeValue: 0
+    currentCryptoKey: 0
+    hiddenValue: 0
+    inited: 0
+  playerVoices: 0
+  vipEnd: 0
+  playerSkin: 0
+  inventarSpecItems: 
+  moderType: 0
+  moderLastContest: 0
+  playerIsClothes: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  playerClothes: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  inventarItemPrice1: 
+  inventarItemPrice2: 
+  specToMoney: 0
+  BonusTypeCode:
+  - "health"
+  - "armor"
+  - "speed"
+  - "jump"
+  - "defend"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qew"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  - "qwe"
+  playerBaseHealth: 0
+  playerBaseArmor: 0
+  playerBaseSpeed: 0
+  playerBaseJump: 0
+  playerBaseDefend: 0
+  newMapPrice: 0
+  vipBonus: 0
+  codeI: 0
+  codeF: 0
+  radarZoom: 1
+  currentSpecBonusNum: -1
+  needTraining: 0
+  needTrainingBuild: 0
+  mouseSens: 15
+--- !u!1 &1791220285863826683
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158339}
+  - component: {fileID: 1791220287759652111}
+  m_Layer: 0
+  m_Name: "LoadParams"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158339
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826683}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826683}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0592968b1d1b2b9fcc827a08f0befee7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1791220285863826684
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158340}
+  - component: {fileID: 1791220287759652107}
+  - component: {fileID: 1791220287759652108}
+  - component: {fileID: 1791220287759652114}
+  m_Layer: 0
+  m_Name: "OH"
+  m_TagString: "ObjectsHolder"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.00390625, y: 1.013899, z: 0.1352777}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4f996e1c56e29eb6f8d520256b70d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  build: 20
+  loadTex: {fileID: 2800000, guid: 9fdd5e43449e458cacd298975ef1b070, type: 3}
+  lang: 0
+  gravity: 0
+  testObj: {fileID: 1791220285863826811, guid: b1ce8749c97bda545ba73caf9a4028ef, type: 2}
+  monsterPrefabName:
+  - "Zombie"
+  - "Agent"
+  - "Soldat"
+  - "ZombieAxes"
+  - "Demon"
+  - "ZombieSaw"
+  - "deadMoroz"
+  - "Assets11\x2fRobot1"
+  - "Assets11\x2fRobot2"
+  - "Assets11\x2fRobot3"
+  - "Assets11\x2fRobot4"
+  - "Assets11\x2fRobot5"
+  - "Assets8\x2fAgent2"
+  - "Assets8\x2fStalker"
+  - "ZKnight"
+  - "FlySoldat"
+  monstrePoints: 0A0000000F0000000F0000000C0000000C00000012000000320000000A0000000C0000000C0000000F000000280000000F0000000F0000000F0000000F0000000F0000001400000023000000
+  transportPrefabName:
+  - "Quadrocycle"
+  - "Turel"
+  - "Quadrocycle2"
+  - "BTR2"
+  - "Assets10\x2fNetJeepGO"
+  - "Assets11\x2fNetBlackJeepGO"
+  - "BTR"
+  - "Heli"
+  - "Assets12\x2fBoat"
+  - "Assets17\x2fturrel1"
+  - "Assets17\x2fturrel2"
+  - "Assets22\x2fTankBlack"
+  - "Assets22\x2fTankBlue"
+  - "Assets22\x2fTankRed"
+  - "Assets22\x2fNetTitan"
+  cubesSound: 00000000000000000000000001000000030000000300000001000000030000000300000003000000020000000200000000000000000000000100000003000000030000000300000003000000030000000300000001000000000000000100000001000000010000000100000001000000010000000100000001000000010000000100000000000000000000000300000000000000000000000000000003000000030000000300000003000000020000000300000003000000030000000400000004000000000000000300000002000000020000000200000002000000020000000000000000000000000000000000000000000000000000000000000000000000040000000400000002000000020000000000000000000000000000000400000004000000040000000400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000500000000000000
+  miniCube: {fileID: 1791220285863826808, guid: 4d7dc3c4a5e196840af8cf1c2682ad88, type: 2}
+  cubesStrength: 
+  - 1
+  - 1
+  - 1
+  - 3
+  - 70
+  - 70
+  - 5
+  - 5
+  - 5
+  - 5
+  - 3
+  - 3
+  - 1
+  - 3
+  - 3
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 5
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 1
+  - 1
+  - 3
+  - 3
+  - 1
+  - 1
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 50
+  - 50
+  - 50
+  - 50
+  - 50
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 0.2
+  - 0.2
+  - 3
+  - 3
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 0.2
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 3
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  AAnumInShop: 6E0000006F00000070000000710000007200000073000000
+  AAsounds: []
+  AAsoundsNames: []
+  wireItemNum: 116
+  waterAnimDeltaTime: 0.1
+  boundsPlane: {fileID: 1791220285863826807, guid: 02d66d59a97009846b1a5d8de3c8e808, type: 2}
+  testLightCube: {fileID: 1791220285863826812, guid: 3066463c1e70c304c8294108553de38a, type: 2}
+  api_url: 
+  api_id: 0
+  access_token: 
+  phpSecret: 
+  pointsToMoney: 1
+  pointsText: {fileID: 1791220285863826809, guid: df532b1523199ed4ba93b0a426086350, type: 2}
+  gameItemInfo: []
+  tutorialGO: {fileID: 0}
+  gameTypeStrRoom:
+  - "f"
+  - "b"
+  - "m"
+  - "s"
+  - "t"
+  - "x"
+  gameMaxTime: 3F420F003F420F002C01000058020000580200005802000058020000580200005802000058020000
+  teamColor:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 1, g: 1, b: 0.1568628, a: 1}
+  builtInMaps:
+  - Id: 0
+    name: "\u041F\u0435\u0440\u0435\u043A\u0440\u0451\u0441\u0442\u043D\u044B\u0439 \u043E\u0433\u043E\u043D\u044C"
+    playersMax: 12
+    gameTypes: 00000101000000000001
+  - Id: 1
+    name: "\u041C\u044F\u0441\u043D\u043E\u0439 \u043A\u0443\u0431"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 2
+    name: "\u0413\u043E\u0440\u043E\u0434"
+    playersMax: 12
+    gameTypes: 00000101000000000001
+  - Id: 3
+    name: "\u0411\u0430\u0441\u0441\u0435\u0439\u043D"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 4
+    name: "\u041E\u0441\u043E\u0431\u043D\u044F\u043A"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 5
+    name: "\u0421\u043A\u043B\u0430\u0434"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 14
+    name: "\u041C\u044F\u0441\u043E\u0440\u0443\u0431\u043A\u0430"
+    playersMax: 8
+    gameTypes: 0000010001000000
+  - Id: 7
+    name: "\u0417\u0438\u043E\u043D-\u0422\u0435\u0445"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 8
+    name: "\u0412 \u043F\u0435\u0441\u043A\u0430\u0445"
+    playersMax: 12
+    gameTypes: 000001010000000001
+  - Id: 9
+    name: "\u0417\u043E\u043C\u0431\u0438-\u0441\u0438\u0442\u0438"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 10
+    name: "\u0410\u0440\u0435\u043D\u0430"
+    playersMax: 12
+    gameTypes: 0000010101000000
+  - Id: 11
+    name: "\u0411\u0438\u0431\u0437"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 12
+    name: "\u0421\u0442\u0440\u0430\u0439\u043A"
+    playersMax: 12
+    gameTypes: 0000010001000100
+  - Id: 13
+    name: "\u041C\u043E\u0442\u0435\u043B\u044C"
+    playersMax: 12
+    gameTypes: 0000010101000000
+  - Id: 20
+    name: "\u0420\u0435\u043A\u0430"
+    playersMax: 12
+    gameTypes: 0000000000000000
+  - Id: 22
+    name: "\u0414\u0432\u0435 \u0431\u0430\u0448\u043D\u0438"
+    playersMax: 12
+    gameTypes: 0000000001000100
+  - Id: 24
+    name: "Assault Pro"
+    playersMax: 12
+    gameTypes: 0000000001000100
+  - Id: 26
+    name: "\u0410\u043B\u044C\u0444\u0430"
+    playersMax: 12
+    gameTypes: 0000000001000001
+  - Id: 27
+    name: "\u0410\u0440\u0433\u043E\u043B\u0438\u0441"
+    playersMax: 12
+    gameTypes: 0000000001000001
+  - Id: 28
+    name: "\u0410\u0440\u0435\u043D\u0430 Sontar"
+    playersMax: 12
+    gameTypes: 0000000001000101
+  - Id: 29
+    name: "\u041C\u044F\u0441\u043D\u043E\u0439 \u043A\u0443\u0431 2"
+    playersMax: 12
+    gameTypes: 0000010000000000
+  - Id: 30
+    name: "\u0413\u043E\u0440\u043E\u0434 \u0430\u043B\u043E\u0433\u043E \u0437\u0430\u043A\u0430\u0442\u0430"
+    playersMax: 12
+    gameTypes: 0000010100000000
+  - Id: 33
+    name: "\u0417\u0430\u043B\u0438\u0432"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 34
+    name: "\u041E\u0441\u0442\u0440\u043E\u0432"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 35
+    name: "\u041F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 36
+    name: "\u0420\u0435\u043A\u0430"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 37
+    name: "\u0420\u0430\u0437\u0432\u0438\u043B\u043A\u0430"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 38
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 40
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 41
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 42
+    name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u043F\u043B\u043E\u0441\u043A\u0430\u044F"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 43
+    name: "\u043A\u043E\u0441\u043C\u043E\u0441"
+    playersMax: 12
+    gameTypes: 00010000000000
+  - Id: 44
+    name: "\u0414\u0430\u0441\u0442 2"
+    playersMax: 12
+    gameTypes: 000000000000000001
+  - Id: 45
+    name: "\u0425\u0437"
+    playersMax: 12
+    gameTypes: 000000000000000001
+  - Id: 46
+    name: "\u0434\u0435\u043F\u043E"
+    playersMax: 12
+    gameTypes: 00000100010000000100
+  - Id: 47
+    name: "\u043B\u0435\u0441\u043E\u043F\u0438\u043B\u043A\u0430"
+    playersMax: 12
+    gameTypes: 00000000010000000100
+  - Id: 48
+    name: "\u0417\u043E\u043C\u0431\u0438 \u0442\u0430\u0443\u043D"
+    playersMax: 12
+    gameTypes: 00000001000000000000
+  blockTypes:
+  - type: 0
+    itemId: 0
+    atlas: -256
+    group: 0
+  - type: 0
+    itemId: -1
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 3
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 4
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 5
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 6
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 7
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 8
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 9
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 10
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 11
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 12
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 13
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 14
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -2
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 17
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 18
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 19
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 20
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 21
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 22
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 23
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 24
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 25
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 26
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 27
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 28
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 29
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 30
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 31
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 32
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 33
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 34
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 35
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 36
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -3
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: -4
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 39
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 40
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 41
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 42
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 43
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 44
+    atlas: 0
+    group: 3
+  - type: 0
+    itemId: 45
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 46
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 47
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 48
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 49
+    atlas: 0
+    group: 4
+  - type: 0
+    itemId: 50
+    atlas: 0
+    group: 4
+  - type: 0
+    itemId: 51
+    atlas: 0
+    group: 1
+  - type: 0
+    itemId: 52
+    atlas: 0
+    group: 2
+  - type: 0
+    itemId: 53
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 54
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 55
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 56
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 57
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 58
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 59
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 60
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 61
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 62
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 63
+    atlas: 0
+    group: 6
+  - type: 0
+    itemId: 0
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 1
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 1
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 2
+    atlas: 1
+    group: 3
+  - type: 0
+    itemId: 3
+    atlas: 1
+    group: 3
+  - type: 0
+    itemId: 4
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 5
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 6
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 7
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 8
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 9
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 10
+    atlas: 1
+    group: 4
+  - type: 0
+    itemId: 11
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 12
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 13
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 14
+    atlas: 1
+    group: 6
+  - type: 0
+    itemId: 15
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 16
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 17
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 18
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 19
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 20
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 21
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 22
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 23
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 24
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 25
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 26
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 27
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 28
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 29
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 30
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 31
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 32
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 33
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 34
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 35
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 36
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 37
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 38
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 39
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 40
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 41
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 42
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 43
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 44
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 45
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 46
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 47
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 48
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 49
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 50
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 51
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 52
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 53
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 54
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 55
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 56
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 57
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 58
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 59
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 60
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 61
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 62
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 63
+    atlas: 1
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: -1
+    group: 5
+  - type: 0
+    itemId: 0
+    atlas: -2
+    group: 5
+  - type: 0
+    itemId: 0
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 1
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 2
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 3
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 4
+    atlas: 2
+    group: 1
+  - type: 0
+    itemId: 5
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 6
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 7
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 8
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 9
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 10
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 11
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 12
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 13
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 14
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 15
+    atlas: 2
+    group: 2
+  - type: 0
+    itemId: 16
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 17
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 18
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 19
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 20
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 21
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 22
+    atlas: 2
+    group: 0
+  - type: 0
+    itemId: 23
+    atlas: 2
+    group: 0
+  - type: 1
+    itemId: 70
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 0
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 1
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 2
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 3
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 4
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 5
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 6
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 7
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 8
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 9
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 10
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 11
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 12
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 13
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 14
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 15
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 16
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 17
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 18
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 19
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 20
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 21
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 22
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 23
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 24
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 25
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 26
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 27
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 28
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 29
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 30
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 31
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 32
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 33
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 34
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 35
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 36
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 37
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 38
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 39
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 40
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 41
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 42
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 43
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 44
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 45
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 46
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 47
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 48
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 49
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 50
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 51
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 52
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 53
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 54
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 55
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 56
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 67
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 68
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 69
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 71
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 72
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 73
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 74
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 75
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 76
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 78
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 79
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 80
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 83
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 84
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 85
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 86
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 87
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 88
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 89
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 98
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 99
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 100
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 120
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 121
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 122
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 123
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 124
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 125
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 126
+    atlas: 0
+    group: 0
+  - type: 0
+    itemId: 32
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 33
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 34
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 35
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 36
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 37
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 38
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 39
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 40
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 41
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 42
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 43
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 44
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 45
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 46
+    atlas: 3
+    group: 0
+  - type: 0
+    itemId: 0
+    atlas: 4
+    group: 0
+  - type: 1
+    itemId: 139
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 140
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 141
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 142
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 143
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 144
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 145
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 146
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 147
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 148
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 149
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 150
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 151
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 152
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 153
+    atlas: 0
+    group: 0
+  - type: 2
+    itemId: 157
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 158
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 159
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 160
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 161
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 162
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 163
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 164
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 165
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 166
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 167
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 171
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 172
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 173
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 174
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 175
+    atlas: 0
+    group: 0
+  - type: 1
+    itemId: 176
+    atlas: 0
+    group: 0
+  episodeDesc:
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 0
+    vip: 0
+  - minlevel: 5
+    vip: 0
+  - minlevel: 35
+    vip: 1
+  mainCubesTex: {fileID: 0}
+  GameItemRotationVector:
+  - {x: 0, y: 0, z: 1}
+  - {x: 1, y: 0, z: 0}
+  - {x: -1, y: 0, z: 0}
+  - {x: 0, y: 0, z: -1}
+  - {x: 0, y: 1, z: 0}
+  - {x: 0, y: -1, z: 0}
+  usedCheat: 0
+  dieEffectMaterial: {fileID: 2100000, guid: 91da2df7e45644c48daeb236bfc4d47d, type: 2}
+  updateFPSInterval: 0.5
+  showOptions: 0
+  emptyScreen: 0
+  smoothMove: 0
+--- !u!114 &1791220287759652108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69944dab6a6d8f337ea58ae4d73f3b88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popTex:
+  - {fileID: 2800000, guid: 2169e1afea3843f2a1f587fa4dcd013c, type: 3}
+  - {fileID: 2800000, guid: 92379b39b03d4e4c94abf6f787a74c67, type: 3}
+  - {fileID: 2800000, guid: 2db3f5daca104e63ba0b15fefc59a2bb, type: 3}
+  - {fileID: 2800000, guid: 03c83ce6c1df48058c2534b396729730, type: 3}
+  clothesParams:
+  - name: 
+    group: 0
+  - name: 
+    group: 0
+  - name: 
+    group: 0
+  - name: "\u041A\u043E\u0432\u0431\u043E\u0439\u0441\u043A\u0430\u044F \u0448\u043B\u044F\u043F\u0430"
+    group: 1
+  - name: "\u041A\u043E\u0432\u0431\u043E\u0439\u0441\u043A\u0430\u044F \u0448\u043B\u044F\u043F\u0430"
+    group: 1
+  - name: "\u041A\u043E\u0432\u0431\u043E\u0439\u0441\u043A\u0430\u044F \u0448\u043B\u044F\u043F\u0430"
+    group: 1
+  - name: "\u0417\u0435\u043B\u0451\u043D\u044B\u0435 \u0431\u043E\u0442\u044B"
+    group: 5
+  - name: "\u041C\u0430\u043B\u0438\u043D\u043E\u0432\u044B\u0435 \u0431\u043E\u0442\u044B"
+    group: 5
+  - name: "\u0413\u0440\u0438\u043D\u0434\u0435\u0440\u0441\u044B"
+    group: 5
+  - name: "\u0411\u043E\u0435\u0432\u044B\u0435 \u0431\u0435\u0440\u0446\u044B"
+    group: 5
+  - name: "\u041F\u043E\u0445\u043E\u0434\u043D\u044B\u0435 \u0431\u0435\u0440\u0446\u044B"
+    group: 5
+  - name: "\u0416\u0435\u043B\u0435\u0437\u043D\u044B\u0435 \u0431\u043E\u0442\u044B"
+    group: 5
+  - name: "\u041A\u043E\u0441\u043C\u043E\u0431\u043E\u0442\u044B"
+    group: 5
+  - name: "\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0430 \u0411\u0438\u0431\u0435\u0440"
+    group: 1
+  - name: "\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0430"
+    group: 1
+  - name: "\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0430 \u042D\u043C\u043E"
+    group: 1
+  - name: "\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0430 \u043A\u0430\u0448\u0442\u0430\u043D"
+    group: 1
+  - name: "\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0430 \u0431\u043B\u043E\u043D\u0434\u0438\u043D"
+    group: 1
+  - name: "\u041A\u0435\u043F\u043A\u0430"
+    group: 1
+  - name: "\u0417\u0435\u043B\u0451\u043D\u044B\u0439 \u0438\u0440\u043E\u043A\u0435\u0437"
+    group: 1
+  - name: "\u0424\u0438\u043E\u043B\u0435\u0442\u043E\u0432\u044B\u0439 \u0438\u0440\u043E\u043A\u0435\u0437"
+    group: 1
+  - name: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439 \u0438\u0440\u043E\u043A\u0435\u0437"
+    group: 1
+  - name: "\u0416\u0451\u043B\u0442\u044B\u0439 \u0438\u0440\u043E\u043A\u0435\u0437"
+    group: 1
+  - name: "\u0410\u0444\u0440\u043E"
+    group: 1
+  - name: "\u041F\u0440\u0438\u0447\u0451\u0441\u043A\u0430 \u0420\u044D\u043C\u0431\u043E"
+    group: 1
+  - name: "\u0416\u0435\u043B\u0435\u0437\u043D\u044B\u0439 \u0448\u043B\u0435\u043C"
+    group: 1
+  - name: "\u041A\u0430\u0441\u043A\u0430"
+    group: 1
+  - name: "\u0428\u043B\u0435\u043C"
+    group: 1
+  - name: "\u0428\u043B\u0435\u043C \u0412\u0435\u0439\u0434\u0435\u0440\u0430"
+    group: 1
+  - name: "\u0428\u043B\u0435\u043C \u0421\u0442\u0430\u043B\u043A\u0435\u0440\u0430"
+    group: 1
+  - name: "\u0411\u0440\u043E\u043D\u044F \u0421\u0442\u0430\u043B\u043A\u0435\u0440\u0430"
+    group: 2
+  - name: "\u0411\u0440\u043E\u043D\u044F \u0412\u0435\u0439\u0434\u0435\u0440\u0430"
+    group: 2
+  - name: "\u0411\u0440\u043E\u043D\u0435\u0436\u0438\u043B\u0435\u0442"
+    group: 2
+  - name: "\u0416\u0435\u043B\u0435\u0437\u043D\u0430\u044F \u0431\u0440\u043E\u043D\u044F"
+    group: 2
+  - name: "\u041B\u0435\u043D\u0442\u0430 \u043F\u0430\u0442\u0440\u043E\u043D\u043E\u0432"
+    group: 2
+  - name: "\u0417\u043E\u043B\u043E\u0442\u0430\u044F \u0446\u0435\u043F\u044C"
+    group: 2
+  - name: "\u0420\u0430\u043D\u0435\u0446 \u0421\u0442\u0430\u043B\u043A\u0435\u0440\u0430"
+    group: 3
+  - name: "\u0420\u044E\u043A\u0437\u0430\u043A"
+    group: 3
+  - name: "\u041F\u043E\u0440\u0442\u0444\u0435\u043B\u044C"
+    group: 3
+  - name: "\u041D\u0430\u043F\u043B\u0435\u0447\u043D\u0438\u043A\u0438 \u0441\u0442\u0430\u043B\u043A\u0435\u0440\u0430"
+    group: 6
+  - name: "\u041D\u0430\u043F\u043B\u0435\u0447\u043D\u0438\u043A\u0438 \u0412\u0435\u0439\u0434\u0435\u0440\u0430"
+    group: 6
+  - name: "\u0416\u0435\u043B\u0435\u0437\u043D\u044B\u0435 \u043D\u0430\u043F\u043B\u0435\u0447\u043D\u0438\u043A\u0438"
+    group: 6
+  - name: "\u041D\u0430\u0440\u0443\u0447\u0438 \u0441\u0442\u0430\u043B\u043A\u0435\u0440\u0430"
+    group: 4
+  - name: "\u041D\u0430\u0440\u0443\u0447\u043D\u044B\u0439 \u043F\u043B\u0430\u043D\u0448\u0435\u0442"
+    group: 4
+  - name: "\u0416\u0435\u043B\u0435\u0437\u043D\u044B\u0439 \u043D\u0430\u0440\u0443\u0447"
+    group: 4
+  - name: "\u041D\u0430\u043F\u0443\u043B\u044C\u0441\u043D\u0438\u043A"
+    group: 4
+  - name: "\u0427\u0430\u0441\u044B"
+    group: 4
+  - name: "\u0413\u043E\u043B\u0443\u0431\u0430\u044F \u043F\u0440\u0438\u0447\u0451\u0441\u043A\u0430"
+    group: 1
+  - name: "\u0416\u0435\u043D\u0441\u043A\u0438\u0439 \u0440\u044E\u043A\u0437\u0430\u043A"
+    group: 3
+  - name: "\u041C\u0430\u0441\u043A\u0430 \u0420\u0435\u0437\u0430\u043A\u0430"
+    group: 1
+  - name: "\u041C\u0430\u0441\u043A\u0430 \u0413\u0430\u044F \u0424\u043E\u043A\u0441\u0430"
+    group: 1
+  - name: "\u041A\u043E\u043B\u0434\u043E\u0432\u0441\u043A\u043E\u0439 \u043A\u043E\u043B\u043F\u0430\u043A"
+    group: 1
+  - name: "\u041A\u043E\u043B\u0434\u043E\u0432\u0441\u043A\u043E\u0439 \u043A\u043E\u043B\u043F\u0430\u043A"
+    group: 1
+  - name: "\u0422\u044B\u043A\u0432\u0430"
+    group: 1
+  - name: "\u041E\u0447\u043A\u0438"
+    group: 1
+  - name: "\u041A\u0430\u0441\u043A\u0430"
+    group: 1
+  - name: "\u0424\u0443\u0440\u0430\u0436\u043A\u0430"
+    group: 1
+  - name: "\u0428\u0430\u043F\u043A\u0430"
+    group: 1
+  - name: "\u042D\u043A\u0437\u043E-\u0431\u0440\u043E\u043D\u044F"
+    group: 2
+  - name: "\u042D\u043A\u0437\u043E-\u0431\u043E\u0442\u044B"
+    group: 5
+  - name: "\u042D\u043A\u0437\u043E-\u0448\u043B\u0435\u043C"
+    group: 1
+  - name: "\u042D\u043A\u0437\u043E-\u0449\u0438\u0442\u043A\u0438"
+    group: 6
+  - name: "\u042D\u043A\u0437\u043E-\u0431\u0440\u043E\u043D\u044F"
+    group: 2
+  - name: "\u042D\u043A\u0437\u043E-\u0431\u043E\u0442\u044B"
+    group: 5
+  - name: "\u042D\u043A\u0437\u043E-\u0448\u043B\u0435\u043C"
+    group: 1
+  - name: "\u042D\u043A\u0437\u043E-\u0449\u0438\u0442\u043A\u0438"
+    group: 6
+  - name: "\u0423\u0448\u0438 \u043A\u0440\u043E\u043B\u0438\u043A\u0430"
+    group: 1
+  - name: "\u041A\u0440\u044B\u043B\u044C\u044F"
+    group: 3
+  - name: "\u041A\u043E\u0441\u043C\u043E-\u0448\u043B\u0435\u043C"
+    group: 1
+  - name: "\u0428\u043B\u0435\u043C"
+    group: 1
+  - name: "\u0429\u0438\u0442"
+    group: 3
+  - name: "\u041C\u0435\u0447\u0438"
+    group: 3
+  - name: "\u0428\u043B\u0435\u043C \u041A\u0435\u043F\u0430"
+    group: 1
+  - name: "\u041F\u043E\u044F\u0441 \u041A\u0435\u043F\u0430"
+    group: 2
+  - name: "\u041D\u0430\u043F\u043B\u0435\u0447\u043D\u0438\u043A\u0438 \u041A\u0435\u043F\u0430"
+    group: 6
+  - name: "\u0425\u0430\u0440\u043B\u0438"
+    group: 1
+  - name: "\u0420\u044B\u0436\u0430\u044F"
+    group: 1
+  - name: "\u0425\u0430\u0440\u043B\u0438 \u0428\u0443\u0437"
+    group: 5
+  - name: "\u0413\u043B\u0430\u0437"
+    group: 1
+  - name: "\u041F\u043E\u044F\u0441"
+    group: 2
+  - name: "Swat Head"
+    group: 1
+  - name: "Swat boots"
+    group: 5
+  - name: "Swat belt"
+    group: 2
+  - name: "Tr head"
+    group: 1
+  - name: "td belt"
+    group: 2
+  - name: 
+    group: 0
+  - name: 
+    group: 0
+  weaponParams:
+  - name: "\u041A\u0438\u0440\u043A\u0430"
+    order: 0
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 0
+    Distance: 2
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 0
+    sniper: 0
+  - name: "\u041F\u0438\u0441\u0442\u043E\u043B\u044C"
+    order: 1
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 07000000080000000A0000000B0000000C0000000E000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.55
+    - 0.5
+    - 0.45
+    - 0.4
+    - 0.35
+    - 0.3
+    DeltaShot: 1
+    Damage: 
+    - 35
+    - 38
+    - 40
+    - 43
+    - 46
+    - 48
+    Accuracy: 
+    - 0.25
+    - 0.225
+    - 0.2
+    - 0.175
+    - 0.15
+    - 0.125
+    Distance: 100
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 25
+    accuarcy: 0
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 0
+    sniper: 0
+  - name: "\u0420\u0443\u0436\u044C\u0451"
+    order: 2
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 080000000A0000000B0000000D0000000E00000010000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 1
+    DeltaShotArray: 
+    - 0.6666667
+    - 0.6133333
+    - 0.56
+    - 0.5066667
+    - 0.4533333
+    - 0.4
+    DeltaShot: 0.6666667
+    Damage: 
+    - 80
+    - 85
+    - 90
+    - 94
+    - 99
+    - 104
+    Accuracy: 
+    - 5
+    - 4.5
+    - 4
+    - 3.5
+    - 3
+    - 2.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 8
+    accuarcy: 5
+    weaponGroup: 2
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 0
+    sniper: 0
+  - name: "\u041E\u0431\u0440\u0435\u0437"
+    order: 10
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 0A0000000C0000000E000000100000001200000014000000
+    reloadTime: 
+    - 0.7
+    - 0.616
+    - 0.532
+    - 0.448
+    - 0.364
+    - 0.28
+    BulletsType: 1
+    DeltaShotArray: 
+    - 0.46
+    - 0.42
+    - 0.4
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 130
+    - 135
+    - 140
+    - 145
+    - 150
+    - 155
+    Accuracy: 
+    - 5
+    - 4.5
+    - 4
+    - 3.5
+    - 3
+    - 2.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 8
+    accuarcy: 5
+    weaponGroup: 2
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 2
+    sniper: 0
+  - name: "\u0423\u0437\u0438"
+    order: 8
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    DeltaShot: 0.2
+    Damage: 
+    - 30
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 1
+    sniper: 0
+  - name: "\u0410\u0432\u0442\u043E\u043C\u0430\u0442"
+    order: 5
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 230000002A00000031000000380000003F00000046000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 48
+    - 50
+    - 52
+    - 54
+    - 56
+    - 58
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 500
+    accuarcy: 1.5
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 1
+    needJumpLevel: 1
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 0
+    sniper: 0
+  - name: "\u0411\u0430\u0437\u0443\u043A\u0430"
+    order: 21
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 010000000200000003000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 2
+    DeltaShotArray: 
+    - 1
+    - 0.92
+    - 0.84
+    - 0.76
+    - 0.68
+    - 0.6
+    DeltaShot: 1
+    Damage: 
+    - 200
+    - 212
+    - 224
+    - 236
+    - 248
+    - 260
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 1
+    needResistLevel: 2
+    needLevel: 5
+    sniper: 0
+  - name: "\u041F\u0422\u0423\u0420\u0421"
+    order: 49
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 010000000200000003000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 7
+    DeltaShotArray: 
+    - 1
+    - 0.92
+    - 0.84
+    - 0.76
+    - 0.68
+    - 0.6
+    DeltaShot: 1
+    Damage: 
+    - 300
+    - 318
+    - 336
+    - 354
+    - 372
+    - 390
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 2
+    needResistLevel: 2
+    needLevel: 25
+    sniper: 0
+  - name: "\u041B\u0430\u0437\u0435\u0440\u043D\u044B\u0439 \u043C\u0435\u0447"
+    order: 43
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 120
+    - 127
+    - 134
+    - 142
+    - 149
+    - 156
+    Accuracy: 
+    - 0
+    Distance: 3
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 14
+    sniper: 0
+  - name: "\u041C\u0435\u0447"
+    order: 9
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 90
+    - 95
+    - 101
+    - 106
+    - 112
+    - 117
+    Accuracy: 
+    - 0
+    Distance: 2.5
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 2
+    needLevel: 2
+    sniper: 0
+  - name: "\u041F\u043B\u0430\u0437\u043C\u043E\u0433\u0430\u043D"
+    order: 7
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 4
+    DeltaShotArray: 
+    - 0.2
+    - 0.184
+    - 0.168
+    - 0.152
+    - 0.136
+    - 0.12
+    DeltaShot: 0.2
+    Damage: 
+    - 30
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 2
+    needResistLevel: 2
+    needLevel: 1
+    sniper: 0
+  - name: "\u0421\u043D\u0430\u0439\u043F\u0435\u0440\u043A\u0430"
+    order: 17
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 9
+    DeltaShotArray: 
+    - 0.6666667
+    - 0.6133333
+    - 0.56
+    - 0.5066667
+    - 0.4533333
+    - 0.4
+    DeltaShot: 0.6666667
+    Damage: 
+    - 100
+    - 106
+    - 112
+    - 118
+    - 124
+    - 130
+    Accuracy: 
+    - 0.01
+    - 0.009
+    - 0.007999999
+    - 0.007
+    - 0.006
+    - 0.005
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 2
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 2
+    needLevel: 4
+    sniper: 0
+  - name: "\u041C\u0438\u043D\u0438\u0433\u0430\u043D"
+    order: 38
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 64000000780000008C000000A0000000B4000000C8000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1666667
+    - 0.1533333
+    - 0.14
+    - 0.1266667
+    - 0.1133333
+    - 0.1
+    DeltaShot: 0.1666667
+    Damage: 
+    - 75
+    - 80
+    - 84
+    - 88
+    - 93
+    - 98
+    Accuracy: 
+    - 4
+    - 3.6
+    - 3.2
+    - 2.8
+    - 2.4
+    - 2
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 4
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 2
+    needLevel: 10
+    sniper: 0
+  - name: "\u041E\u0433\u043D\u0435\u043C\u0451\u0442"
+    order: 39
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 4
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 2
+    needSpeedLevel: 2
+    needResistLevel: 0
+    needLevel: 10
+    sniper: 0
+  - name: "\u0411\u0435\u043D\u0437\u043E\u043F\u0438\u043B\u0430"
+    order: 32
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 0
+    Distance: 2
+    Type: 1
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 1
+    needSpeedLevel: 1
+    needResistLevel: 0
+    needLevel: 7
+    sniper: 0
+  - name: "\u0411\u0438\u0442\u0430"
+    order: 15
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 75
+    - 80
+    - 84
+    - 88
+    - 93
+    - 98
+    Accuracy: 
+    - 0
+    Distance: 2
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 1
+    needResistLevel: 0
+    needLevel: 3
+    sniper: 0
+  - name: "\u041F\u0443\u043B\u0435\u043C\u0451\u0442"
+    order: 41
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 280000002D00000032000000370000003C00000041000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 67
+    - 69
+    - 75
+    - 77
+    - 88
+    - 95
+    Accuracy: 
+    - 4
+    - 3.6
+    - 3.2
+    - 2.8
+    - 2.4
+    - 2
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 4
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 3
+    needResistLevel: 3
+    needLevel: 11
+    sniper: 0
+  - name: "\u0413\u0440\u0430\u043D\u0430\u0442\u043E\u043C\u0451\u0442"
+    order: 18
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 030000000400000004000000050000000500000006000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 8
+    DeltaShotArray: 
+    - 1
+    - 0.92
+    - 0.84
+    - 0.76
+    - 0.68
+    - 0.6
+    DeltaShot: 1
+    Damage: 
+    - 150
+    - 159
+    - 168
+    - 177
+    - 186
+    - 195
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 3
+    needLevel: 5
+    sniper: 0
+  - name: "\u041A\u0430\u043B\u0430\u0448\u043D\u0438\u043A\u043E\u0432"
+    order: 24
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 280000003000000038000000400000004800000050000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 3
+    needResistLevel: 3
+    needLevel: 6
+    sniper: 0
+  - name: "\u0411\u0424\u0413"
+    order: 67
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 010000000200000003000000
+    reloadTime: 
+    - 3
+    - 2.64
+    - 2.28
+    - 1.92
+    - 1.56
+    - 1.2
+    BulletsType: 6
+    DeltaShotArray: 
+    - 4
+    - 3.68
+    - 3.36
+    - 3.04
+    - 2.72
+    - 2.4
+    DeltaShot: 4
+    Damage: 
+    - 800
+    - 848
+    - 896
+    - 944
+    - 992
+    - 1040
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 6
+    needArmorLevel: 5
+    needJumpLevel: 3
+    needSpeedLevel: 5
+    needResistLevel: 5
+    needLevel: 45
+    sniper: 0
+  - name: "\u0420\u0438\u043F\u043F\u0435\u0440"
+    order: 42
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 2
+    needJumpLevel: 2
+    needSpeedLevel: 0
+    needResistLevel: 1
+    needLevel: 13
+    sniper: 0
+  - name: "\u041B\u0430\u0437\u0435\u0440"
+    order: 44
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 0.6666667
+    - 0.6133333
+    - 0.56
+    - 0.5066667
+    - 0.4533333
+    - 0.4
+    DeltaShot: 0.6666667
+    Damage: 
+    - 90
+    - 95
+    - 101
+    - 106
+    - 112
+    - 117
+    Accuracy: 
+    - 1
+    - 0.9
+    - 0.8
+    - 0.7
+    - 0.6
+    - 0.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 2
+    needJumpLevel: 0
+    needSpeedLevel: 2
+    needResistLevel: 0
+    needLevel: 14
+    sniper: 0
+  - name: "\u041F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
+    order: 11
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 07000000080000000A0000000B0000000D0000000E000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.65
+    - 0.598
+    - 0.546
+    - 0.494
+    - 0.442
+    - 0.39
+    DeltaShot: 0.65
+    Damage: 
+    - 70
+    - 74
+    - 78
+    - 83
+    - 87
+    - 91
+    Accuracy: 
+    - 0.25
+    - 0.225
+    - 0.2
+    - 0.175
+    - 0.15
+    - 0.125
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 30
+    accuarcy: 0.25
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 2
+    sniper: 0
+  - name: "\u041F\u043B\u0430\u0437\u043C\u0435\u043D\u043D\u0430\u044F \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0430"
+    order: 16
+    weaponType: 0
+    UsingBullets: 10
+    clipSize: 320000003C00000046000000500000005A00000064000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 0.6666667
+    - 0.6133333
+    - 0.56
+    - 0.5066667
+    - 0.4533333
+    - 0.4
+    DeltaShot: 0.6666667
+    Damage: 
+    - 120
+    - 127
+    - 134
+    - 142
+    - 149
+    - 156
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 2
+    needSpeedLevel: 2
+    needResistLevel: 0
+    needLevel: 4
+    sniper: 0
+  - name: "\u0412\u043E\u043B\u0448\u0435\u0431\u043D\u0430\u044F \u043F\u0430\u043B\u043E\u0447\u043A\u0430"
+    order: 6
+    weaponType: 0
+    UsingBullets: 5
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 1
+    - 0.92
+    - 0.84
+    - 0.76
+    - 0.68
+    - 0.6
+    DeltaShot: 1
+    Damage: 
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 0
+    aimTex: []
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 1
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 0
+    sniper: 0
+  - name: "\u0421\u043D\u0435\u0436\u043D\u0430\u044F \u043F\u0443\u0448\u043A\u0430"
+    order: 4
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 0.25
+    - 0.23
+    - 0.21
+    - 0.19
+    - 0.17
+    - 0.15
+    DeltaShot: 0.25
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 1
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 0
+    sniper: 0
+  - name: "\u041F\u043B\u0430\u0437\u043C\u0435\u043D\u043D\u044B\u0439 \u0433\u0440\u0430\u043D\u0430\u0442\u043E\u043C\u0451\u0442"
+    order: 3
+    weaponType: 0
+    UsingBullets: 5
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 2
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 250
+    - 265
+    - 280
+    - 295
+    - 310
+    - 325
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 1
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 0
+    sniper: 0
+  - name: "\u041F\u043B\u0430\u0437\u043C\u043E\u043C\u0435\u0442"
+    order: 45
+    weaponType: 0
+    UsingBullets: 10
+    clipSize: 320000003C00000046000000500000005A00000064000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 100
+    - 106
+    - 112
+    - 118
+    - 124
+    - 130
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 2
+    needJumpLevel: 2
+    needSpeedLevel: 0
+    needResistLevel: 3
+    needLevel: 15
+    sniper: 0
+  - name: "\u0412\u044B\u0436\u0438\u0433\u0430\u0442\u0435\u043B\u044C"
+    order: 46
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 35
+    - 37
+    - 39
+    - 41
+    - 43
+    - 46
+    Accuracy: 
+    - 0.3
+    - 0.27
+    - 0.24
+    - 0.21
+    - 0.18
+    - 0.15
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.3
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 2
+    needResistLevel: 2
+    needLevel: 16
+    sniper: 0
+  - name: "\u0421\u043F\u0435\u0446. \u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
+    order: 13
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.35
+    - 0.322
+    - 0.294
+    - 0.266
+    - 0.238
+    - 0.21
+    DeltaShot: 0.35
+    Damage: 
+    - 70
+    - 74
+    - 78
+    - 83
+    - 87
+    - 91
+    Accuracy: 
+    - 0.15
+    - 0.135
+    - 0.12
+    - 0.105
+    - 0.09
+    - 0.075
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 35
+    accuarcy: 0.15
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 2
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 1
+    needLevel: 3
+    sniper: 0
+  - name: "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0438\u0439 \u0434\u0440\u043E\u0431\u043E\u0432\u0438\u043A"
+    order: 12
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 080000000A0000000B0000000D0000000E00000010000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 1
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 180
+    - 191
+    - 202
+    - 212
+    - 223
+    - 234
+    Accuracy: 
+    - 5
+    - 4.5
+    - 4
+    - 3.5
+    - 3
+    - 2.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 12
+    accuarcy: 5
+    weaponGroup: 2
+    hidden: 0
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 4
+    needLevel: 3
+    sniper: 0
+  - name: "\u0422\u0430\u043A\u0442\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0441\u043D\u0430\u0439\u043F\u0435\u0440\u043A\u0430"
+    order: 19
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 9
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 150
+    - 159
+    - 168
+    - 177
+    - 186
+    - 195
+    Accuracy: 
+    - 0.01
+    - 0.009
+    - 0.007999999
+    - 0.007
+    - 0.006
+    - 0.005
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 4
+    needResistLevel: 4
+    needLevel: 5
+    sniper: 0
+  - name: "\u0420\u0435\u0432\u043E\u043B\u044C\u0432\u0435\u0440"
+    order: 23
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 0600000007000000080000000A0000000B0000000C000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 90
+    - 95
+    - 100
+    - 105
+    - 110
+    - 115
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 1
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 1
+    needLevel: 6
+    sniper: 0
+  - name: "\u041F\u041F\u0428"
+    order: 28
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 1E000000240000002A00000030000000360000003C000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.138
+    - 0.126
+    - 0.114
+    - 0.102
+    - 0.09
+    DeltaShot: 0.5
+    Damage: 
+    - 40
+    - 42
+    - 45
+    - 47
+    - 50
+    - 52
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 2
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 2
+    needLevel: 6
+    sniper: 0
+  - name: "\u0431\u0444\u04339000"
+    order: 58
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 030000000400000005000000
+    reloadTime: 
+    - 1.4
+    - 1.2
+    - 1
+    BulletsType: 6
+    DeltaShotArray: 
+    - 0.3
+    - 0.28
+    - 0.26
+    DeltaShot: 0.5
+    Damage: 
+    - 500
+    - 550
+    - 600
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 6
+    needArmorLevel: 5
+    needJumpLevel: 3
+    needSpeedLevel: 5
+    needResistLevel: 5
+    needLevel: 40
+    sniper: 0
+  - name: "svd9000"
+    order: 27
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 030000000400000005000000060000000700000008000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 9
+    DeltaShotArray: 
+    - 0.7
+    - 0.66
+    - 0.62
+    - 0.58
+    - 0.54
+    - 0.5
+    DeltaShot: 0.5
+    Damage: 
+    - 170
+    - 179
+    - 188
+    - 197
+    - 206
+    - 225
+    Accuracy: 
+    - 0.01
+    - 0.009
+    - 0.007999999
+    - 0.007
+    - 0.006
+    - 0.005
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 4
+    needResistLevel: 4
+    needLevel: 6
+    sniper: 1
+  - name: "\u0417\u0430\u043C\u043E\u0440\u043E\u0437\u043A\u0430"
+    order: 56
+    weaponType: 0
+    UsingBullets: 10
+    clipSize: 320000003C00000046000000500000005A00000064000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 2
+    - 1.8
+    - 1.7
+    - 1.6
+    - 1.5
+    - 1.4
+    DeltaShot: 2
+    Damage: 
+    - 60
+    - 65
+    - 70
+    - 75
+    - 80
+    - 85
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 2
+    needJumpLevel: 2
+    needSpeedLevel: 0
+    needResistLevel: 3
+    needLevel: 36
+    sniper: 0
+  - name: "\u043B\u043E\u043C"
+    order: 30
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 80
+    - 84
+    - 88
+    - 93
+    - 98
+    - 100
+    Accuracy: 
+    - 0
+    Distance: 2
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 1
+    needResistLevel: 0
+    needLevel: 6
+    sniper: 0
+  - name: "\u0414\u0443\u0431\u0438\u043D\u043A\u0430"
+    order: 31
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    - 0.28
+    DeltaShot: 0.46
+    Damage: 
+    - 75
+    - 80
+    - 84
+    - 88
+    - 93
+    - 98
+    Accuracy: 
+    - 0
+    Distance: 2
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 1
+    needResistLevel: 0
+    needLevel: 6
+    sniper: 0
+  - name: "mp5"
+    order: 33
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 180000001C0000002000000024000000280000002D000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.2
+    - 0.184
+    - 0.168
+    - 0.152
+    - 0.136
+    - 0.12
+    DeltaShot: 0.2
+    Damage: 
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    - 41
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 7
+    sniper: 0
+  - name: "ump"
+    order: 34
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 180000001C0000002000000024000000280000002D000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.2
+    - 0.184
+    - 0.168
+    - 0.152
+    - 0.136
+    - 0.12
+    DeltaShot: 0.2
+    Damage: 
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    - 42
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 8
+    sniper: 0
+  - name: "ump_spec"
+    order: 61
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 180000001C0000002000000024000000280000002D000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.2
+    - 0.184
+    - 0.168
+    - 0.152
+    - 0.136
+    - 0.12
+    DeltaShot: 0.2
+    Damage: 
+    - 40
+    - 42
+    - 45
+    - 47
+    - 50
+    - 55
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 43
+    sniper: 0
+  - name: "\u041C\u0435\u0447"
+    order: 35
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 90
+    - 95
+    - 101
+    - 106
+    - 112
+    - 117
+    Accuracy: 
+    - 0
+    Distance: 2.5
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 2
+    needLevel: 9
+    sniper: 0
+  - name: "\u041C\u0435\u0447"
+    order: 36
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 90
+    - 95
+    - 101
+    - 106
+    - 112
+    - 117
+    Accuracy: 
+    - 0
+    Distance: 2.5
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 2
+    needLevel: 9
+    sniper: 0
+  - name: "\u0414\u0440\u043E\u0431\u043E\u0432\u0438\u043A"
+    order: 40
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 0A0000000C0000000E000000100000001200000014000000
+    reloadTime: 
+    - 0.7
+    - 0.616
+    - 0.532
+    - 0.448
+    - 0.364
+    - 0.28
+    BulletsType: 1
+    DeltaShotArray: 
+    - 0.46
+    - 0.42
+    - 0.4
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 130
+    - 135
+    - 140
+    - 145
+    - 150
+    - 155
+    Accuracy: 
+    - 5
+    - 4.5
+    - 4
+    - 3.5
+    - 3
+    - 2.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 8
+    accuarcy: 5
+    weaponGroup: 2
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 10
+    sniper: 0
+  - name: "sg553"
+    order: 47
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 230000002A00000031000000380000003F00000046000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 60
+    - 62
+    - 64
+    - 66
+    - 68
+    - 70
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 500
+    accuarcy: 1.5
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 1
+    needJumpLevel: 1
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 17
+    sniper: 0
+  - name: "Kriss"
+    order: 62
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    DeltaShot: 0.2
+    Damage: 
+    - 30
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 43
+    sniper: 0
+  - name: "aa12_47"
+    order: 54
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 1E000000220000002400000026000000280000002A000000
+    reloadTime: 
+    - 0.7
+    - 0.616
+    - 0.532
+    - 0.448
+    - 0.364
+    - 0.28
+    BulletsType: 1
+    DeltaShotArray: 
+    - 0.2
+    - 0.18
+    - 0.16
+    - 0.15
+    - 0.14
+    - 0.135
+    DeltaShot: 0.3
+    Damage: 
+    - 130
+    - 135
+    - 140
+    - 145
+    - 150
+    - 155
+    Accuracy: 
+    - 5
+    - 4.5
+    - 4
+    - 3.5
+    - 3
+    - 2.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 8
+    accuarcy: 5
+    weaponGroup: 2
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 35
+    sniper: 0
+  - name: "bizon"
+    order: 63
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 280000002D00000032000000370000003C00000041000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    DeltaShot: 0.2
+    Damage: 
+    - 30
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 44
+    sniper: 0
+  - name: "mp40"
+    order: 25
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 180000001C0000002000000024000000280000002D000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    DeltaShot: 0.2
+    Damage: 
+    - 30
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 6
+    sniper: 0
+  - name: "barett"
+    order: 60
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 9
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 180
+    - 185
+    - 190
+    - 195
+    - 200
+    - 205
+    Accuracy: 
+    - 0.01
+    - 0.009
+    - 0.007999999
+    - 0.007
+    - 0.006
+    - 0.005
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 4
+    needResistLevel: 4
+    needLevel: 40
+    sniper: 1
+  - name: "mg42"
+    order: 48
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 280000002D00000032000000370000003C00000041000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 67
+    - 69
+    - 75
+    - 77
+    - 88
+    - 95
+    Accuracy: 
+    - 4
+    - 3.6
+    - 3.2
+    - 2.8
+    - 2.4
+    - 2
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 4
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 3
+    needResistLevel: 3
+    needLevel: 18
+    sniper: 0
+  - name: "sten"
+    order: 29
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 180000001C0000002000000024000000280000002D000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    DeltaShot: 0.2
+    Damage: 
+    - 30
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 6
+    sniper: 0
+  - name: "HK416"
+    order: 64
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 230000002A00000031000000380000003F00000046000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    - 0.058
+    DeltaShot: 0.1
+    Damage: 
+    - 50
+    - 52
+    - 54
+    - 56
+    - 58
+    - 60
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 500
+    accuarcy: 1.5
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 1
+    needJumpLevel: 1
+    needSpeedLevel: 2
+    needResistLevel: 0
+    needLevel: 44
+    sniper: 0
+  - name: "MGL"
+    order: 50
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 030000000400000004000000050000000500000006000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 8
+    DeltaShotArray: 
+    - 1
+    - 0.92
+    - 0.84
+    - 0.76
+    - 0.68
+    - 0.6
+    DeltaShot: 1
+    Damage: 
+    - 168
+    - 177
+    - 186
+    - 195
+    - 200
+    - 210
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 3
+    needJumpLevel: 4
+    needSpeedLevel: 0
+    needResistLevel: 3
+    needLevel: 30
+    sniper: 0
+  - name: "TMP"
+    order: 52
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    DeltaShot: 0.2
+    Damage: 
+    - 32
+    - 34
+    - 35
+    - 37
+    - 39
+    - 42
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 3
+    needJumpLevel: 2
+    needSpeedLevel: 3
+    needResistLevel: 0
+    needLevel: 32
+    sniper: 0
+  - name: "\u0410\u0440\u0431\u0430\u043B\u0435\u0442"
+    order: 22
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.18
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    DeltaShot: 0.2
+    Damage: 
+    - 30
+    - 32
+    - 34
+    - 36
+    - 38
+    - 40
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 3
+    needJumpLevel: 2
+    needSpeedLevel: 3
+    needResistLevel: 0
+    needLevel: 5
+    sniper: 0
+  - name: "\u0421\u0443\u043F\u0435\u0440 \u0430\u0440\u0431\u0430\u043B\u0435\u0442"
+    order: 59
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 14000000180000001C000000200000002400000028000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.15
+    - 0.14
+    - 0.13
+    - 0.12
+    - 0.11
+    - 0.1
+    DeltaShot: 0.2
+    Damage: 
+    - 80
+    - 90
+    - 95
+    - 100
+    - 105
+    - 110
+    Accuracy: 
+    - 2
+    - 1.8
+    - 1.6
+    - 1.4
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 3
+    needJumpLevel: 2
+    needSpeedLevel: 3
+    needResistLevel: 0
+    needLevel: 40
+    sniper: 1
+  - name: "Asval"
+    order: 65
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 280000003000000038000000400000004800000050000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 3
+    needResistLevel: 3
+    needLevel: 44
+    sniper: 0
+  - name: "jackhammer"
+    order: 55
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 0A0000000C0000000E000000100000001200000014000000
+    reloadTime: 
+    - 0.7
+    - 0.616
+    - 0.532
+    - 0.448
+    - 0.364
+    - 0.28
+    BulletsType: 1
+    DeltaShotArray: 
+    - 0.46
+    - 0.42
+    - 0.4
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 130
+    - 135
+    - 140
+    - 145
+    - 150
+    - 155
+    Accuracy: 
+    - 5
+    - 4.5
+    - 4
+    - 3.5
+    - 3
+    - 2.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 8
+    accuarcy: 5
+    weaponGroup: 2
+    hidden: 0
+    needHealthLevel: 1
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 35
+    sniper: 0
+  - name: "m700"
+    order: 51
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 9
+    DeltaShotArray: 
+    - 0.6666667
+    - 0.6133333
+    - 0.56
+    - 0.5066667
+    - 0.4533333
+    - 0.4
+    DeltaShot: 0.6666667
+    Damage: 
+    - 140
+    - 145
+    - 150
+    - 155
+    - 160
+    - 165
+    Accuracy: 
+    - 0.01
+    - 0.009
+    - 0.007999999
+    - 0.007
+    - 0.006
+    - 0.005
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 2
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 2
+    needLevel: 30
+    sniper: 1
+  - name: "\u041F\u0438\u0441\u0442\u043E\u043B\u044C"
+    order: 57
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 07000000080000000A0000000B0000000C0000000E000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.55
+    - 0.5
+    - 0.45
+    - 0.4
+    - 0.35
+    - 0.3
+    DeltaShot: 1
+    Damage: 
+    - 75
+    - 80
+    - 85
+    - 90
+    - 92
+    - 94
+    Accuracy: 
+    - 0.25
+    - 0.225
+    - 0.2
+    - 0.175
+    - 0.15
+    - 0.125
+    Distance: 100
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 25
+    accuarcy: 0
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 40
+    sniper: 0
+  - name: "\u041F\u0443\u043B\u0435\u043C\u0451\u0442"
+    order: 68
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 50000000550000005A0000005F0000006400000069000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 80
+    - 85
+    - 90
+    - 95
+    - 100
+    - 105
+    Accuracy: 
+    - 4
+    - 3.6
+    - 3.2
+    - 2.8
+    - 2.4
+    - 2
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 4
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 3
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 3
+    needResistLevel: 3
+    needLevel: 45
+    sniper: 0
+  - name: "\u041F\u043B\u0430\u0437\u043C\u0435\u043D\u043D\u0430\u044F \u0432\u0438\u043D\u0442\u043E\u0432\u043A\u0430"
+    order: 53
+    weaponType: 0
+    UsingBullets: 10
+    clipSize: 320000003C00000046000000500000005A00000064000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 0.5
+    - 0.48
+    - 0.45
+    - 0.42
+    - 0.4
+    - 0.38
+    DeltaShot: 0.6666667
+    Damage: 
+    - 120
+    - 127
+    - 134
+    - 142
+    - 149
+    - 156
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 2
+    needSpeedLevel: 2
+    needResistLevel: 0
+    needLevel: 35
+    sniper: 1
+  - name: "\u0438\u043C\u0431\u0430"
+    order: 66
+    weaponType: 0
+    UsingBullets: 10
+    clipSize: 320000003C00000046000000500000005A00000064000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 3
+    DeltaShotArray: 
+    - 1.2
+    - 1.1
+    - 1
+    - 0.95
+    - 0.9
+    - 0.85
+    DeltaShot: 0.6666667
+    Damage: 
+    - 200
+    - 220
+    - 240
+    - 260
+    - 280
+    - 300
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 2
+    needSpeedLevel: 2
+    needResistLevel: 0
+    needLevel: 45
+    sniper: 1
+  - name: "\u0420\u0435\u0432\u043E\u043B\u044C\u0432\u0435\u0440"
+    order: 69
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 0600000007000000080000000A0000000B0000000C000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 80
+    - 85
+    - 90
+    - 94
+    - 99
+    - 104
+    Accuracy: 
+    - 1.1
+    - 1
+    - 0.9
+    - 0.8
+    - 0.7
+    - 0.6
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 1
+    hidden: 0
+    needHealthLevel: 2
+    needArmorLevel: 1
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 1
+    needLevel: 45
+    sniper: 1
+  - name: "KBZP100"
+    order: 26
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 0600000007000000080000000A0000000B0000000C000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 90
+    - 95
+    - 100
+    - 105
+    - 110
+    - 115
+    Accuracy: 
+    - 1.5
+    - 1.35
+    - 1.2
+    - 1.05
+    - 0.9
+    - 0.75
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 1
+    hidden: 1
+    needHealthLevel: 2
+    needArmorLevel: 1
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 1
+    needLevel: 6
+    sniper: 0
+  - name: "KBZS200"
+    order: 14
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 080000000A0000000B0000000D0000000E00000010000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 1
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 180
+    - 191
+    - 202
+    - 212
+    - 223
+    - 234
+    Accuracy: 
+    - 5
+    - 4.5
+    - 4
+    - 3.5
+    - 3
+    - 2.5
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 12
+    accuarcy: 5
+    weaponGroup: 2
+    hidden: 1
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 4
+    needLevel: 3
+    sniper: 0
+  - name: "KBZC500"
+    order: 20
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 9
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 150
+    - 159
+    - 168
+    - 177
+    - 186
+    - 195
+    Accuracy: 
+    - 0.01
+    - 0.009
+    - 0.007999999
+    - 0.007
+    - 0.006
+    - 0.005
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 5
+    hidden: 1
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 4
+    needResistLevel: 4
+    needLevel: 5
+    sniper: 1
+  - name: "KBZW100"
+    order: 37
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 110
+    - 117
+    - 124
+    - 132
+    - 149
+    - 146
+    Accuracy: 
+    - 0
+    Distance: 3
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 1
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 10
+    sniper: 0
+  - name: "\u0420\u041F\u041A"
+    order: 28
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 3C00000046000000500000005A000000640000006E000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 5
+    DeltaShotArray: 
+    - 0.1
+    - 0.092
+    - 0.084
+    - 0.076
+    - 0.068
+    - 0.06
+    DeltaShot: 0.1
+    Damage: 
+    - 60
+    - 64
+    - 67
+    - 71
+    - 74
+    - 78
+    Accuracy: 
+    - 1.6
+    - 1.55
+    - 1.5
+    - 1.45
+    - 1.2
+    - 1
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 9bc8e225cb6343f6a2060149d1ab1016, type: 3}
+    - {fileID: 2800000, guid: 652d3969cd94486fb4739130c2ccf3ac, type: 3}
+    fatalDistance: 1000
+    accuarcy: 1.5
+    weaponGroup: 3
+    hidden: 0
+    needHealthLevel: 0
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 3
+    needResistLevel: 3
+    needLevel: 9
+    sniper: 0
+  - name: "AWP"
+    order: 28
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 05000000060000000700000008000000090000000A000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 9
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 170
+    - 179
+    - 188
+    - 197
+    - 206
+    - 215
+    Accuracy: 
+    - 0.01
+    - 0.009
+    - 0.007999999
+    - 0.007
+    - 0.006
+    - 0.005
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 1000
+    accuarcy: 0.01
+    weaponGroup: 5
+    hidden: 0
+    needHealthLevel: 4
+    needArmorLevel: 3
+    needJumpLevel: 0
+    needSpeedLevel: 4
+    needResistLevel: 4
+    needLevel: 18
+    sniper: 1
+  - name: "\u041F\u0422\u0423\u0420\u0421"
+    order: 68
+    weaponType: 0
+    UsingBullets: 1
+    clipSize: 010000000200000003000000
+    reloadTime: 
+    - 1
+    - 0.88
+    - 0.76
+    - 0.64
+    - 0.52
+    - 0.4
+    BulletsType: 7
+    DeltaShotArray: 
+    - 1
+    - 0.92
+    - 0.84
+    - 0.76
+    - 0.68
+    - 0.6
+    DeltaShot: 1
+    Damage: 
+    - 800
+    - 810
+    - 820
+    - 850
+    - 900
+    - 950
+    Accuracy: 
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    - 0
+    Distance: 1000
+    Type: 1
+    aimTex:
+    - {fileID: 2800000, guid: 5cb823fc5e944a76a0e67cdbf3cd6f82, type: 3}
+    - {fileID: 2800000, guid: 0f5a9a0920cd4071996a7f0e8ca0ff10, type: 3}
+    fatalDistance: 0
+    accuarcy: 0
+    weaponGroup: 4
+    hidden: 0
+    needHealthLevel: 6
+    needArmorLevel: 5
+    needJumpLevel: 3
+    needSpeedLevel: 4
+    needResistLevel: 4
+    needLevel: 45
+    sniper: 0
+  - name: "BOMB"
+    order: 37
+    weaponType: 0
+    UsingBullets: 0
+    clipSize: 00000000
+    reloadTime: 
+    - 0
+    BulletsType: 0
+    DeltaShotArray: 
+    - 0.5
+    - 0.46
+    - 0.42
+    - 0.38
+    - 0.34
+    - 0.3
+    DeltaShot: 0.5
+    Damage: 
+    - 110
+    - 117
+    - 124
+    - 132
+    - 149
+    - 146
+    Accuracy: 
+    - 0
+    Distance: 3
+    Type: 0
+    aimTex: []
+    fatalDistance: 2
+    accuarcy: 0
+    weaponGroup: 0
+    hidden: 1
+    needHealthLevel: 2
+    needArmorLevel: 0
+    needJumpLevel: 0
+    needSpeedLevel: 0
+    needResistLevel: 0
+    needLevel: 10
+    sniper: 0
+  weaponSkins:
+  - name: "\u0417\u043B\u043E\u0439 \u043A\u0430\u043B\u0430\u0448"
+    weaponId: 18
+    price: 0
+    hidden: 0
+  - name: "\u0440\u043E\u0437\u043E\u0432\u044B\u0439 \u043A\u0430\u043B\u0430\u0448"
+    weaponId: 18
+    price: 0
+    hidden: 0
+  - name: "\u043A\u0440\u043E\u0432 m16"
+    weaponId: 5
+    price: 0
+    hidden: 0
+  - name: "\u043E\u0440 m16"
+    weaponId: 5
+    price: 0
+    hidden: 0
+  - name: "\u043E\u0440 asval"
+    weaponId: 58
+    price: 0
+    hidden: 0
+  - name: "\u043E\u0440 asval"
+    weaponId: 58
+    price: 0
+    hidden: 0
+  - name: "bfg2"
+    weaponId: 34
+    price: 0
+    hidden: 0
+  - name: "rpk ussr"
+    weaponId: 70
+    price: 0
+    hidden: 1
+  - name: "bfg1"
+    weaponId: 19
+    price: 0
+    hidden: 0
+  - name: "bfg2"
+    weaponId: 19
+    price: 0
+    hidden: 0
+  - name: "bita"
+    weaponId: 15
+    price: 0
+    hidden: 0
+  - name: "awp"
+    weaponId: 71
+    price: 0
+    hidden: 0
+  - name: "awp"
+    weaponId: 71
+    price: 0
+    hidden: 0
+  itemDesc:
+  - name: "\u0424\u0430\u043A\u0435\u043B"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0421\u0442\u0443\u043F\u0435\u043D\u044C\u043A\u0438 \u041A"
+    needLevel: 0
+    hidden: 0
+    page: 4
+  - name: "\u0421\u0442\u0443\u043F\u0435\u043D\u044C\u043A\u0438 \u0414"
+    needLevel: 0
+    hidden: 0
+    page: 4
+  - name: "\u041B\u0435\u0441\u0442\u043D\u0438\u0446\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 4
+  - name: "\u0414\u0432\u0435\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u0421\u0442\u0430\u043B\u044C\u043D\u0430\u044F \u0434\u0432\u0435\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u0421\u0442\u0430\u043B\u044C\u043D\u0430\u044F \u0434\u0432\u0435\u0440\u044C 2"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u0414\u0432\u043E\u0439\u043D\u0430\u044F \u0434. \u0434\u0432\u0435\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u0414\u0432\u043E\u0439\u043D\u0430\u044F \u0441. \u0434\u0432\u0435\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u0412\u043E\u0440\u043E\u0442\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u0421\u0432\u0435\u0442\u0438\u043B\u044C\u043D\u0438\u043A"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041B\u044E\u0441\u0442\u0440\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439 \u0448\u0430\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0417\u0435\u043B\u0451\u043D\u044B\u0439 \u0448\u0430\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0421\u0438\u043D\u0438\u0439 \u0448\u0430\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0411\u043E\u0447\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0416\u0435\u043B\u0435\u0437\u043D\u0430\u044F \u0431\u043E\u0447\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0416\u0435\u043B\u0435\u0437\u043D\u0430\u044F \u0431\u043E\u0447\u043A\u0430 2"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0413\u0440\u043E\u0431"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0417\u0430\u0431\u043E\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u041E\u0433\u0440\u0430\u0434\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u041E\u0433\u0440\u0430\u0434\u0430 2"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u041A\u0430\u0440\u0442\u0438\u043D\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u041A\u0430\u0440\u0442\u0438\u043D\u0430 2"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0421\u043A\u0430\u043C\u0435\u0439\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u043A\u0430\u043C\u0435\u0439\u043A\u0430 2"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0413\u0440\u0438\u0431\u044B"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u041F\u0430\u043F\u043E\u0440\u043E\u0442\u043D\u0438\u043A"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u0420\u043E\u043C\u0430\u0448\u043A\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u0422\u0440\u0430\u0432\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u0426\u0432\u0435\u0442\u043E\u0447\u043A\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u0421\u0442\u043E\u043B 1"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u0442\u043E\u043B 2"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u0442\u0443\u043B"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u0443\u043D\u0434\u0443\u043A"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0424\u0430\u043A\u0435\u043B"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041A\u0443\u0431-\u043B\u0430\u043C\u043F\u0430(\u0431\u0435\u043B)"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041A\u0443\u0431-\u043B\u0430\u043C\u043F\u0430(\u0441\u0438\u043D)"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041A\u0443\u0431-\u043B\u0430\u043C\u043F\u0430(\u0437\u0435\u043B)"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u041A\u0440\u0430\u0441\u043D\u044B\u0445"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0421\u0438\u043D\u0438\u0445"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0417\u0435\u043B\u0451\u043D\u044B\u0445"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0417\u043E\u043B\u043E\u0442\u044B\u0445"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u043F\u0430\u0442\u0440\u043E\u043D\u043E\u0432"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0433\u0438\u043B\u044C\u0437"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0440\u0430\u043A\u0435\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u044D\u043D\u0435\u0440\u0433\u0438\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0430\u043F\u0442\u0435\u0447\u043A\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0431\u0440\u043E\u043D\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0440\u0443\u0436\u044A\u044F"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u043E\u0431\u0440\u0435\u0437\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0423\u0417\u0418"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0431\u0430\u0437\u0443\u043A\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u041F\u0422\u0423\u0420\u0421"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0437\u043E\u043C\u0431\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u041A\u043D\u043E\u043F\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 14
+  - name: "\u0420\u044B\u0447\u0430\u0433"
+    needLevel: 0
+    hidden: 0
+    page: 14
+  - name: "\u0420\u044B\u0447\u0430\u0433 \u043D\u0430 \u0441\u0442\u0435\u043D\u0443"
+    needLevel: 0
+    hidden: 0
+    page: 14
+  - name: "\u0422\u0435\u043B\u0435\u043F\u043E\u0440\u0442\u0430\u0442\u043E\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 14
+  - name: "\u041D\u0435\u0432\u0438\u0434\u0438\u043C\u044B\u0439 \u0432\u044B\u043A\u043B\u044E\u0447\u0430\u0442\u0435\u043B\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 14
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0437\u043E\u043C\u0431\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u043A\u043E\u043F\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0441\u043E\u043B\u0434\u0430\u0442\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0448\u0430\u0445\u0442\u0451\u0440\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0434\u0435\u043C\u043E\u043D\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0421\u043F\u0440\u044F\u0442\u0430\u043D\u043D\u044B\u0439 \u043F\u0440\u0435\u0434\u043C\u0435\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u041A\u0443\u0431-\u043B\u0430\u043C\u043F\u0430(\u0436\u0451\u043B)"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041A\u0443\u0431-\u043B\u0430\u043C\u043F\u0430(\u043A\u0440)"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041A\u0440\u043E\u0432\u0430\u0442\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u0442\u0430\u043B\u044C\u043D\u0430\u044F \u043B\u0435\u0441\u0442\u043D\u0438\u0446\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 4
+  - name: "\u0412\u0435\u0440\u0435\u0432\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 4
+  - name: "\u0421\u0442\u0430\u043B\u044C\u043D\u044B\u0435 \u0441\u0442\u0443\u043F\u0435\u043D\u044C\u043A\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 4
+  - name: "\u0415\u043B\u043E\u0447\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u0421\u043D\u0435\u0436\u043D\u0430\u044F \u0435\u043B\u043E\u0447\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u0411\u043E\u043B\u044C\u0448\u0430\u044F \u0435\u043B\u043E\u0447\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 5
+  - name: "\u041A\u0432\u0430\u0434\u0440\u0438\u043A"
+    needLevel: 5
+    hidden: 0
+    page: 15
+  - name: "\u0422\u0440\u0430\u043C\u043F\u043B\u0438\u043D 3\u04451"
+    needLevel: 0
+    hidden: 0
+    page: 8
+  - name: "\u0422\u0440\u0430\u043C\u043F\u043B\u0438\u043D 3\u04452"
+    needLevel: 0
+    hidden: 0
+    page: 8
+  - name: "\u0422\u0440\u0430\u043C\u043F\u043B\u0438\u043D 3\u04453"
+    needLevel: 0
+    hidden: 0
+    page: 8
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0442\u0443\u0440\u0435\u043B\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 15
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0411\u0430\u043D\u0448\u0438"
+    needLevel: 10
+    hidden: 0
+    page: 15
+  - name: "\u041A\u0440\u0430\u0441\u043D\u044B\u0439 \u0444\u043B\u0430\u0433"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0421\u0438\u043D\u0438\u0439 \u0444\u043B\u0430\u0433"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0417\u0435\u043B\u0451\u043D\u044B\u0439 \u0444\u043B\u0430\u0433"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0417\u043E\u043B\u043E\u0442\u043E\u0439 \u0444\u043B\u0430\u0433"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0441\u043D\u0430\u0439\u043F\u0435\u0440\u043A\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0432\u044B\u0436\u0438\u0433\u0430\u0442\u0435\u043B\u044F"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "\u0422\u043E\u0447\u043A\u0430 \u0434\u043E\u043C\u0438\u043D\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u044F"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0410\u0440\u043C\u0435\u0439\u0441\u043A\u0438\u0439 \u0411\u0422\u0420"
+    needLevel: 15
+    hidden: 0
+    page: 15
+  - name: "\u0420\u0435\u0441\u043F\u0430\u0443\u043D \u0420\u0435\u0437\u0430\u043A"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0414\u0436\u0430\u043C\u043F\u0435\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 17
+  - name: "\u041F\u0443\u0448\u0435\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 17
+  - name: "\u041A\u043E\u043C\u043F"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0421\u0442\u0438\u043B\u044C\u043D\u044B\u0439 \u041A\u043E\u043C\u043F"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0417\u043E\u043C\u0431\u0438 \u0410\u0433\u0435\u043D\u0442"
+    needLevel: 30
+    hidden: 0
+    page: 10
+  - name: "\u0417\u043E\u043C\u0431\u0438 \u0421\u0442\u0430\u043B\u043A\u0435\u0440"
+    needLevel: 35
+    hidden: 0
+    page: 10
+  - name: "\u041E\u0441\u043B\u0435\u043F\u043B\u044F\u044E\u0449\u0430\u044F \u0433\u0440\u0430\u043D\u0430\u0442\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 12
+  - name: "\u0412\u0437\u0440\u044B\u0432 \u043F\u0430\u043A\u0435\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 12
+  - name: "\u0417\u0435\u043B\u0451\u043D\u043E\u0435 \u0434\u0435\u0440\u0435\u0432\u043E"
+    needLevel: 0
+    hidden: 0
+    page: 11
+  - name: "\u0421\u0438\u043D\u0435\u0435 \u0434\u0435\u0440\u0435\u0432\u043E"
+    needLevel: 0
+    hidden: 0
+    page: 11
+  - name: "\u041E\u0441\u0435\u043D\u043D\u0435\u0435 \u0434\u0435\u0440\u0435\u0432\u043E"
+    needLevel: 0
+    hidden: 0
+    page: 11
+  - name: "\u0412\u044B\u0440\u0430\u0441\u0442\u0438\u0442\u044C \u0441\u0442\u0435\u043D\u0443"
+    needLevel: 0
+    hidden: 0
+    page: 11
+  - name: "\u0410\u043F\u0442\u0435\u0447\u043A\u0430 \u0438 \u0431\u0440\u043E\u043D\u044F"
+    needLevel: 3
+    hidden: 0
+    page: 12
+  - name: 
+    needLevel: 0
+    hidden: 0
+    page: 0
+  - name: "\u0417\u0430\u043F\u0430\u0441 \u043F\u0430\u0442\u0440\u043E\u043D\u043E\u0432"
+    needLevel: 0
+    hidden: 0
+    page: 12
+  - name: "\u0414\u0438\u043D\u0430\u043C\u0438\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 12
+  - name: "\u041C\u0438\u043D\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 12
+  - name: "\u0416\u0438\u0432\u0430\u044F \u0432\u043E\u0434\u0430"
+    needLevel: 5
+    hidden: 0
+    page: 12
+  - name: "\u0414\u0432\u0435\u0440\u044C \u0432\u0435\u0440\u0442\u0438\u043A\u0430\u043B\u044C\u043D\u0430\u044F"
+    needLevel: 0
+    hidden: 0
+    page: 13
+  - name: "\u0414\u0432\u0435\u0440\u044C \u0433\u043E\u0440\u0438\u0437\u043E\u043D\u0442\u0430\u043B\u044C\u043D\u0430\u044F"
+    needLevel: 0
+    hidden: 0
+    page: 13
+  - name: "\u041B\u0438\u0444\u0442\u043E\u0432\u0430\u044F \u0448\u0430\u0445\u0442\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 13
+  - name: "\u0421\u0438\u043B\u043E\u0432\u043E\u0435 \u043F\u043E\u043B\u0435"
+    needLevel: 0
+    hidden: 0
+    page: 13
+  - name: "\u041E\u0431\u043E\u0439\u043C\u0430 \u043F\u0430\u0442\u0440\u043E\u043D\u043E\u0432"
+    needLevel: 0
+    hidden: 0
+    page: 0
+  - name: "\u041E\u0431\u043E\u0439\u043C\u0430 \u0433\u0438\u043B\u044C\u0437"
+    needLevel: 0
+    hidden: 0
+    page: 0
+  - name: "\u041F\u0440\u043E\u0432\u043E\u0434"
+    needLevel: 0
+    hidden: 0
+    page: 14
+  - name: "\u041E\u0431\u043E\u0439\u043C\u0430 \u0440\u0430\u043A\u0435\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 0
+  - name: "\u041E\u0431\u043E\u0439\u043C\u0430 \u044D\u043D\u0435\u0440\u0433\u0438\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 0
+  - name: "\u041C\u0435\u0433\u0430-\u0437\u0430\u043F\u0430\u0441"
+    needLevel: 0
+    hidden: 0
+    page: 12
+  - name: "\u0414\u0432\u0435\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u041A\u043E\u043C\u043E\u0434"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u041A\u043E\u0432\u0435\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0428\u043A\u0430\u0444"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u0442\u043E\u043B"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0422\u0430\u0431\u0443\u0440\u0435\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u0432\u0435\u0447\u0438"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0414\u0436\u0438\u043F"
+    needLevel: 15
+    hidden: 0
+    page: 15
+  - name: "\u0420\u0435\u043D\u0435\u0433\u0430\u0442"
+    needLevel: 35
+    hidden: 0
+    page: 15
+  - name: "\u0420\u043E\u0431\u043E\u0442 0x1"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u043E\u0431\u043E\u0442 0x2"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u043E\u0431\u043E\u0442 0x3"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u043E\u0431\u043E\u0442 0x4"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u043E\u0431\u043E\u0442-\u0411\u043E\u0441\u0441 0x5"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u041B\u0435\u0433\u043A\u0438\u0439 \u0411\u0422\u0420"
+    needLevel: 7
+    hidden: 0
+    page: 15
+  - name: "\u0412\u0435\u0440\u0442\u043E\u043B\u0435\u0442"
+    needLevel: 15
+    hidden: 0
+    page: 15
+  - name: "\u0417\u043E\u043C\u0431\u0438 \u0440\u044B\u0446\u0430\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0420\u0435\u0430\u043A\u0442\u0438\u0432\u043D\u044B\u0439 \u0441\u043E\u043B\u0434\u0430\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u041B\u043E\u0434\u043A\u0430"
+    needLevel: 20
+    hidden: 0
+    page: 15
+  - name: "\u0414\u043E\u0441\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0414\u0432\u0435\u0440\u044C \u043E\u0444\u0438\u0441\u043D\u0430\u044F"
+    needLevel: 0
+    hidden: 0
+    page: 3
+  - name: "\u0417\u0430\u0431\u043E\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0421\u0435\u0442\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u041A\u043E\u043D\u0434\u0435\u0439"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0421\u0432\u0435\u0442\u043E\u0444\u043E\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0421\u0432\u0435\u0442\u043E\u0444\u043E\u0440 \u043F\u0435\u0448\u0435\u0445\u043E\u0434\u043D\u044B\u0439"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0422\u0430\u0440\u0435\u043B\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0422\u0435\u043B\u0435\u0444\u043E\u043D"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0424\u043E\u043D\u0430\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0410\u043B\u0442\u0430\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0417\u0430\u0431\u043E\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u041A\u043E\u0441\u0442\u0435\u0440"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041F\u0443\u0433\u0430\u043B\u043E"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0424\u043E\u043D\u0430\u0440\u044C \u0442\u044B\u043A\u0432\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041F\u0443\u0448\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 16
+  - name: "\u0420\u0430\u043A\u0435\u0442\u043D\u0438\u0446\u0430 "
+    needLevel: 0
+    hidden: 0
+    page: 16
+  - name: "Dead \u041C\u043E\u0440\u043E\u0437"
+    needLevel: 0
+    hidden: 1
+    page: 10
+  - name: "\u0422\u0430\u043D\u043A"
+    needLevel: 0
+    hidden: 0
+    page: 15
+  - name: "158"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "159"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "160"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "161"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "162"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "163"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "164"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "165"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "166"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "167"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "TankBlue"
+    needLevel: 0
+    hidden: 1
+    page: 15
+  - name: "TankRed"
+    needLevel: 0
+    hidden: 1
+    page: 15
+  - name: "WarPlane"
+    needLevel: 0
+    hidden: 0
+    page: 15
+  - name: "\u0424\u043E\u043D\u0430\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u0424\u043E\u043D\u0430\u0440\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 1
+  - name: "\u041A\u0440\u043E\u0432\u0430\u0442\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u041A\u0440\u043E\u0432\u0430\u0442\u044C"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0428\u043A\u0430\u0444"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0421\u0442\u0443\u043B"
+    needLevel: 0
+    hidden: 0
+    page: 2
+  - name: "\u0431\u0442\u04401"
+    needLevel: 0
+    hidden: 0
+    page: 15
+  - name: "\u0448\u043A\u0430\u04441"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u043C\u0438\u043A\u0440\u043E"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u043F\u043E\u043B\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u043F\u043B\u0438\u0442\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0432\u044B\u0442\u044F\u0436\u043A\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0445\u043E\u043B\u043E\u0434\u0438\u043B"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0417\u043E\u043C\u0431\u043E\u0441\u0441"
+    needLevel: 0
+    hidden: 0
+    page: 10
+  - name: "\u0414\u0435\u043C\u043E\u043D\u0438\u0449\u0435"
+    needLevel: 0
+    hidden: 1
+    page: 10
+  - name: "\u0440\u0430\u043A\u043E\u0432\u0438\u043D\u0430"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0443\u043D\u0438\u0442\u0430\u0437"
+    needLevel: 0
+    hidden: 0
+    page: 6
+  - name: "\u0414\u0440\u043E\u043F \u0431\u043E\u043C\u0431\u044B"
+    needLevel: 0
+    hidden: 0
+    page: 7
+  - name: "\u0411\u043E\u043A\u0441\u0438\u043A1"
+    needLevel: 0
+    hidden: 0
+    page: 21
+  - name: "\u0411\u043E\u043A\u0441\u0438\u043A2"
+    needLevel: 0
+    hidden: 0
+    page: 21
+  - name: "\u0411\u043E\u043A\u0441\u0438\u043A3"
+    needLevel: 0
+    hidden: 0
+    page: 21
+  - name: "\u0422\u0440\u0430\u043A"
+    needLevel: 0
+    hidden: 0
+    page: 15
+  - name: "bfg"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "bfg"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "imb"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "rpk"
+    needLevel: 0
+    hidden: 0
+    page: 9
+  - name: "bike"
+    needLevel: 0
+    hidden: 0
+    page: 15
+  - name: "titan"
+    needLevel: 35
+    hidden: 0
+    page: 15
+  - name: "titan2"
+    needLevel: 25
+    hidden: 0
+    page: 15
+  - name: "titan3"
+    needLevel: 30
+    hidden: 0
+    page: 15
+  - name: "key"
+    needLevel: 5
+    hidden: 0
+    page: 14
+  - name: "keysitch"
+    needLevel: 5
+    hidden: 0
+    page: 14
+  - name: "molotov"
+    needLevel: 15
+    hidden: 0
+    page: 12
+  specItemDesc:
+  - name: "\u0420\u0430\u043A\u0435\u0442\u043D\u044B\u0439 \u0440\u0430\u043D\u0435\u0446"
+    needLevel: 25
+    hidden: 0
+    page: 19
+  - name: "\u0420\u0443\u0441\u0441\u043A\u0438\u0439 \u0442\u0430\u043D\u0435\u0446"
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u041A\u0440\u0435\u0439\u0437\u0438 \u0442\u0430\u043D\u0435\u0446"
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u0414\u0430\u0432\u0430\u0439, \u0434\u0435\u0442\u043A\u0430!"
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u0410\u043A\u0440\u043E\u0431\u0430\u0442"
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u0415\u0435\u0435\u0435!"
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u041F\u043E\u0431\u0435\u0434\u0430!"
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u041F\u0440\u043E\u0432\u0430\u043B..."
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u0417\u0430 \u043C\u043D\u043E\u0439!"
+    needLevel: 0
+    hidden: 0
+    page: 18
+  - name: "\u0424\u043E\u043D\u0430\u0440\u0438\u043A"
+    needLevel: 0
+    hidden: 0
+    page: 19
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 19
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "\u0410\u043D\u0442\u0438\u0433\u0440\u0430\u0432"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "g9"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "gA"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  - name: "gB"
+    needLevel: 5
+    hidden: 0
+    page: 20
+  bonusParams:
+  - name: "\u041F\u043E\u0434\u0440\u044B\u0432"
+    experience: 115
+    bonusesCount: 0
+    bonusVariable: 6
+    needForGetBonus: 1
+  - name: "\u041F\u043E\u0434\u0440\u044B\u0432 2"
+    experience: 300
+    bonusesCount: 0
+    bonusVariable: 6
+    needForGetBonus: 2
+  - name: "\u0412\u0437\u0440\u044B\u0432"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 5
+    needForGetBonus: 1
+  - name: "\u0412\u0437\u0440\u044B\u0432 2"
+    experience: 300
+    bonusesCount: 0
+    bonusVariable: 5
+    needForGetBonus: 2
+  - name: "2 \u0444\u0440\u0430\u0433\u0430"
+    experience: 30
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 2
+  - name: "5 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 70
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 5
+  - name: "7 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 7
+  - name: "10 \u0444\u0440\u0430\u0433\u043E\u0432"
+    experience: 500
+    bonusesCount: 0
+    bonusVariable: 0
+    needForGetBonus: 10
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442"
+    experience: 15
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 1
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442 3"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 3
+  - name: "\u0445\u044D\u0434\u0448\u043E\u0442 5"
+    experience: 150
+    bonusesCount: 0
+    bonusVariable: 1
+    needForGetBonus: 5
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 1
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C 5"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 5
+  - name: "\u0441\u043F\u0430\u0441\u0430\u0442\u0435\u043B\u044C 10"
+    experience: 350
+    bonusesCount: 0
+    bonusVariable: 2
+    needForGetBonus: 10
+  - name: "\u0440\u0443\u043A\u043E\u043F\u0430\u0448\u043A\u0430"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 3
+    needForGetBonus: 1
+  - name: "\u0440\u0443\u043A\u043E\u043F\u0430\u0448\u043A\u0430 3"
+    experience: 150
+    bonusesCount: 0
+    bonusVariable: 3
+    needForGetBonus: 3
+  - name: "\u0441\u0430\u043C\u043E\u0443\u0431\u0438\u0439\u0446\u0430"
+    experience: -10
+    bonusesCount: 0
+    bonusVariable: 4
+    needForGetBonus: 1
+  - name: "\u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0432\u044B\u0438\u0433\u0440\u0430\u043B\u0430"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 7
+    needForGetBonus: 1
+  - name: "\u041F\u0435\u0440\u0432\u043E\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 8
+    needForGetBonus: 1
+  - name: "\u0412\u0442\u043E\u0440\u043E\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 9
+    needForGetBonus: 1
+  - name: "\u0422\u0440\u0435\u0442\u044C\u0435 \u043C\u0435\u0441\u0442\u043E"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 10
+    needForGetBonus: 1
+  - name: "\u0417\u0430\u0445\u0432\u0430\u0442\u0438\u043B \u0444\u043B\u0430\u0433"
+    experience: 25
+    bonusesCount: 0
+    bonusVariable: 11
+    needForGetBonus: 1
+  - name: "\u041F\u0440\u043E\u0439\u0434\u0435\u043D\u0430 \u043C\u0438\u0441\u0441\u0438\u044F"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 12
+    needForGetBonus: 1
+  - name: "5 \u0437\u043E\u043C\u0431\u0438"
+    experience: 5
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 5
+  - name: "20 \u0437\u043E\u043C\u0431\u0438"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 20
+  - name: "50 \u0437\u043E\u043C\u0431\u0438"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 16
+    needForGetBonus: 300
+  - name: "3 \u0414\u0435\u043C\u043E\u043D\u0430"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 18
+    needForGetBonus: 3
+  - name: "10 \u0414\u0435\u043C\u043E\u043D\u043E\u0432"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 18
+    needForGetBonus: 10
+  - name: "3 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 3
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 3
+  - name: "20 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 20
+  - name: "50 \u0437\u043E\u043C\u0431\u0438 \u0432\u0437\u0440\u044B\u0432\u043E\u043C"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 17
+    needForGetBonus: 50
+  - name: "1 \u0443\u0431\u0438\u0442\u0430\u044F \u0442\u0435\u0445\u043D\u0438\u043A\u0430"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 14
+    needForGetBonus: 1
+  - name: "3 \u0443\u0431\u0438\u0442\u044B\u0445 \u0442\u0435\u0445\u043D\u0438\u043A\u0438"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 14
+    needForGetBonus: 3
+  - name: "1 \u0432\u043E\u043B\u043D\u0430"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 1
+  - name: "3 \u0432\u043E\u043B\u043D\u044B"
+    experience: 50
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 3
+  - name: "5 \u0432\u043E\u043B\u043D"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 5
+  - name: "10 \u0432\u043E\u043B\u043D"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 15
+    needForGetBonus: 10
+  - name: "50 \u043A\u0443\u0431\u043E\u0432"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 19
+    needForGetBonus: 50
+  - name: "150 \u043A\u0443\u0431\u043E\u0432"
+    experience: 200
+    bonusesCount: 0
+    bonusVariable: 19
+    needForGetBonus: 150
+  - name: "5 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
+    experience: 20
+    bonusesCount: 0
+    bonusVariable: 13
+    needForGetBonus: 5
+  - name: "20 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432"
+    experience: 100
+    bonusesCount: 0
+    bonusVariable: 13
+    needForGetBonus: 20
+  - name: "\u043C\u0435\u0445\u0430\u043D\u0438\u0437\u043C"
+    experience: 10
+    bonusesCount: 0
+    bonusVariable: 20
+    needForGetBonus: 1
+  bulletParams:
+  - name: "5mm"
+    initialAmount: 50
+    bulletGroup: 0
+    puckupAmount: 50
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "shels"
+    initialAmount: 10
+    bulletGroup: 1
+    puckupAmount: 10
+    initialAmountArray: 0A000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "rocket"
+    initialAmount: 1
+    bulletGroup: 2
+    puckupAmount: 1
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "energy"
+    initialAmount: 50
+    bulletGroup: 3
+    puckupAmount: 20
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "plazm"
+    initialAmount: 50
+    bulletGroup: 3
+    puckupAmount: 20
+    initialAmountArray: 32000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "7.62"
+    initialAmount: 60
+    bulletGroup: 0
+    puckupAmount: 30
+    initialAmountArray: 3C000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Uran"
+    initialAmount: 1
+    bulletGroup: 5
+    puckupAmount: 0
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "PTURS"
+    initialAmount: 1
+    bulletGroup: 5
+    puckupAmount: 0
+    initialAmountArray: 01000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Grenade"
+    initialAmount: 2
+    bulletGroup: 2
+    puckupAmount: 5
+    initialAmountArray: 02000000000000000000000000000000
+    initialAmountIndex: 0
+  - name: "Snaip"
+    initialAmount: 5
+    bulletGroup: 0
+    puckupAmount: 2
+    initialAmountArray: 05000000000000000000000000000000
+    initialAmountIndex: 0
+  inventarBullets: 
+  clothesTransforms:
+  - "Bip01 Head"
+  - "Bip01 R Hand"
+  - "Bip01 L Hand"
+  - "Bip01 R UpperArm"
+  - "Bip01 L UpperArm"
+  - "Bip01 R Calf"
+  - "Bip01 L Calf"
+  - "Bip01 Spine"
+  - "Bip01 Spine"
+  - "Bip01 R Forearm"
+  - "Bip01 L Forearm"
+  - "Bip01 Head"
+  hapName:
+  - "\u041D\u0435\u0442"
+  ammunitionName:
+  - "\u041D\u0435\u0442"
+  minGPSbullets: 00000000000000000000000000000000
+  fastInventarDarkTex: {fileID: 2800000, guid: ac66f66f74e94a3297bc5188096df1fe, type: 3}
+  charParamsTex: {fileID: 2800000, guid: 5e32235c460347bd80d38fbf5be991ed, type: 3}
+  stars:
+  - {fileID: 2800000, guid: cce60e73e0bd4bdd9ad4fae83a4d7b38, type: 3}
+  - {fileID: 2800000, guid: c0d4f78a39794a76a37462c2c24a7765, type: 3}
+  - {fileID: 2800000, guid: 14a53b5b0a864a4b93d98704f9e1a564, type: 3}
+  charParamsBuyTex: {fileID: 2800000, guid: f6a18e836f6041f5a6ebc5016d5dbc8e, type: 3}
+  expStar: {fileID: 2800000, guid: 1d958b0308dd4639873af8b3db7c9f2b, type: 3}
+  moneyTex: {fileID: 2800000, guid: d166fc2410664db2a63c95255e08c7a4, type: 3}
+  goldTex: {fileID: 2800000, guid: 6c01cbed1dd9405eabae6897d11d50ef, type: 3}
+  buttonArrows: {fileID: 2800000, guid: 70ac3cd46fc345c9a0f85ca6d90ec1b0, type: 3}
+  HIT: {fileID: 2800000, guid: 6405fba1cb0f41a29f2d6a50b023e793, type: 3}
+  x2Tex: {fileID: 2800000, guid: 46e72f04fecc41f28a9072d53d45402c, type: 3}
+  weaponAmmoTex: {fileID: 2800000, guid: 2f56c3595c1b4235a93641f95b98c3c5, type: 3}
+  testCharacterPrefab: {fileID: 1791220285863826855, guid: baff2c664d7f40f4ba7b44e7b7fa563c, type: 2}
+  testWeaponPrefab: {fileID: 1791220285863826820, guid: 143a08977d3b66746a0a428db4f7d5a4, type: 2}
+  renderChar: {fileID: 0}
+  renderWeapon: {fileID: 0}
+  arrowDownTex: {fileID: 2800000, guid: e497fd67f9ab4c88b5c56d10a6794ab4, type: 3}
+--- !u!114 &1791220287759652114
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4760e3ee54ec95fb2cf7b606bbbb5721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleKey: 107
+  show: 0
+--- !u!1 &1791220285863826685
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158341}
+  - component: {fileID: 1791220287759652115}
+  m_Layer: 0
+  m_Name: "Assets1_FirstMenu"
+  m_TagString:
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826685}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652115
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e585418ab0c8e1c7d28deae9f6f2a5b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainSkin: {fileID: 11400000, guid: 996ed3481637497d8c84084e5edeaaa3, type: 2}
+  mainSkinSmall: {fileID: 11400000, guid: e43be5e318094b68a432d962664f7bc6, type: 2}
+  mainSkinWhite: {fileID: 11400000, guid: 7488dd5ddce44d53b1122a9a0966fc3c, type: 2}
+  mainSkinYellow: {fileID: 11400000, guid: 4d16c0e375d843a69b951bcb87782241, type: 2}
+  emptySkin: {fileID: 11400000, guid: f960f6d7604841a89b708b025642bd57, type: 2}
+  mainSkinSmallLeft: {fileID: 11400000, guid: 15646bdd419a4777b0368e2302dced78, type: 2}
+  mainSkinSmallRight: {fileID: 11400000, guid: 529aca51858e4d239ea11b76daacc4fe, type: 2}
+  buttonArrowSkin: {fileID: 11400000, guid: 6424712f3b4d4d9c8d19f72882608ea6, type: 2}
+  yellowButton: {fileID: 11400000, guid: 09c826472c6c4b7f8f0a93fa46cfd603, type: 2}
+  blueButtonSkin: {fileID: 11400000, guid: c6570b85615244b29f1aa4470d3cf0ef, type: 2}
+  bigWhiteLabel: {fileID: 11400000, guid: 0cfe06754d6a435e999c0b95819a24c4, type: 2}
+  bigWhiteLabelLeft: {fileID: 11400000, guid: d73c53c124d64cb2af982a7ae5bc9de0, type: 2}
+  bigBlackLabel: {fileID: 11400000, guid: c3646ecc73b54504a0d0875999413b3e, type: 2}
+  smallWhiteSkin: {fileID: 11400000, guid: 363e31395f4e4bda83751a6673f37985, type: 2}
+  smallBlackCenterSkin: {fileID: 11400000, guid: 7f5ebe1059b84c96b03b2fc2e20553fd, type: 2}
+  triggerSkin: {fileID: 11400000, guid: f0db359d7c9c48caaf7464ab9aa542a6, type: 2}
+  triggerSkinArrowLeft: {fileID: 11400000, guid: 1369ef6006dc40009549a36d7fe19223, type: 2}
+  triggerSkinArrowRight: {fileID: 11400000, guid: 5758a998dfd14fbab1f458f659a22ac8, type: 2}
+  missionSkin: {fileID: 11400000, guid: 3f376338a9424d89a619e06af9d84735, type: 2}
+  menuLogo:
+  - {fileID: 2800000, guid: b7d9e91839464093b3c32f61da1e7be7, type: 3}
+  - {fileID: 2800000, guid: 70cfef4051d24d82b4781cac68d2aba0, type: 3}
+  menuBack: {fileID: 2800000, guid: b9f93f338ad9496b8327ae4f8a58a6ba, type: 3}
+  menuFrame: {fileID: 2800000, guid: d5997f4d9a61489ebd3a9cf824288cb0, type: 3}
+  tabTex: {fileID: 2800000, guid: 92b64eba38d34022a9cb63d519074d01, type: 3}
+  tabLightTex: {fileID: 2800000, guid: 89423f4fc1dd4d50b7aaefe3ca4e02e8, type: 3}
+  buyForMoney: {fileID: 2800000, guid: 0f5ece6a039d4fbab79d06ccbe3e126e, type: 3}
+  buyForGold: {fileID: 2800000, guid: baa7971eb422436a88d2c072bdd8e2e2, type: 3}
+  playerMoneyTex: {fileID: 2800000, guid: 5e5528d6f2d04e5e8acaa6eacfc23a0b, type: 3}
+  playerGoldTex: {fileID: 2800000, guid: 0122932d4bef441681d64c85ef820d7c, type: 3}
+  levelLine: {fileID: 2800000, guid: 10a66082b61a4293ad8bd51ffd633050, type: 3}
+  levelProgress: {fileID: 2800000, guid: 8127d077b43b4dc8b2d911b70aeffbe3, type: 3}
+  levelStar: {fileID: 2800000, guid: e36cceff96214e4cbc9cb99dcad564c4, type: 3}
+  dayLightTex:
+  - {fileID: 2800000, guid: ce75a24da1f845f0a94afa177aaa23cf, type: 3}
+  - {fileID: 2800000, guid: 0759744a41064f2682a090214f10b755, type: 3}
+  - {fileID: 2800000, guid: 5e408b6a94604968a9a59ece830d834f, type: 3}
+  inventoryTex: {fileID: 2800000, guid: d1804f2c1106422ea7b5167c3dc373b9, type: 3}
+  anticheatPict: {fileID: 2800000, guid: b06bc126b4f24ecead8162c91a01f696, type: 3}
+  netBattleWindow: {fileID: 2800000, guid: 528499a7b19346809b6267eda5496071, type: 3}
+  newMapTypeTex:
+  - {fileID: 2800000, guid: e70678e5f2164c3e87f96bc22c1d022c, type: 3}
+  - {fileID: 2800000, guid: 1b2b16ffbea34a169f9af0ccfa9fca6e, type: 3}
+  - {fileID: 2800000, guid: 745e424bd7014f18a3de7812907747b6, type: 3}
+  - {fileID: 2800000, guid: c6dc3583f0774bdd9107bccf289f8492, type: 3}
+  - {fileID: 2800000, guid: f8f3d3886d964ae294e9d23fe87e5892, type: 3}
+  - {fileID: 2800000, guid: 745e424bd7014f18a3de7812907747b6, type: 3}
+  - {fileID: 2800000, guid: 6eb818d9b4c74e2fa9ded042f8616b71, type: 3}
+  - {fileID: 2800000, guid: c65794c1d5184a599cdd041ca9646e4e, type: 3}
+  - {fileID: 2800000, guid: 0a455c64499748569aee46191419be83, type: 3}
+  - {fileID: 2800000, guid: bca0207e0a584c2e84f5da9ae0ae0342, type: 3}
+  lockGameTex: {fileID: 2800000, guid: 57ace92609c64849bc835b47ba029c47, type: 3}
+  inventorySideTex: {fileID: 2800000, guid: 6f1d3e4e6529466b90c1ca0aee095591, type: 3}
+--- !u!1 &1791220285863826686
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158342}
+  - component: {fileID: 1791220287759652110}
+  - component: {fileID: 1791220287759652116}
+  m_Layer: 0
+  m_Name: "Server"
+  m_TagString: "Server"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158342
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826686}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce5eaf5da8fa074ebd9e79685fab9b32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitingTex:
+  - {fileID: 2800000, guid: d0f291bb931b447d8ab1c41508f8a940, type: 3}
+  - {fileID: 2800000, guid: a3f4ce7434a944c6a239389e90bdf485, type: 3}
+  - {fileID: 2800000, guid: 2e12f4b348db4aef840a29eb492bf087, type: 3}
+  - {fileID: 2800000, guid: 55844c6b3bd44b9789e5b7588b92312f, type: 3}
+  - {fileID: 2800000, guid: 1efd6c775c6d4274a44b2f9b232e9251, type: 3}
+  - {fileID: 2800000, guid: b93c7d009fde42a0bc5f8739828e2148, type: 3}
+--- !u!114 &1791220287759652116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f1b91d0dc89edf4122fcc0b0edb1c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pb_bgTex: {fileID: 2800000, guid: 697988796d6b47fe9855f297928c1730, type: 3}
+  pb_fillTex: {fileID: 2800000, guid: 3eedad4d3ad64938b639b37fd1f3887c, type: 3}
+  pb_borderTex: {fileID: 2800000, guid: bbec61b71537401682facddd446b797d, type: 3}
+  debugDownloadWWW: 0
+  downloadInfo:
+  - name: "Assets2_MenuItems"
+    path: "a2.unity3d"
+    assetRevision: 161221
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets3_BattleResources"
+    path: "a3.unity3d"
+    assetRevision: 161128
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets4_Sounds"
+    path: "a4.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets5_skins"
+    path: "a5.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets6_Weapons"
+    path: "a6.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 0
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets7"
+    path: "a7.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 1
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets8"
+    path: "a8.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets9"
+    path: "a9.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets10"
+    path: "a10.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets11"
+    path: "a11.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets12"
+    path: "a12.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets13"
+    path: "a13.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets14"
+    path: "a14.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets15"
+    path: "a15.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets16"
+    path: "a16.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets17"
+    path: "a17.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets18"
+    path: "a18.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets19"
+    path: "a19.unity3d"
+    assetRevision: 160929
+    tag: "Menu"
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets20"
+    path: "a20.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets21"
+    path: "a21.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets22"
+    path: "a22.unity3d"
+    assetRevision: 161017
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets23"
+    path: "a23.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets24"
+    path: "a24.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets25"
+    path: "a25.unity3d"
+    assetRevision: 160929
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+  - name: "Assets26"
+    path: "a26.unity3d"
+    assetRevision: 161221
+    tag: 
+    isPackage: 1
+    isAsyncDownload: 0
+    ab: {fileID: 0}
+    ready: 0
+--- !u!1 &1791220285863826687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791220285914158343}
+  - component: {fileID: 1791220287759652117}
+  m_Layer: 0
+  m_Name: "SocialNetObject"
+  m_TagString: "SocialNet"
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1791220285914158343
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826687}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.1787109, y: -0.06877025, z: 0.3788472}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791220287759652117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791220285863826687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86bb781af587edf4b3be67e037492409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platform: 2
+  api_url: 
+  api_id: 0
+  _playerUID: 
+  initialized: 0
+  moneyIcon:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 2800000, guid: afc62ec77f544f81aadb4b6de4cb34ca, type: 3}
+  - {fileID: 2800000, guid: b37d84cd28c44ed68ce3b84561b80b4e, type: 3}
+  - {fileID: 0}
+  - {fileID: 0}
+  _refSite: 
